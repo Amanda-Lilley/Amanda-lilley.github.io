@@ -1,0 +1,116 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+/*set root font-size in html
+if user changes default font size they need percentages
+divide what you want by (10px)  ---> 10/16 = 625*/
+html {
+  font-size: 62.5%; }
+
+body {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 100;
+  font-size: 1.8rem;
+  line-height: 1.5;
+  color: #4a4a4a;
+  padding: 3rem;
+  box-sizing: border-box; }
+
+@font-face {
+  font-family: "futura";
+  src: url("fonts/futura.ttf"); }
+
+.header {
+  height: 90vh;
+  background: linear-gradient(to right bottom, #bac5cc, #eef2f3);
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 75%);
+  position: relative; }
+  .header__navigation > li {
+    display: inline-block;
+    margin-right: 3rem;
+    margin-left: 4rem;
+    margin-top: 2rem;
+    list-style: none;
+    font-family: 'futura', 'Raleway', sans-serif;
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    text-decoration: none;
+    float: right; }
+    .header__navigation > li > a {
+      text-decoration: none;
+      color: #fff;
+      display: inline-block;
+      transition: all .2s; }
+    .header__navigation > li > a:hover {
+      transform: translateY(-0.3rem);
+      text-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2); }
+    .header__navigation > li > a:active {
+      transform: translateY(-0.1rem);
+      text-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2); }
+  .header__text-box {
+    position: absolute;
+    top: 40%;
+    left: 15%; }
+
+.heading-primary {
+  animation-name: moveInLeft;
+  animation-duration: 2s;
+  animation-timing-function: ease-out; }
+  .heading-primary--main {
+    color: #fff;
+    font-family: 'shrikhand', cursive;
+    font-size: 4.8rem;
+    /*backface-visibility: hidden; */ }
+  .heading-primary--sub {
+    font-size: 2.4rem;
+    color: #4a4a4a;
+    font-weight: 100;
+    line-height: 3rem;
+    animation: moveInRight 2s ease-out; }
+
+@keyframes moveInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-10rem); }
+  80% {
+    transform: translateX(1.5rem); }
+  100% {
+    opacity: 1;
+    transform: translate(0); } }
+
+@keyframes moveInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(10rem); }
+  80% {
+    transform: translateX(-1.5rem); }
+  100% {
+    opacity: 1;
+    transform: translate(0); } }
+
+.btn:link,
+.btn:visited {
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: #ff2956;
+  font-size: 2rem;
+  color: #fff;
+  font-family: 'futura', sans-serif;
+  padding: 1.5rem 3rem;
+  display: inline-block;
+  border-radius: 10rem;
+  transition: all .2s; }
+
+.btn:hover {
+  transform: translateY(-0.3rem);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2); }
+
+.btn:active {
+  transform: translateY(-0.1rem);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2); }
+
+/* PROJECT -1 ==================================================== */
