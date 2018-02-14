@@ -1,0 +1,46 @@
+@font-face {
+  font-family: "futura";
+  src: url("fonts/futura.ttf");
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 100;
+  font-size: 1.8rem;
+  line-height: 1.5;
+  color: $color-text;
+  padding: 3rem;
+  
+}
+
+
+.heading-primary {
+  animation-name: moveInLeft;
+  animation-duration: 2s;
+  animation-timing-function: ease-out;
+
+  &--main {
+    color: $color-white;
+    font-family: 'shrikhand', cursive;
+    font-size: 4.8rem;
+    font-weight: 400;
+    
+    /*backface-visibility: hidden; */
+  }
+  
+  &--sub {
+    font-size: 2.4rem;
+    color: $color-text;
+    font-weight: 100;
+    line-height: 3rem;
+    animation: moveInRight 2s ease-out;
+  }
+  
+}
+
+.heading-secondary {
+  font-size: 3.2rem;
+  font-family: 'shrikhand', cursive;
+  color: $color-white;
+  font-weight: 400;
+}

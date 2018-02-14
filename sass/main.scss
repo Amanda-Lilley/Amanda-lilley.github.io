@@ -1,162 +1,23 @@
-$color-accent: #ff2956;
-$color-accent-light: #ff6989;
-$color-accent-dark: #cc2044;
-$color-white: #fff;
-$color-text: #4a4a4a;
-$color-text-secondary: rgba(74, 74, 74, .5);
-$color-text-hint: rgba(74, 74, 74, .25);
-$color-gray-dark: #bac5cc;
-$color-gray-light: #eef2f3;
-*,
-*::after,
-*::before {
-  margin: 0;
-  padding: 0;
-  box-sizing: inherit;
-}
+@import "abstracts/functions";
+@import "abstracts/mixins";
+@import "abstracts/variables";
 
-/*set root font-size in html
-if user changes default font size they need percentages
-divide what you want by (10px)  ---> 10/16 = 625*/
+@import "base/animations";
+@import "base/base";
+@import "base/typography";
+@import "base/utilities";
 
-html {
-  font-size: 62.5%;
-}
+@import "components/button";
 
-body {
-  font-family: 'Raleway', sans-serif;
-  font-weight: 100;
-  font-size: 1.8rem;
-  line-height: 1.5;
-  color: $color-text;
-  padding: 3rem;
-  box-sizing: border-box;
-}
+@import "layout/grid";
+@import "layout/header";
 
-@font-face {
-  font-family: "futura";
-  src: url("fonts/futura.ttf");
-}
-
-.header {
-  height: 90vh;
-  background: linear-gradient(to right bottom, $color-gray-dark, $color-gray-light);
-  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 75%);
-  position: relative;
-  &__navigation {
-    >li {
-      display: inline-block;
-      margin-right: 3rem;
-      margin-left: 4rem;
-      margin-top: 2rem;
-      list-style: none;
-      font-family: 'futura', 'Raleway', sans-serif;
-      text-transform: uppercase;
-      font-size: 1.6rem;
-      text-decoration: none;
-      float: right;
-      
-      >a {
-        text-decoration: none;
-        color: $color-white;
-        display: inline-block;
-        transition: all .2s;
-
-      }
-      >a:hover {
-        transform: translateY(-.3rem);
-        text-shadow: 0 1rem 2rem rgba(0, 0, 0, .2);
-        //color: $color-accent;
-      }
-
-      >a:active {
-        transform: translateY(-.1rem);
-        text-shadow: 0 .5rem 1rem rgba(0, 0, 0, .2);
-    
-      }
-    }
-  }
-
-  &__text-box {
-    position: absolute;
-    top: 40%;
-    left: 15%;
-  }
-}
-
-.heading-primary {
-  animation-name: moveInLeft;
-  animation-duration: 2s;
-  animation-timing-function: ease-out;
-
-  &--main {
-    color: $color-white;
-    font-family: 'shrikhand', cursive;
-    font-size: 4.8rem;
-    /*backface-visibility: hidden; */
-  }
-  
-  &--sub {
-    font-size: 2.4rem;
-    color: $color-text;
-    font-weight: 100;
-    line-height: 3rem;
-    animation: moveInRight 2s ease-out;
-  }
-  
-}
+@import "pages/home";
 
 
-@keyframes moveInLeft {
-  0% {
-    opacity: 0;
-    transform: translateX(-10rem);
-  }
-  80% {
-    transform: translateX(1.5rem);
-  }
-  100% {
-    opacity: 1;
-    transform: translate(0);
-  }
-}
 
-@keyframes moveInRight {
-  0% {
-    opacity: 0;
-    transform: translateX(10rem);
-  }
-  80% {
-    transform: translateX(-1.5rem);
-  }
-  100% {
-    opacity: 1;
-    transform: translate(0);
-  }
-}
 
-.btn:link,
-.btn:visited {
-  text-transform: uppercase;
-  text-decoration: none;
-  background-color: $color-accent;
-  font-size: 2rem;
-  color: $color-white;
-  font-family: 'futura', sans-serif;
-  padding: 1.5rem 3rem;
-  display: inline-block;
-  border-radius: 10rem;
-  transition: all .2s;
-}
 
-.btn:hover {
-  transform: translateY(-.3rem);
-  box-shadow: 0 1rem 2rem rgba(0, 0, 0, .2);
-}
 
-.btn:active {
-  transform: translateY(-.1rem);
-  box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .2);
-}
 
-/* PROJECT -1 ==================================================== */
+

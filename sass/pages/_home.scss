@@ -1,0 +1,10 @@
+.project1 {
+  background:linear-gradient(to right bottom, $color-gray-dark, $color-gray-light);
+  padding: 20rem 0;
+  margin-top: -12rem;
+  clip-path: polygon(0 0, 100% 35%, 100% 100%  , 0 100%);
+
+  &__description {
+    
+  }
+}
