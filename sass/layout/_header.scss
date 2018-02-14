@@ -1,5 +1,5 @@
 .header {
-  height: 90vh;
+  //height: 90vh;
   background: linear-gradient(to right bottom, $color-gray-dark, $color-gray-light);
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 75%);
   position: relative;
@@ -39,8 +39,14 @@
   }
 
   &__text-box {
-    position: absolute;
-    top: 40%;
+    position: relative;
+margin-top: 50%;
     left: 15%;
+  }
+
+  &__img {
+    position: relative;
+    bottom: 0;
+    right: 0;
   }
 }

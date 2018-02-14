@@ -78,9 +78,9 @@ body {
 .u-margin-top-24 {
   margin-top: 2.4rem; }
 
-.scale-img {
-  width: 90%;
-  height: auto; }
+.img {
+  height: auto;
+  max-width: 100%; }
 
 .btn:link, .btn:visited {
   text-transform: uppercase;
@@ -134,22 +134,21 @@ body {
   .row [class^="col-"] {
     float: left; }
     .row [class^="col-"]:not(:last-child) {
-      margin-right: 6rem; }
+      margin-right: 0rem; }
   .row .col-1-of-2 {
-    width: calc((100% - 6rem) / 2); }
+    width: calc((100% - 0rem) / 2); }
   .row .col-1-of-3 {
-    width: calc((100% - 2 * 6rem) / 3); }
+    width: calc((100% - 2 * 0rem) / 3); }
   .row .col-2-of-3 {
-    width: calc(2 * ((100% - 2 * 6rem) / 3) + 6rem); }
+    width: calc(2 * ((100% - 2 * 0rem) / 3) + 0rem); }
   .row .col-1-of-4 {
-    width: calc((100% - 3 * 6rem) / 4); }
+    width: calc((100% - 3 * 0rem) / 4); }
   .row .col-2-of-4 {
-    width: calc(2 * ((100% - 3 * 6rem) / 4) + 6rem); }
+    width: calc(2 * ((100% - 3 * 0rem) / 4) + 0rem); }
   .row .col-3-of-4 {
-    width: calc(3 * ((100% - 3 * 6rem) / 4) + (2 * 6rem)); }
+    width: calc(3 * ((100% - 3 * 0rem) / 4) + (2 * 0rem)); }
 
 .header {
-  height: 90vh;
   background: linear-gradient(to right bottom, #bac5cc, #eef2f3);
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 75%);
   position: relative; }
@@ -176,9 +175,13 @@ body {
       transform: translateY(-0.1rem);
       text-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2); }
   .header__text-box {
-    position: absolute;
-    top: 40%;
+    position: relative;
+    margin-top: 50%;
     left: 15%; }
+  .header__img {
+    position: relative;
+    bottom: 0;
+    right: 0; }
 
 .project1 {
   background: linear-gradient(to right bottom, #bac5cc, #eef2f3);
