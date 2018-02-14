@@ -1,10 +1,26 @@
 .project1 {
   background:linear-gradient(to right bottom, $color-gray-dark, $color-gray-light);
-  padding: 20rem 0;
-  margin-top: -12rem;
-  clip-path: polygon(0 0, 100% 35%, 100% 100%  , 0 100%);
+  //padding: 20rem 0;
+  //margin-top: -12rem;
+  clip-path: polygon(0 0, 100% 25%, 100% 100%  , 0 100%);
+margin-top: -16rem;
 
-  &__description {
+  &__img {
+    position: relative;
+    margin-top: 10%;
+  }
+
+  &__text-box {
+    margin-top: 50%;
+  }
+
+  &__btn {
+    margin-top: 2.4rem;
+
+    
+    }
+    &__btn--cta {
+      margin: 0 auto;
+    }
     
   }
-}

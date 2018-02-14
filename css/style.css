@@ -123,8 +123,7 @@ body {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2); }
 
 .row {
-  max-width: 114rem;
-  margin: 0 auto; }
+  max-width: 100%; }
   .row:not(:last-child) {
     margin-bottom: 8rem; }
   .row::after {
@@ -185,6 +184,14 @@ body {
 
 .project1 {
   background: linear-gradient(to right bottom, #bac5cc, #eef2f3);
-  padding: 20rem 0;
-  margin-top: -12rem;
-  clip-path: polygon(0 0, 100% 35%, 100% 100%, 0 100%); }
+  clip-path: polygon(0 0, 100% 25%, 100% 100%, 0 100%);
+  margin-top: -16rem; }
+  .project1__img {
+    position: relative;
+    margin-top: 10%; }
+  .project1__text-box {
+    margin-top: 50%; }
+  .project1__btn {
+    margin-top: 2.4rem; }
+  .project1__btn--cta {
+    margin: 0 auto; }
