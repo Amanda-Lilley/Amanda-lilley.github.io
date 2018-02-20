@@ -214,7 +214,8 @@ margin-top: 50%;
         transition: all .2s; }
       .header__navigation > li > a:hover {
         transform: translateY(-0.3rem);
-        text-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2); }
+        text-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+        color: #ff2956; }
       .header__navigation > li > a:active {
         transform: translateY(-0.1rem);
         text-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2); }
@@ -234,7 +235,8 @@ margin-top: 50%;
   grid-column: 1 / -1;
   display: grid;
   grid-template-columns: 3fr 1fr;
-  align-items: center; }
+  align-items: center;
+  padding: 4rem; }
   .project1__btn {
     margin-top: 2.4rem; }
   .project1__img {
@@ -247,7 +249,8 @@ margin-top: 50%;
   background: linear-gradient(to right bottom, #bac5cc, #eef2f3);
   display: grid;
   grid-template-columns: 1fr 3fr;
-  align-items: center; }
+  align-items: center;
+  padding: 4rem; }
   .project2__content {
     margin-left: 5rem;
     width: 35rem; }
@@ -255,12 +258,16 @@ margin-top: 50%;
     margin-top: 2.4rem; }
 
 .footer {
-  grid-column: 1 / -1; }
+  grid-column: 1 / -1;
+  height: 10rem;
+  justify-content: center;
+  align-content: center; }
   .footer__nav {
     display: flex;
     justify-content: center;
     align-content: center;
-    flex-direction: row; }
+    flex-direction: row;
+    justify-self: center; }
     .footer__nav > li {
       margin-right: 3rem;
       margin-left: 4rem;
@@ -275,9 +282,10 @@ margin-top: 50%;
         color: rgba(74, 74, 74, 0.5);
         display: inline-block;
         transition: all .2s; }
-      .footer__nav > li > a:hover {
-        transform: translateY(-0.3rem);
-        text-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2); }
-      .footer__nav > li > a:active {
-        transform: translateY(-0.1rem);
-        text-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2); }
+        .footer__nav > li > a:hover {
+          transform: translateY(-0.3rem);
+          text-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+          color: #ff2956; }
+        .footer__nav > li > a:active {
+          transform: translateY(-0.1rem);
+          text-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2); }
