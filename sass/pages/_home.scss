@@ -1,26 +1,134 @@
+.container {
+  display: grid;
+  grid-template-rows:repeat(4, min-content);
+  grid-template-columns: [full-start] 1fr [center-start] repeat(8, [col-start] minmax(min-content,14rem) [col-end]) [center-end] 1fr [full-end];
+
+  
+}
+
 .project1 {
-  background:linear-gradient(to right bottom, $color-gray-dark, $color-gray-light);
-  //padding: 20rem 0;
-  //margin-top: -12rem;
-  clip-path: polygon(0 0, 100% 25%, 100% 100%  , 0 100%);
-margin-top: -16rem;
-
-  &__img {
-    position: relative;
-    margin-top: 10%;
-  }
-
-  &__text-box {
-    margin-top: 50%;
-  }
+  
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  align-items: center;
 
   &__btn {
     margin-top: 2.4rem;
 
     
     }
-    &__btn--cta {
-      margin: 0 auto;
+
+    &__img {
+      width: 100%;
     }
+
+    &__content {
+      margin-right: 5rem;
     
-  }
+    }
+
+  //display: flex;
+  //align-items: center;
+
+
+  //padding: 20rem 0;
+  //margin-top: -12rem;
+//display: grid;
+//grid-template-columns: 2fr 1fr;
+//align-items: center;
+
+
+  
+
+
+   
+
+  
+
+  
+    
+    
+  
+}
+
+  .project2 {
+  grid-column: 1 / -1;
+   background: linear-gradient(to right bottom, $color-gray-dark, $color-gray-light);
+
+   display: grid;
+  grid-template-columns: 1fr 3fr;
+  align-items: center;
+
+   
+ 
+  
+    //padding: 20rem 0;
+    //margin-top: -12rem;
+    //clip-path: polygon(0 0, 100% 25%, 100% 100%  , 0 100%);
+  //margin-top: 4rem;
+  //display: grid;
+  //grid-template-columns: 1fr 3fr;
+
+  
+  
+      &__content {
+      margin-left: 5rem;
+       
+
+        width: 35rem;
+      
+      }
+  
+    
+  
+    &__btn {
+      margin-top: 2.4rem;
+  
+      
+      }
+      
+      
+    }
+    .footer {
+      grid-column: 1 / -1;
+      &__nav{
+
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        flex-direction: row;
+      >li {
+        margin-right: 3rem;
+        margin-left: 4rem;
+        margin-top: 2rem;
+        list-style: none;
+        font-family: 'futura', 'Raleway', sans-serif;
+        text-transform: uppercase;
+        font-size: 1.6rem;
+        text-decoration: none;
+      
+        
+        >a {
+          text-decoration: none;
+          color: $color-text-secondary;
+          display: inline-block;
+          transition: all .2s;
+  
+        }
+        >a:hover {
+          transform: translateY(-.3rem);
+          text-shadow: 0 1rem 2rem rgba(0, 0, 0, .2);
+          //color: $color-accent;
+        }
+  
+        >a:active {
+          transform: translateY(-.1rem);
+          text-shadow: 0 .5rem 1rem rgba(0, 0, 0, .2);
+      
+        }
+      }
+    }
+  
+    }
+  

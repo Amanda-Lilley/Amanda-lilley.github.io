@@ -1,11 +1,19 @@
+
+
 .header {
   //height: 90vh;
   background: linear-gradient(to right bottom, $color-gray-dark, $color-gray-light);
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 75%);
-  position: relative;
+  grid-column: 1 / -1;
+  //position: relative;
+  //display: grid;
+  //grid-template-rows: 1fr, auto;
   &__navigation {
+
+      display: flex;
+      justify-content: flex-end;
+      flex-direction: row;
     >li {
-      display: inline-block;
       margin-right: 3rem;
       margin-left: 4rem;
       margin-top: 2rem;
@@ -14,7 +22,6 @@
       text-transform: uppercase;
       font-size: 1.6rem;
       text-decoration: none;
-      float: right;
     
       
       >a {
@@ -38,7 +45,19 @@
     }
   }
 
-  &__text-box {
+  &__content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  &__textbox {
+    margin-left: 10rem;
+  }
+
+  
+
+  /*&__text-box {
     position: relative;
 margin-top: 50%;
     left: 15%;
@@ -48,5 +67,5 @@ margin-top: 50%;
     position: relative;
     bottom: 0;
     right: 0;
-  }
+  } */
 }

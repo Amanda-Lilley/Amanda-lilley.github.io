@@ -22,6 +22,7 @@ body {
   &--main {
     color: $color-white;
     font-family: 'shrikhand', cursive;
+//font-family: 'Abril Fatface', cursive;
     font-size: 4.8rem;
     font-weight: 400;
     
@@ -41,6 +42,15 @@ body {
 .heading-secondary {
   font-size: 3.2rem;
   font-family: 'shrikhand', cursive;
+  //font-family: 'Abril Fatface', cursive;
   color: $color-white;
+  font-weight: 400;
+}
+
+.heading-secondary-dark {
+  font-size: 3.2rem;
+  font-family: 'shrikhand', cursive;
+  //font-family: 'Abril Fatface', cursive;
+  color: $color-text-secondary;
   font-weight: 400;
 }
