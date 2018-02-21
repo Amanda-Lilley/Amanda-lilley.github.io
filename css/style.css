@@ -260,24 +260,21 @@ margin-top: 50%;
 
 .footer {
   grid-column: 1 / -1;
-  height: 10rem;
-  justify-content: center;
-  align-content: center; }
+  height: 10rem; }
   .footer__nav {
     display: flex;
     justify-content: center;
-    align-content: center;
-    flex-direction: row;
-    justify-self: center; }
+    flex-direction: row; }
     .footer__nav > li {
       margin-right: 3rem;
-      margin-left: 4rem;
       margin-top: 2rem;
       list-style: none;
       font-family: 'futura', 'Raleway', sans-serif;
       text-transform: uppercase;
       font-size: 1.6rem;
       text-decoration: none; }
+      .footer__nav > li:not(first-child) {
+        margin-left: 4rem; }
       .footer__nav > li > a {
         text-decoration: none;
         color: rgba(74, 74, 74, 0.5);

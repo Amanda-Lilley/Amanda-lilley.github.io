@@ -65,24 +65,29 @@
     .footer {
       grid-column: 1 / -1;
       height: 10rem;
-      justify-content: center;
-      align-content: center;
+      
+    
       &__nav{
 
         display: flex;
         justify-content: center;
-        align-content: center;
+       
         flex-direction: row;
-       justify-self: center;
+       
       >li {
         margin-right: 3rem;
-        margin-left: 4rem;
+        
         margin-top: 2rem;
         list-style: none;
         font-family: 'futura', 'Raleway', sans-serif;
         text-transform: uppercase;
         font-size: 1.6rem;
         text-decoration: none;
+
+        &:not(first-child) {
+          margin-left: 4rem;
+
+        }
       
         
         >a {
