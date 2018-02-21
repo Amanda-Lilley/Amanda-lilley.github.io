@@ -18,5 +18,8 @@
   "homepage": "https://github.com/Amanda-Lilley/Amanda-lilley.github.io#readme",
   "devDependencies": {
     "node-sass": "^4.7.2"
+  },
+  "dependencies": {
+    "aos": "^2.2.0"
   }
 }

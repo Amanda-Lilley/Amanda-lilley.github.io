@@ -181,6 +181,7 @@ body {
 } */
 .header {
   background: linear-gradient(to right bottom, #bac5cc, #eef2f3);
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 75%);
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 75%);
   grid-column: 1 / -1;
   /*&__text-box {
