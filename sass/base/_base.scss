@@ -1,3 +1,9 @@
+
+//RESPONSIVE BREAKPOINTS
+$bp-largest: 75em;  //1200px (1200/16 = 75em )
+$bp-medium: 58em; //approx 930
+$bp-small: 44em; //approx 700
+
 *,
 *::after,
 *::before {
@@ -12,6 +18,10 @@ divide what you want by (10px)  ---> 10/16 = 625*/
 
 html {
   font-size: 62.5%;
+
+  @media only screen and (max-width: $bp-largest) {
+    font-size: 50%; //why 50%, instead of 1rem = 16px now ==8px
+  }
 }
 
 body {

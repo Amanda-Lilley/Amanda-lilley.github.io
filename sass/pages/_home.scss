@@ -10,7 +10,7 @@
 .project1 {
   grid-column: 1 / -1;
   display: grid;
-  grid-template-columns: 3fr 1fr;
+  grid-template-columns: 3fr minmax(22rem, 1fr);
   align-items: center;
   padding: 4rem;
 
@@ -20,10 +20,24 @@
 
   &__img {
     width: 100%;
+
+    @media only screen and (max-width: $bp-largest) {
+     width: 90%; 
+      
+    }
+
   }
 
   &__content {
     margin-right: 5rem;
+    width: 35rem;
+
+    @media only screen and (max-width: $bp-largest) {
+      margin-right: 3rem; 
+      
+    }
+
+    
   }
 }
 
@@ -42,9 +56,17 @@
 
   &__content {
     margin-left: 5rem;
-
     width: 35rem;
+
+    @media only screen and (max-width: $bp-largest) {
+      margin-left: 3rem; 
+      
+    }
+
+
   }
+
+  
 
   &__btn {
     margin-top: 2.4rem;
@@ -59,7 +81,8 @@
     display: flex;
     justify-content: center;
     flex-direction: row;
-    
+    align-items: center;
+    height: 100%;
 
     > li {
       margin-right: 3rem;
