@@ -6,3 +6,33 @@
   }
 
 }
+
+
+
+/*/$breakpoint argument choices
+-xsmall 400
+-small 700
+-med 860
+-lrg 930
+-xlrg 1200
+
+*/
+@mixin respond($breakpoint) {
+ 
+  @if $breakpoint == xsmall {
+   @media (max-width: 25em) { @content}; //400px /16 = 25
+  }
+  @if $breakpoint == small {
+    @media (max-width: 44em) { @content}; //700 /16
+  }
+  @if $breakpoint == med {
+    @media (max-width: 54em) { @content}; //860
+  }
+  @if $breakpoint == lrg {
+    @media (max-width: 58em) { @content}; //930
+  }
+  @if $breakpoint == xlrg {
+    @media (max-width: 75em) { @content}; //1200
+  }
+
+}

@@ -22,7 +22,11 @@ body {
 //font-family: 'Abril Fatface', cursive;
     font-size: 4.8rem;
     font-weight: 400;
-    
+
+    @media only screen and (max-width: $bp-medium2) {
+      font-size: 3.5rem;
+    }
+   
     /*backface-visibility: hidden; */
   }
   
@@ -32,6 +36,16 @@ body {
     font-weight: 100;
     line-height: 3rem;
     animation: moveInRight 2s ease-out;
+
+    @media only screen and (max-width: $bp-medium) {
+    
+      display: block;
+     }
+
+    @media only screen and (max-width: $bp-medium2) {
+     font-size: 2rem;
+     display: block;
+    }
   }
   
 }

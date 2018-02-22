@@ -1,57 +1,72 @@
-
-
 .header {
   //height: 90vh;
-  background: linear-gradient(to right bottom, $color-gray-dark, $color-gray-light);
+  background: linear-gradient(
+    to right bottom,
+    $color-gray-dark,
+    $color-gray-light
+  );
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 75%);
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 75%);
   grid-column: 1 / -1;
   //position: relative;
   //display: grid;
   //grid-template-rows: 1fr, auto;
+
+  &__nav {
+    display: flex;
+    justify-content: flex-end;
+    height: 80px;
+    align-items: center;
+
+    @media only screen and (max-width: $bp-medium2) {
+      justify-content: center;
+    }
+    //padding-bottom: 10rem;
+  }
   &__navigation {
+    display: flex;
+    //justify-content: flex-end;
+    flex-direction: row;
+    //padding-bottom: 10rem;
+    //height: 4rem;
+    //align-items: center;
+   // margin-bottom: 10rem;
 
-      display: flex;
-      justify-content: flex-end;
-      flex-direction: row;
-      padding-bottom: 10rem;
+   /* @media only screen and (max-width: $bp-medium) {
+      padding-bottom: 15rem;
+    }
 
-      @media only screen and (max-width: $bp-medium) {
-        padding-bottom: 15rem;
-      }
+    @media only screen and (max-width: $bp-small) {
+      padding-bottom: 8rem;
+    } */
 
-      @media only screen and (max-width: $bp-small) {
-        padding-bottom: 8rem;
-      }
-
-    >li {
-      margin-right: 3rem;
+    > li {
+      margin-right: 4rem;
       margin-left: 4rem;
-      margin-top: 2rem;
       list-style: none;
-      font-family: 'Open Sans', sans-serif;
+      font-family: "Open Sans", sans-serif;
 
       text-transform: uppercase;
       font-size: 1.6rem;
       text-decoration: none;
+
       
-      >a {
+
+      > a {
         text-decoration: none;
         color: $color-white;
         display: inline-block;
-        transition: all .2s;
-
+        transition: all 0.2s;
       }
-      >a:hover {
-        transform: translateY(-.3rem);
-        text-shadow: 0 1rem 2rem rgba(0, 0, 0, .2);
+      > a:hover {
+        transform: translateY(-0.3rem);
+        text-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
         color: $color-accent;
       }
 
-      >a:active {
-        transform: translateY(-.1rem);
-        text-shadow: 0 .5rem 1rem rgba(0, 0, 0, .2);
-    
+      > a:active {
+        transform: translateY(-0.1rem);
+        text-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
       }
     }
   }
@@ -64,14 +79,24 @@
 
   &__textbox {
     margin-left: 5rem;
-    //min-width: 35rem;
+
+    @media only screen and (max-width: $bp-medium2) {
+      align-self: baseline;
+      margin-top: 4rem;
+      
+      
+    }
   
-   
+    //min-width: 35rem;
   }
 
   &__img {
     @media only screen and (max-width: $bp-medium) {
       max-width: 90%;
+    }
+
+    @media only screen and (max-width: $bp-medium2) {
+      max-width: 70%;
     }
   }
 

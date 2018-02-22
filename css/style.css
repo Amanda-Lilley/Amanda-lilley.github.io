@@ -1,3 +1,11 @@
+/*/$breakpoint argument choices
+-xsmall 400
+-small 700
+-med 860
+-lrg 930
+-xlrg 1200
+
+*/
 @keyframes moveInLeft {
   0% {
     opacity: 0;
@@ -27,12 +35,34 @@
 
 /*set root font-size in html
 if user changes default font size they need percentages
-divide what you want by (10px)  ---> 10/16 = 625*/
+divide what you want by (10px)  ---> 10/16 = 625*
+
+order of media queries --> base +typography, layout + grid, components
+
+*/
 html {
-  font-size: 62.5%; }
-  @media only screen and (max-width: 75em) {
-    html {
-      font-size: 50%; } }
+  font-size: 62.5%;
+  /*
+  @include respond(xsmall) {
+    font-size: 50%;
+  }
+
+  @include respond(small) {
+    font-size: 60%;
+  }
+
+  @include respond(med) {
+    font-size: 70%;
+  }
+
+  @include respond(lrg) {
+    font-size: 80%;
+  }
+
+  @include respond(xlrg) {
+    font-size: 50%;
+  }
+  */ }
 
 body {
   box-sizing: border-box; }
@@ -55,12 +85,22 @@ body {
     font-size: 4.8rem;
     font-weight: 400;
     /*backface-visibility: hidden; */ }
+    @media only screen and (max-width: 54em) {
+      .heading-primary--main {
+        font-size: 3.5rem; } }
   .heading-primary--sub {
     font-size: 2.4rem;
     color: #4a4a4a;
     font-weight: 100;
     line-height: 3rem;
     animation: moveInRight 2s ease-out; }
+    @media only screen and (max-width: 58em) {
+      .heading-primary--sub {
+        display: block; } }
+    @media only screen and (max-width: 54em) {
+      .heading-primary--sub {
+        font-size: 2rem;
+        display: block; } }
 
 .heading-secondary {
   font-size: 3.2rem;
@@ -98,6 +138,10 @@ body {
   display: inline-block;
   border-radius: 10rem;
   transition: all .2s; }
+  @media only screen and (max-width: 54em) {
+    .btn:link, .btn:visited {
+      font-size: 1.2rem;
+      padding: 1.2rem 2rem; } }
 
 .btn:hover {
   transform: translateY(-0.3rem);
@@ -118,6 +162,10 @@ body {
   display: inline-block;
   border-radius: 10rem;
   transition: all .2s; }
+  @media only screen and (max-width: 54em) {
+    .btn:link, .btn:visited {
+      font-size: 1.2rem;
+      padding: 1.2rem 2rem; } }
 
 .btn:hover {
   transform: translateY(-0.3rem);
@@ -194,23 +242,29 @@ margin-top: 50%;
     bottom: 0;
     right: 0;
   } */ }
-  .header__navigation {
+  .header__nav {
     display: flex;
     justify-content: flex-end;
+    height: 80px;
+    align-items: center; }
+    @media only screen and (max-width: 54em) {
+      .header__nav {
+        justify-content: center; } }
+  .header__navigation {
+    display: flex;
     flex-direction: row;
-    padding-bottom: 10rem; }
-    @media only screen and (max-width: 58em) {
-      .header__navigation {
-        padding-bottom: 15rem; } }
-    @media only screen and (max-width: 44em) {
-      .header__navigation {
-        padding-bottom: 8rem; } }
+    /* @media only screen and (max-width: $bp-medium) {
+      padding-bottom: 15rem;
+    }
+
+    @media only screen and (max-width: $bp-small) {
+      padding-bottom: 8rem;
+    } */ }
     .header__navigation > li {
-      margin-right: 3rem;
+      margin-right: 4rem;
       margin-left: 4rem;
-      margin-top: 2rem;
       list-style: none;
-      font-family: 'Open Sans', sans-serif;
+      font-family: "Open Sans", sans-serif;
       text-transform: uppercase;
       font-size: 1.6rem;
       text-decoration: none; }
@@ -218,7 +272,7 @@ margin-top: 50%;
         text-decoration: none;
         color: #fff;
         display: inline-block;
-        transition: all .2s; }
+        transition: all 0.2s; }
       .header__navigation > li > a:hover {
         transform: translateY(-0.3rem);
         text-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
@@ -232,9 +286,16 @@ margin-top: 50%;
     align-items: center; }
   .header__textbox {
     margin-left: 5rem; }
+    @media only screen and (max-width: 54em) {
+      .header__textbox {
+        align-self: baseline;
+        margin-top: 4rem; } }
   @media only screen and (max-width: 58em) {
     .header__img {
       max-width: 90%; } }
+  @media only screen and (max-width: 54em) {
+    .header__img {
+      max-width: 70%; } }
 
 .container {
   display: grid;
@@ -244,9 +305,13 @@ margin-top: 50%;
 .project1 {
   grid-column: 1 / -1;
   display: grid;
-  grid-template-columns: 3fr minmax(22rem, 1fr);
+  grid-template-columns: 3fr minmax(30rem, 1fr);
   align-items: center;
   padding: 4rem; }
+  @media only screen and (max-width: 54em) {
+    .project1 {
+      grid-template-columns: 3fr minmax(24rem, 1fr);
+      padding-left: 0; } }
   .project1__btn {
     margin-top: 2.4rem; }
   .project1__img {
@@ -254,6 +319,9 @@ margin-top: 50%;
     @media only screen and (max-width: 75em) {
       .project1__img {
         width: 90%; } }
+    @media only screen and (max-width: 54em) {
+      .project1__img {
+        width: 100%; } }
   .project1__content {
     margin-right: 5rem;
     width: 35rem; }

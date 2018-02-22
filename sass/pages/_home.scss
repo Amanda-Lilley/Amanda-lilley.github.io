@@ -10,9 +10,16 @@
 .project1 {
   grid-column: 1 / -1;
   display: grid;
-  grid-template-columns: 3fr minmax(22rem, 1fr);
+  grid-template-columns: 3fr minmax(30rem, 1fr);
   align-items: center;
   padding: 4rem;
+
+
+
+  @media only screen and (max-width: $bp-medium2) {
+    grid-template-columns: 3fr minmax(24rem, 1fr);
+    padding-left: 0;
+  }
 
   &__btn {
     margin-top: 2.4rem;
@@ -25,6 +32,12 @@
      width: 90%; 
       
     }
+    @media only screen and (max-width: $bp-medium2) {
+      width:100%;
+      
+      
+    }
+  
 
   }
 
