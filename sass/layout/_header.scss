@@ -8,9 +8,19 @@
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 75%);
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 75%);
   grid-column: 1 / -1;
+
+  @media only screen and (max-width: $bp-mobile) {
+    clip-path: none;
+  }
+
   //position: relative;
   //display: grid;
   //grid-template-rows: 1fr, auto;
+  /*@media only screen and (max-width: $bp-mobile) {
+   display: grid;
+   grid-template-columns: 1fr;
+   grid-template-rows: 8rem 1fr 1fr;
+  } */
 
   &__nav {
     display: flex;
@@ -21,6 +31,10 @@
     @media only screen and (max-width: $bp-medium2) {
       justify-content: center;
     }
+
+    @media only screen and (max-width: $bp-mobile) {
+      padding: 2rem;
+    }
     //padding-bottom: 10rem;
   }
   &__navigation {
@@ -30,15 +44,18 @@
     //padding-bottom: 10rem;
     //height: 4rem;
     //align-items: center;
-   // margin-bottom: 10rem;
+    // margin-bottom: 10rem;
 
-   /* @media only screen and (max-width: $bp-medium) {
+    /* @media only screen and (max-width: $bp-medium) {
       padding-bottom: 15rem;
     }
 
     @media only screen and (max-width: $bp-small) {
       padding-bottom: 8rem;
     } */
+    
+      
+
 
     > li {
       margin-right: 4rem;
@@ -50,7 +67,11 @@
       font-size: 1.6rem;
       text-decoration: none;
 
-      
+      @media only screen and (max-width: $bp-mobile) {
+        font-size: 1.6rem;
+       
+        justify-content: space-around;
+        }
 
       > a {
         text-decoration: none;
@@ -75,6 +96,12 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+
+    @media only screen and (max-width: $bp-mobile) {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr 1fr;
+    }
   }
 
   &__textbox {
@@ -83,10 +110,14 @@
     @media only screen and (max-width: $bp-medium2) {
       align-self: baseline;
       margin-top: 4rem;
-      
-      
     }
-  
+
+    @media only screen and (max-width: $bp-mobile) {
+      grid-column-start: 3 / span 1;
+      text-align: center;
+      margin: 4rem;
+    }
+
     //min-width: 35rem;
   }
 
@@ -97,6 +128,17 @@
 
     @media only screen and (max-width: $bp-medium2) {
       max-width: 70%;
+    }
+
+    @media only screen and (max-width: $bp-mobile) {
+      grid-row-start: 1;
+      
+      max-width: 75%;
+      border: 0.8rem solid #fff;
+
+      justify-self: center;
+      padding: 0;
+      margin: 0;
     }
   }
 

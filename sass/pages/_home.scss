@@ -5,7 +5,8 @@
       8,
       [col-start] minmax(min-content, 14rem) [col-end]
     ) [center-end] 1fr [full-end];
-}
+
+    
 
 .project1 {
   grid-column: 1 / -1;
@@ -21,8 +22,20 @@
     padding-left: 0;
   }
 
+  @media only screen and (max-width: $bp-mobile) {
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    padding: 4rem;
+  }
+
   &__btn {
     margin-top: 2.4rem;
+
+    @media only screen and (max-width: $bp-mobile) {
+      margin-top: 1.6rem;
+      margin-bottom: 1.6rem;
+    }
   }
 
   &__img {
@@ -50,6 +63,15 @@
       
     }
 
+    @media only screen and (max-width: $bp-mobile) {
+      text-align: center;
+      align-self: center;
+      width: 27rem;
+      margin: 0 auto;
+      grid-row: 1 / span 1;
+
+    }
+
     
   }
 }
@@ -67,6 +89,23 @@
   align-items: center;
   padding: 4rem;
 
+  @media only screen and (max-width: $bp-medium2) {
+    grid-template-columns: minmax(24rem, 1fr) 3fr;
+    padding: 2rem;
+    
+  }
+
+  @media only screen and (max-width: $bp-mobile) {
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    padding: 4rem;
+  }
+
+
+  
+  
+
   &__content {
     margin-left: 5rem;
     width: 35rem;
@@ -76,13 +115,30 @@
       
     }
 
+    @media only screen and (max-width: $bp-medium2) {
+    max-width: 30rem;
+    margin-left: 0;
+  }
 
+  @media only screen and (max-width: $bp-mobile) {
+    text-align: center;
+    align-self: center;
+    width: 27rem;
+    margin: 0 auto;
+    grid-row: 1 / span 1;
+
+  }
   }
 
   
 
   &__btn {
     margin-top: 2.4rem;
+
+    @media only screen and (max-width: $bp-mobile) {
+      margin-top: 1.6rem;
+      margin-bottom: 1.6rem;
+    }
   }
 }
 .footer {
@@ -96,6 +152,7 @@
     flex-direction: row;
     align-items: center;
     height: 100%;
+    
 
     > li {
       margin-right: 3rem;
@@ -109,6 +166,14 @@
 
       &:not(first-child) {
         margin-left: 4rem;
+      }
+
+      @media only screen and (max-width: $bp-mobile) {
+        font-size: 1.2rem;
+        margin-right: 2rem;
+        &:not(:first-child) {
+          margin-left: 2rem;
+        }
       }
 
       > a {
@@ -130,4 +195,5 @@
       }
     }
   }
+}
 }

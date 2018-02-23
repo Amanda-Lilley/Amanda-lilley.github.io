@@ -4,6 +4,7 @@ $bp-largest: 75em;  //1200px (1200/16 = 75em )
 $bp-medium: 58em; //approx 930
 $bp-medium2: 54em;//make one for 860
 $bp-small: 44em; //approx 700
+$bp-mobile: 38em; // approx 600
 
 *,
 *::after,
@@ -24,7 +25,16 @@ order of media queries --> base +typography, layout + grid, components
 
 
 html {
-  font-size: 62.5%; //1rem=10px  10/16=62.5
+  font-size: 62.5%;
+} 
+
+.container {
+  @media only screen and (max-width: $bp-mobile) {
+    padding: 0;
+    }
+}
+
+//1rem=10px  10/16=62.5
 
   
 /*
@@ -47,13 +57,9 @@ html {
   @include respond(xlrg) {
     font-size: 50%;
   }
-  */
-  
-  
-
-  
 }
 
 body {
   box-sizing: border-box;
-}
+} */
+

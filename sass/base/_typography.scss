@@ -26,6 +26,10 @@ body {
     @media only screen and (max-width: $bp-medium2) {
       font-size: 3.5rem;
     }
+
+    @media only screen and (max-width: $bp-mobile) {
+      font-size: 3.2rem;
+    }
    
     /*backface-visibility: hidden; */
   }
@@ -38,13 +42,17 @@ body {
     animation: moveInRight 2s ease-out;
 
     @media only screen and (max-width: $bp-medium) {
-    
+      
       display: block;
      }
 
     @media only screen and (max-width: $bp-medium2) {
      font-size: 2rem;
      display: block;
+    }
+
+    @media only screen and (max-width: $bp-mobile) {
+      font-size: 1.8rem;
     }
   }
   
