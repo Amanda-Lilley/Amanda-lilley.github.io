@@ -68,7 +68,7 @@
       text-decoration: none;
 
       @media only screen and (max-width: $bp-mobile) {
-        font-size: 1.6rem;
+        font-size: 1.2rem;
        
         justify-content: space-around;
         }
@@ -100,7 +100,7 @@
     @media only screen and (max-width: $bp-mobile) {
       display: grid;
       grid-template-columns: 1fr;
-      grid-template-rows: 1fr 1fr;
+      grid-template-rows: .5fr 1fr;
     }
   }
 
@@ -116,6 +116,7 @@
       grid-column-start: 3 / span 1;
       text-align: center;
       margin: 4rem;
+     
     }
 
     //min-width: 35rem;
@@ -133,8 +134,9 @@
     @media only screen and (max-width: $bp-mobile) {
       grid-row-start: 1;
       
-      max-width: 75%;
-      border: 0.8rem solid #fff;
+      max-width: 50%;
+      border: 1.2rem solid #fff;
+      clip-path: circle(30% at 50% 30%);
 
       justify-self: center;
       padding: 0;

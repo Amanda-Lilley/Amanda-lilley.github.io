@@ -292,7 +292,7 @@ margin-top: 50%;
       text-decoration: none; }
       @media only screen and (max-width: 38em) {
         .header__navigation > li {
-          font-size: 1.6rem;
+          font-size: 1.2rem;
           justify-content: space-around; } }
       .header__navigation > li > a {
         text-decoration: none;
@@ -314,7 +314,7 @@ margin-top: 50%;
       .header__content {
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr; } }
+        grid-template-rows: .5fr 1fr; } }
   .header__textbox {
     margin-left: 5rem; }
     @media only screen and (max-width: 54em) {
@@ -335,8 +335,9 @@ margin-top: 50%;
   @media only screen and (max-width: 38em) {
     .header__img {
       grid-row-start: 1;
-      max-width: 75%;
-      border: 0.8rem solid #fff;
+      max-width: 50%;
+      border: 1.2rem solid #fff;
+      clip-path: circle(30% at 50% 30%);
       justify-self: center;
       padding: 0;
       margin: 0; } }
