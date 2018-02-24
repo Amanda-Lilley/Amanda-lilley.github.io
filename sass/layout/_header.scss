@@ -9,9 +9,9 @@
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 75%);
   grid-column: 1 / -1;
 
-  @media only screen and (max-width: $bp-mobile) {
+  /*@media only screen and (max-width: $bp-mobile) {
     clip-path: none;
-  }
+  } */
 
   //position: relative;
   //display: grid;
@@ -136,6 +136,8 @@
       
       max-width: 50%;
       border: 1.2rem solid #fff;
+      -webkit-clip-path: circle(30% at 50% 30%);
+
       clip-path: circle(30% at 50% 30%);
 
       justify-self: center;
