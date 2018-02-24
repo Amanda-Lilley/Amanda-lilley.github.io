@@ -5,6 +5,7 @@ $bp-medium: 58em; //approx 930
 $bp-medium2: 54em;//make one for 860
 $bp-small: 44em; //approx 700
 $bp-mobile: 38em; // approx 600
+$bp-sm-mobile: 30em; // approx 450
 
 *,
 *::after,
@@ -31,6 +32,7 @@ html {
 .container {
   @media only screen and (max-width: $bp-mobile) {
     padding: 0;
+    margin-right: 0;
     }
 }
 

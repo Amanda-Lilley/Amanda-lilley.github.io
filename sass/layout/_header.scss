@@ -9,6 +9,20 @@
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 75%);
   grid-column: 1 / -1;
 
+  @media only screen and (max-width: $bp-mobile) {
+    height: 70vh;
+
+  }
+  
+
+  @media only screen and (max-width: $bp-sm-mobile) {
+    -webkit-clip-path: none;
+  clip-path: none;
+
+
+  }
+  
+
   /*@media only screen and (max-width: $bp-mobile) {
     clip-path: none;
   } */
@@ -29,10 +43,12 @@
     align-items: center;
 
     @media only screen and (max-width: $bp-medium2) {
-      justify-content: center;
+      justify-content: space-around;
     }
 
     @media only screen and (max-width: $bp-mobile) {
+      justify-content: space-around;
+    }
       padding: 2rem;
     }
     //padding-bottom: 10rem;
@@ -58,8 +74,8 @@
 
 
     > li {
-      margin-right: 4rem;
-      margin-left: 4rem;
+      //margin-right: 4rem;
+      //margin-left: 4rem;
       list-style: none;
       font-family: "Open Sans", sans-serif;
 
@@ -68,10 +84,20 @@
       text-decoration: none;
 
       @media only screen and (max-width: $bp-mobile) {
-        font-size: 1.2rem;
+        //margin-right: 3rem;
+        //margin-left: 3rem;
        
         justify-content: space-around;
         }
+
+        @media only screen and (max-width: $bp-sm-mobile) {
+          //margin-right: 2rem;
+          //margin-left: 2rem;
+          font-size: 1.4rem;
+         
+          justify-content: space-around;
+          }
+  
 
       > a {
         text-decoration: none;
@@ -101,12 +127,12 @@
       display: grid;
       grid-template-columns: 1fr;
       grid-template-rows: .5fr 1fr;
-    }
+      
   }
 
   &__textbox {
     margin-left: 5rem;
-
+    
     @media only screen and (max-width: $bp-medium2) {
       align-self: baseline;
       margin-top: 4rem;
@@ -115,7 +141,7 @@
     @media only screen and (max-width: $bp-mobile) {
       grid-column-start: 3 / span 1;
       text-align: center;
-      margin: 4rem;
+      margin: 0 auto;
      
     }
 
@@ -123,6 +149,7 @@
   }
 
   &__img {
+    text-align: center;
     @media only screen and (max-width: $bp-medium) {
       max-width: 90%;
     }
@@ -134,16 +161,18 @@
     @media only screen and (max-width: $bp-mobile) {
       grid-row-start: 1;
       
-      max-width: 50%;
-      border: 1.2rem solid #fff;
-      -webkit-clip-path: circle(30% at 50% 30%);
+      //max-width: 50%;
+      //border: 1.2rem solid #fff;
+      -webkit-clip-path: circle(50% at 50% 50%);
 
-      clip-path: circle(30% at 50% 30%);
+      clip-path: circle(50% at 50% 50%);
 
       justify-self: center;
       padding: 0;
       margin: 0;
     }
+
+    
   }
 
   /*&__text-box {

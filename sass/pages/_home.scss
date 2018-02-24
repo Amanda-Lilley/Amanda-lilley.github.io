@@ -55,8 +55,8 @@
   }
 
   &__content {
-    margin-right: 5rem;
-    width: 35rem;
+    //margin-right: 5rem;
+    width: 25rem;
 
     @media only screen and (max-width: $bp-largest) {
       margin-right: 3rem; 
@@ -66,7 +66,7 @@
     @media only screen and (max-width: $bp-mobile) {
       text-align: center;
       align-self: center;
-      width: 27rem;
+      width: 25rem;
       margin: 0 auto;
       grid-row: 1 / span 1;
 
@@ -144,18 +144,20 @@
 .footer {
   grid-column: 1 / -1;
   height: 10rem;
+  padding-right: 1.6rem;
+  padding-left: 1.6rem;
   //display: flex;
 
   &__nav {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     flex-direction: row;
     align-items: center;
     height: 100%;
     
 
     > li {
-      margin-right: 3rem;
+     // margin-right: 3rem;
       margin-top: 2rem;
       list-style: none;
       font-family: 'Open Sans', sans-serif;
@@ -164,16 +166,16 @@
       font-size: 1.6rem;
       text-decoration: none;
 
-      &:not(first-child) {
+      /*&:not(first-child) {
         margin-left: 4rem;
-      }
+      } */
 
       @media only screen and (max-width: $bp-mobile) {
-        font-size: 1.2rem;
-        margin-right: 2rem;
+        font-size: 1.4rem;
+        /*margin-right: 2rem;
         &:not(:first-child) {
           margin-left: 2rem;
-        }
+        } */
       }
 
       > a {
