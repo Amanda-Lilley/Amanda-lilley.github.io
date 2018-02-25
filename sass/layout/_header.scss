@@ -5,7 +5,7 @@
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 75%);
   grid-column: 1 / -1;
   @media only screen and (max-width: $bp-mobile) {
-    height: 70vh;
+    height: 80vh;
   }
   @media only screen and (max-width: $bp-sm-mobile) {
     -webkit-clip-path: none;
