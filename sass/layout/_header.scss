@@ -5,7 +5,9 @@
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 75%);
   grid-column: 1 / -1;
   @media only screen and (max-width: $bp-mobile) {
-    height: 80vh;
+    -webkit-clip-path: none;
+    clip-path: none;
+    padding-bottom: 8rem;
   }
   @media only screen and (max-width: $bp-sm-mobile) {
     -webkit-clip-path: none;
@@ -75,7 +77,9 @@
       >a:active {
         transform: translateY(-0.1rem);
         text-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+        color: $color-accent;
       }
+      
     }
   }
   &__content {
