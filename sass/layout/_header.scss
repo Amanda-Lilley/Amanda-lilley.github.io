@@ -13,17 +13,12 @@
     -webkit-clip-path: none;
     clip-path: none;
   }
-  /*@media only screen and (max-width: $bp-mobile) {
-    clip-path: none;
-  } */
-  //position: relative;
-  //display: grid;
-  //grid-template-rows: 1fr, auto;
-  /*@media only screen and (max-width: $bp-mobile) {
-   display: grid;
-   grid-template-columns: 1fr;
-   grid-template-rows: 8rem 1fr 1fr;
-  } */
+  
+  &#case1 {
+    background-color: aqua;
+  }
+
+
   &__nav {
     display: flex;
     justify-content: flex-end;
@@ -36,7 +31,10 @@
       justify-content: space-around;
       padding: 2rem;
     }
-  } //padding-bottom: 10rem;
+  } 
+  
+  
+  //padding-bottom: 10rem;
   &__navigation {
     display: flex; //justify-content: flex-end;
     flex-direction: row;
@@ -79,9 +77,16 @@
         text-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
         color: $color-accent;
       }
+
+      >a.accent {
+        color: $color-accent;
+      }
       
     }
   }
+
+  
+
   &__content {
     display: flex;
     justify-content: space-around;
