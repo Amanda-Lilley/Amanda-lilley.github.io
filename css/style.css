@@ -6,6 +6,27 @@
 -xlrg 1200
 
 */
+/*
+@mixin respond($breakpoint) {
+ 
+  @if $breakpoint == xsmall {
+   @media (max-width: 25em) { @content}; //400px /16 = 25
+  }
+  @if $breakpoint == small {
+    @media (max-width: 44em) { @content}; //700 /16
+  }
+  @if $breakpoint == med {
+    @media (max-width: 54em) { @content}; //860
+  }
+  @if $breakpoint == lrg {
+    @media (max-width: 58em) { @content}; //930
+  }
+  @if $breakpoint == xlrg {
+    @media (max-width: 75em) { @content}; //1200
+  }
+
+}  
+*/
 @keyframes moveInLeft {
   0% {
     opacity: 0;
@@ -187,6 +208,47 @@ body {
   transform: translateY(-0.1rem);
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2); }
 
+.footer {
+  grid-column: 1 / -1;
+  height: 10rem;
+  padding-right: 1.6rem;
+  padding-left: 1.6rem; }
+  .footer__nav {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    height: 100%; }
+    .footer__nav > li {
+      margin-top: 2rem;
+      list-style: none;
+      font-family: 'Open Sans', sans-serif;
+      text-transform: uppercase;
+      font-size: 1.6rem;
+      text-decoration: none;
+      /*&:not(first-child) {
+        margin-left: 4rem;
+      } */ }
+      @media only screen and (max-width: 38em) {
+        .footer__nav > li {
+          font-size: 1.4rem;
+          /*margin-right: 2rem;
+        &:not(:first-child) {
+          margin-left: 2rem;
+        } */ } }
+      .footer__nav > li > a {
+        text-decoration: none;
+        color: rgba(74, 74, 74, 0.5);
+        display: inline-block;
+        transition: all 0.2s; }
+        .footer__nav > li > a:hover {
+          transform: translateY(-0.3rem);
+          text-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+          color: #ff2956; }
+        .footer__nav > li > a:active {
+          transform: translateY(-0.1rem);
+          text-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2); }
+
 /*.row {
   max-width: $grid-width;
   //margin: 0 auto;
@@ -242,26 +304,7 @@ body {
   background: linear-gradient(to right bottom, #bac5cc, #eef2f3);
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 75%);
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 75%);
-  grid-column: 1 / -1;
-  /*@media only screen and (max-width: $bp-mobile) {
-    clip-path: none;
-  } */
-  /*@media only screen and (max-width: $bp-mobile) {
-   display: grid;
-   grid-template-columns: 1fr;
-   grid-template-rows: 8rem 1fr 1fr;
-  } */
-  /*&__text-box {
-    position: relative;
-margin-top: 50%;
-    left: 15%;
-  }
-
-  &__img {
-    position: relative;
-    bottom: 0;
-    right: 0;
-  } */ }
+  grid-column: 1 / -1; }
   @media only screen and (max-width: 38em) {
     .header {
       -webkit-clip-path: none;
@@ -271,6 +314,8 @@ margin-top: 50%;
     .header {
       -webkit-clip-path: none;
       clip-path: none; } }
+  .header#case1 {
+    background-color: aqua; }
   .header__nav {
     display: flex;
     justify-content: flex-end;
@@ -352,6 +397,54 @@ margin-top: 50%;
         justify-self: center;
         padding: 0;
         margin: 0; } }
+
+.header-case1 {
+  background: blue; }
+  .header-case1__nav {
+    display: flex;
+    justify-content: flex-end;
+    height: 80px;
+    align-items: center; }
+    @media only screen and (max-width: 54em) {
+      .header-case1__nav {
+        justify-content: space-around; } }
+    @media only screen and (max-width: 38em) {
+      .header-case1__nav {
+        justify-content: space-around;
+        padding: 2rem; } }
+  .header-case1__navigation {
+    display: flex;
+    flex-direction: row; }
+    .header-case1__navigation > li {
+      list-style: none;
+      font-family: "Open Sans", sans-serif;
+      text-transform: uppercase;
+      font-size: 1.6rem;
+      text-decoration: none;
+      margin-right: 2rem;
+      margin-left: 2rem;
+      font-size: 1.4rem;
+      justify-content: space-around; }
+      @media only screen and (max-width: 38em) {
+        .header-case1__navigation > li {
+          justify-content: space-around; } }
+      @media only screen and (max-width: 30em) {
+        .header-case1__navigation > li {
+          font-size: 1.4rem;
+          justify-content: space-around; } }
+      .header-case1__navigation > li > a {
+        text-decoration: none;
+        color: #fff;
+        display: inline-block;
+        transition: all 0.2s; }
+      .header-case1__navigation > li > a:hover {
+        transform: translateY(-0.3rem);
+        text-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+        color: #ff2956; }
+      .header-case1__navigation > li > a:active {
+        transform: translateY(-0.1rem);
+        text-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+        color: #ff2956; }
 
 .container {
   display: grid;
@@ -443,43 +536,3 @@ margin-top: 50%;
         .container .project2__btn {
           margin-top: 1.6rem;
           margin-bottom: 1.6rem; } }
-  .container .footer {
-    grid-column: 1 / -1;
-    height: 10rem;
-    padding-right: 1.6rem;
-    padding-left: 1.6rem; }
-    .container .footer__nav {
-      display: flex;
-      justify-content: space-around;
-      flex-direction: row;
-      align-items: center;
-      height: 100%; }
-      .container .footer__nav > li {
-        margin-top: 2rem;
-        list-style: none;
-        font-family: 'Open Sans', sans-serif;
-        text-transform: uppercase;
-        font-size: 1.6rem;
-        text-decoration: none;
-        /*&:not(first-child) {
-        margin-left: 4rem;
-      } */ }
-        @media only screen and (max-width: 38em) {
-          .container .footer__nav > li {
-            font-size: 1.4rem;
-            /*margin-right: 2rem;
-        &:not(:first-child) {
-          margin-left: 2rem;
-        } */ } }
-        .container .footer__nav > li > a {
-          text-decoration: none;
-          color: rgba(74, 74, 74, 0.5);
-          display: inline-block;
-          transition: all 0.2s; }
-          .container .footer__nav > li > a:hover {
-            transform: translateY(-0.3rem);
-            text-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
-            color: #ff2956; }
-          .container .footer__nav > li > a:active {
-            transform: translateY(-0.1rem);
-            text-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2); }

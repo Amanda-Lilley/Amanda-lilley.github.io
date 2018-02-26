@@ -1,4 +1,6 @@
 .header {
+
+  
   //height: 90vh;
   background: linear-gradient( to right bottom, $color-gray-dark, $color-gray-light);
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 75%);
@@ -13,17 +15,11 @@
     -webkit-clip-path: none;
     clip-path: none;
   }
-  /*@media only screen and (max-width: $bp-mobile) {
-    clip-path: none;
-  } */
-  //position: relative;
-  //display: grid;
-  //grid-template-rows: 1fr, auto;
-  /*@media only screen and (max-width: $bp-mobile) {
-   display: grid;
-   grid-template-columns: 1fr;
-   grid-template-rows: 8rem 1fr 1fr;
-  } */
+
+  &#case1 {
+    background-color: aqua;
+  }
+  
   &__nav {
     display: flex;
     justify-content: flex-end;
@@ -122,15 +118,5 @@
       margin: 0;
     }
   }
-  /*&__text-box {
-    position: relative;
-margin-top: 50%;
-    left: 15%;
-  }
-
-  &__img {
-    position: relative;
-    bottom: 0;
-    right: 0;
-  } */
+  
 }
