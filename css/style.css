@@ -264,7 +264,7 @@ margin-top: 50%;
       -webkit-clip-path: none;
       clip-path: none; } }
   .header#case1 {
-    background: aqua; }
+    background: #91d3c1; }
   .header__nav {
     display: flex;
     justify-content: flex-end;
@@ -349,9 +349,6 @@ margin-top: 50%;
         padding: 0;
         margin: 0; } }
 
-/*.header#case1 {
-  background: aqua;
-}  */
 .container {
   display: grid;
   grid-template-rows: repeat(4, min-content);
