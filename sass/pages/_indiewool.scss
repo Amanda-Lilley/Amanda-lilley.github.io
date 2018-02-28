@@ -129,3 +129,68 @@
 
 
 }
+//COMPARISON SECTION========================
+.comparison {
+  margin-top: 4rem;
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template-columns: 1fr min-content 1fr;
+  justify-items: center;
+  align-items: center;
+
+  &__h3 {
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+    padding: 2.4rem 0 2.4rem 0;
+
+  }
+
+  &__span {
+    color: $color-indiewool;
+    grid-column: 2 / 3;
+    font-size: 4rem;
+  }
+
+  &__ul {
+    padding: 2.4rem 0 2.4rem 0;
+    list-style: none;
+
+    >li {
+      margin: 0 0 1.6rem 0;
+    }
+
+    >li::before {
+      content: "\2022";
+      color: $color-indiewool;
+      display: inline-block;
+      width: 4rem;
+      //margin-left: -8rem;
+      text-align: center;
+    }
+    
+    }
+  
+
+  &__img {
+    
+
+  }
+
+  &__slow {
+    display: grid;
+    grid-column: 3 / -1;
+   justify-items: center;
+    
+
+  }
+
+  &__fast {
+    display: grid;
+    grid-column: 1 / 2;
+    justify-items: center;
+
+  }
+
+}
