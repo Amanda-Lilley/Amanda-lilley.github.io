@@ -126,7 +126,7 @@ body {
   color: rgba(74, 74, 74, 0.5);
   font-weight: 400; }
 
-.h3 {
+.h4 {
   font-size: 1.8rem;
   text-transform: uppercase;
   font-family: "Open Sans", sans-serif;
@@ -392,9 +392,51 @@ margin-top: 50%;
     text-align: center;
     font-size: 1.6rem; }
 
+.problem {
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template-columns: 1fr repeat(8, minmax(min-content, 14rem)) 1fr;
+  grid-template-rows: min-content 1fr auto; }
+  .problem__h4 {
+    padding: 2.4rem 0 2.4rem 0;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    font-family: "Open Sans", sans-serif;
+    grid-column: 1 / span2; }
+  .problem__source {
+    font-size: 1.2rem; }
+  .problem__quotation {
+    width: 20%; }
+  .problem__quote {
+    grid-column: 1 / 5;
+    grid-row: 2 / 3;
+    background: #91d3c1;
+    border-radius: 1rem;
+    color: #fff;
+    padding: 2.4rem;
+    font-size: 2.4rem;
+    z-index: 999; }
+  .problem__list {
+    grid-column: 5 / -1;
+    grid-row: 2 / 3;
+    padding: 0 2.4rem; }
+  .problem__h3 {
+    border-bottom: 0.2rem solid #91d3c1;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.8rem; }
+  .problem__ul {
+    padding: 2.4rem 0 2.4rem 0;
+    list-style-type: none; }
+    .problem__ul > li {
+      margin: 0 0 1.6rem 0; }
+  .problem__figures {
+    font-family: "Open Sans", sans-serif;
+    color: #91d3c1;
+    font-weight: bold; }
+
 .container {
   display: grid;
-  grid-template-rows: repeat(4, min-content);
+  grid-template-rows: repeat(8, min-content);
   grid-template-columns: [full-start] 1fr [center-start] repeat(8, [col-start] minmax(min-content, 14rem) [col-end]) [center-end] 1fr [full-end]; }
   .container .project1 {
     grid-column: 1 / -1;

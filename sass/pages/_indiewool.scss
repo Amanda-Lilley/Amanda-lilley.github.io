@@ -52,3 +52,80 @@
     
   }
 }
+//PROBLEMS SECTION========================
+.problem {
+  //background: $color-gray-light;
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template-columns: 1fr repeat(
+      8,
+      minmax(min-content, 14rem)
+    ) 1fr;
+    grid-template-rows: min-content 1fr auto;
+
+    &__h4 {
+      padding: 2.4rem 0 2.4rem 0;
+    //margin-left: 4rem;
+    font-size: 1.8rem;
+  text-transform: uppercase;
+  font-family: "Open Sans", sans-serif;
+  grid-column: 1 / span2;
+
+    }
+
+    
+    &__source {
+      font-size: 1.2rem;
+
+    }
+
+    &__quotation {
+      //margin-top: -5rem;
+      width: 20%;
+      
+
+}
+    
+  &__quote {
+    grid-column: 1 / 5;
+    grid-row: 2 / 3;
+    background: #91d3c1;
+    border-radius: 1rem;
+    color: #fff;
+    padding: 2.4rem;
+    //margin-left: 4rem;
+    font-size: 2.4rem;
+    z-index: 999;
+  }
+
+  &__list {
+    grid-column: 5 / -1;
+    grid-row: 2 / 3;
+    padding: 0 2.4rem;
+  }
+
+  &__h3 {
+    border-bottom: .2rem solid $color-indiewool;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.8rem;
+
+  }
+
+  &__ul {
+    padding: 2.4rem 0 2.4rem 0;
+    list-style-type: none;
+
+    >li {
+      margin: 0 0 1.6rem 0;
+    }
+    
+  }
+
+  &__figures {
+    font-family: "Open Sans", sans-serif;
+    color: $color-indiewool;
+    font-weight: bold; 
+  }
+
+
+}
