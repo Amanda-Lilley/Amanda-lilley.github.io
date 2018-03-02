@@ -594,6 +594,21 @@ margin-top: 50%;
       .survey__charts-4 > img {
         width: 80%; }
 
+.stories {
+  padding-top: 4rem;
+  display: grid;
+  grid-column: 1 / -1; }
+  .stories__table {
+    margin-top: 4rem;
+    border-collapse: collapse;
+    margin: 0 auto; }
+    .stories__table > table, .stories__table th, .stories__table td {
+      border: 1px solid #bac5cc;
+      padding: 1rem; }
+    .stories__table-head {
+      background: #91d3c1;
+      color: #fff; }
+
 .sources {
   grid-column: 1 / -1;
   background: #eef2f3; }

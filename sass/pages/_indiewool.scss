@@ -274,10 +274,8 @@
     grid-row:  1 / 2;
     margin: 4rem 0 4rem 0;
   }
-
-  
-  
   }
+
   &__img1 {
     //display: grid;
     grid-column: 2 / 3;
@@ -361,6 +359,33 @@
         }
         
 
+      }
+    }
+  }
+
+  //STORIES SECTION========================
+  .stories {
+    padding-top: 4rem;
+    display: grid;
+    grid-column: 1 / -1;
+
+    &__table {
+      margin-top: 4rem;      
+      border-collapse: collapse;
+      margin: 0 auto;
+     
+
+
+
+      >table, th, td {
+       
+        border: 1px solid $color-gray-dark;
+        padding: 1rem;
+      }
+
+      &-head {
+        background:$color-indiewool;
+        color: $color-white;
       }
     }
   }
