@@ -616,51 +616,42 @@ margin-top: 50%;
       background: #91d3c1;
       color: #fff; }
 
-.persona {
-  padding-top: 4rem;
-  background: #91d3c1;
-  grid-column: 1 / -1;
-  display: grid;
-  grid-gap: 2rem; }
-  .persona__wrapper {
-    margin-top: 4rem;
+.personas {
+  grid-column: 1 / -1; }
+  .personas__grid {
+    background: lightcoral;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    justify-items: center; }
-  .persona__person1 {
-    display: grid;
-    grid-column: 1 / -1;
-    grid-row: 1 / 2;
-    background: #fff;
-    display: grid;
-    grid-template-columns: 1fr minmax(min-content, 1fr) 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
-    grid-column-gap: 2rem; }
-    .persona__person1-img {
-      width: 100%;
-      grid-column: 1 / 2;
-      grid-row: 1 / -1; }
-    .persona__person1-quote {
+    grid-gap: 2rem; }
+    .personas__grid-quote {
       grid-column: 2 / -1;
-      grid-row: 1 / 2; }
-    .persona__person1-habits {
-      margin-top: 2rem; }
-    .persona__person1-brands {
-      grid-column: 2 / -1;
-      grid-row: 4 / 5; }
-      .persona__person1-brands > .logos {
-        display: flex;
-        align-items: center;
-        justify-content: space-around; }
-        .persona__person1-brands > .logos > img {
+      padding: 1.6rem; }
+    .personas__grid-1 {
+      border: 1px solid #000;
+      display: grid;
+      grid-template-columns: 1fr 1fr 2fr;
+      grid-template-rows: 1fr 1fr 1fr 1fr 1fr; }
+      .personas__grid-1 > img {
+        grid-row: 1 / 5;
+        width: 100%; }
+      .personas__grid-1 > ul {
+        padding-left: 1.6rem;
+        grid-column: 2 / 3;
+        grid-row: 2 / 3;
+        list-style: none; }
+      .personas__grid-1 > .logos {
+        background: lightblue;
+        grid-column: 1 / -1;
+        grid-row: 5 / -1; }
+        .personas__grid-1 > .logos > img {
           width: 20%; }
-    .persona__person1-list {
-      margin-top: 2rem; }
-      .persona__person1-list > ul {
-        list-style-type: none; }
-  .persona-list {
-    font-weight: 600; }
+    .personas__grid-2 {
+      border: 1px solid #000; }
+    .personas__grid-3 {
+      border: 1px solid #000; }
+    .personas__grid-4 {
+      border: 1px solid #000; }
 
 .sources {
   grid-column: 1 / -1;
