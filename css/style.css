@@ -649,8 +649,12 @@ margin-top: 50%;
     .persona__person1-brands {
       grid-column: 2 / -1;
       grid-row: 4 / 5; }
-      .persona__person1-brands > img {
-        width: 50%; }
+      .persona__person1-brands > .logos {
+        display: flex;
+        align-items: center;
+        justify-content: space-around; }
+        .persona__person1-brands > .logos > img {
+          width: 20%; }
     .persona__person1-list {
       margin-top: 2rem; }
       .persona__person1-list > ul {
