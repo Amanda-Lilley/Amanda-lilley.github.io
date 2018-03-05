@@ -90,3 +90,9 @@ body {
   line-height: 1.5;
   color: $color-text;
 }
+
+.h6 {
+  font-weight: 600;
+  font-size: 1.8rem;
+  text-decoration: underline solid $color-indiewool;
+}

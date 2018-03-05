@@ -368,15 +368,17 @@
     padding-top: 4rem;
     display: grid;
     grid-column: 1 / -1;
+    padding-bottom: 8rem;
+
+    &__h4 {
+      margin-bottom: 4rem;
+    }
 
     &__table {
-      margin-top: 4rem;      
+
       border-collapse: collapse;
       margin: 0 auto;
      
-
-
-
       >table, th, td {
        
         border: 1px solid $color-gray-dark;
@@ -389,7 +391,92 @@
       }
     }
   }
+//PERSONAS SECTION========================
 
+.persona {
+  padding-top: 4rem;
+  background: $color-indiewool;
+  grid-column: 1 / -1;
+  display: grid;
+  grid-gap: 2rem;
+
+  
+ 
+
+  &__wrapper {
+    margin-top: 4rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-items: center;
+
+  }
+
+  
+
+  &__person1 {
+    display: grid;
+    grid-column: 1 / -1;
+    grid-row: 1 / 2;
+    background: $color-white;
+    
+    display: grid;
+    grid-template-columns: 1fr minmax(min-content, 1fr) 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 2rem;
+
+    &-img{
+      width: 100%;
+      grid-column: 1 / 2;
+      grid-row: 1 / -1;
+
+    }
+
+    &-quote {
+      grid-column: 2 / -1;
+      grid-row: 1 / 2;
+
+    }
+
+    &-goals {
+
+    }
+
+    &-frustrations {
+
+    }
+
+    &-habits {
+      margin-top: 2rem;
+
+    }
+
+    &-brands {
+      grid-column: 2 / -1;
+      grid-row: 4 / 5;
+      //display: flex;
+
+      >img {
+        width: 50%;
+        
+      }
+    }
+
+    &-list {
+      margin-top: 2rem;
+   
+      >ul {
+        list-style-type: none;
+      }
+    }
+  }
+
+  
+
+  &-list {
+    font-weight: 600;
+  }
+}
 
   
 

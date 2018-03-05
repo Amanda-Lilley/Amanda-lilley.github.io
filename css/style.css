@@ -141,6 +141,11 @@ body {
   line-height: 1.5;
   color: #4a4a4a; }
 
+.h6 {
+  font-weight: 600;
+  font-size: 1.8rem;
+  text-decoration: underline solid #91d3c1; }
+
 .u-center-text {
   text-align: center; }
 
@@ -597,9 +602,11 @@ margin-top: 50%;
 .stories {
   padding-top: 4rem;
   display: grid;
-  grid-column: 1 / -1; }
+  grid-column: 1 / -1;
+  padding-bottom: 8rem; }
+  .stories__h4 {
+    margin-bottom: 4rem; }
   .stories__table {
-    margin-top: 4rem;
     border-collapse: collapse;
     margin: 0 auto; }
     .stories__table > table, .stories__table th, .stories__table td {
@@ -608,6 +615,48 @@ margin-top: 50%;
     .stories__table-head {
       background: #91d3c1;
       color: #fff; }
+
+.persona {
+  padding-top: 4rem;
+  background: #91d3c1;
+  grid-column: 1 / -1;
+  display: grid;
+  grid-gap: 2rem; }
+  .persona__wrapper {
+    margin-top: 4rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-items: center; }
+  .persona__person1 {
+    display: grid;
+    grid-column: 1 / -1;
+    grid-row: 1 / 2;
+    background: #fff;
+    display: grid;
+    grid-template-columns: 1fr minmax(min-content, 1fr) 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 2rem; }
+    .persona__person1-img {
+      width: 100%;
+      grid-column: 1 / 2;
+      grid-row: 1 / -1; }
+    .persona__person1-quote {
+      grid-column: 2 / -1;
+      grid-row: 1 / 2; }
+    .persona__person1-habits {
+      margin-top: 2rem; }
+    .persona__person1-brands {
+      grid-column: 2 / -1;
+      grid-row: 4 / 5; }
+      .persona__person1-brands > img {
+        width: 50%; }
+    .persona__person1-list {
+      margin-top: 2rem; }
+      .persona__person1-list > ul {
+        list-style-type: none; }
+  .persona-list {
+    font-weight: 600; }
 
 .sources {
   grid-column: 1 / -1;
