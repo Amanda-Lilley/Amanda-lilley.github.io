@@ -398,56 +398,103 @@
   &__grid {
     background: lightcoral;
     display:grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    grid-gap: 2rem;
+    grid-template-columns: 1fr 8fr 1fr;
+    grid-template-rows: repeat (4, 1fr);
 
-    &-quote {
-      grid-column: 2 / -1;
-      padding: 1.6rem;
-    }
+    
 
     &-1 {
+      background: lightgreen;
       border: 1px solid #000;
       display: grid;
-      grid-template-columns: 1fr 1fr 2fr;
-      grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+      grid-column: 2 / 3;
+      grid-row: 1 / 2;
 
-      >img {
-        grid-row: 1 / 5;
-        width: 100%;
+      &-layout {
+        display: grid;
+        grid-template-columns: 2fr 3fr;
+        grid-template-rows: 1fr;
 
-      }
-
-      >ul {
-        padding-left: 1.6rem;
-        grid-column: 2 / 3;
-        grid-row: 2 / 3;
-        list-style: none;
-      }
-
-      >.logos {
-        background: lightblue;
-        grid-column: 1 / -1;
-        grid-row: 5 / -1;
-
-        >img {
-          width: 20%;
+        &-logos {
+          z-index: 999;
         }
 
+        >img {
+          width: 100%;
+        }
+
+        &-content {
+          background: lightseagreen;
+          display: grid;
+          grid-template-columns: 1.5fr 3fr;
+          grid-template-rows: repeat(4, 1fr);
+          justify-content: center;
+          grid-gap: 1.6rem;
+          padding: 1.6rem;
+          
+          &-quote {
+            display: grid;
+            grid-column: 1 / -1;
+            //padding: 0 1.6rem 0 1.6rem;
+            font-size: 1.4rem;
+            text-align: center;
+            border-bottom: 1px solid $color-gray-light;
+            
+          }
+
+          >ul {
+            font-size: 1.4rem;
+            list-style: none;
+
+            >li>span {
+              font-weight: 600;
+            }
+          }
+
+          &-habits {
+            font-size: 1.4rem;
+          }
+
+          &-goals {
+            font-size: 1.4rem;
+          }
+          
+          &-frustrations {
+            font-size: 1.4rem;
+          }
+
+          &-logos {
+            grid-column: 1 / -1;
+            display: flex;
+            justify-content: space-around;
+            align-items: baseline;
+
+            >img {
+              width: 20%;
+            }
+          }
+        }
       }
+     
+
     }
 
     &-2 {
       border: 1px solid #000;
+      grid-column: 2 / 3;
+      grid-row: 2 / 3;
     }
 
     &-3 {
       border: 1px solid #000;
+      grid-column: 2 / 3;
+      grid-row: 3 / 4;
     }
 
     &-4 {
       border: 1px solid #000;
+      grid-column: 2 / 3;
+      grid-row: 4 / 5;
     }
   }
 }
