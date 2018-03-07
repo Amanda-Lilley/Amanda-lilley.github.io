@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="468px" height="300px" viewBox="0 0 468 300" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 27</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="149.475358" cy="149.475358" r="148.84482"></circle>
+        <polygon id="path-3" points="0.315933966 0.142863202 16.3939904 150.209559 193.700923 150.209559 192.046328 71.8256988"></polygon>
+        <circle id="path-5" cx="9" cy="10.5" r="9"></circle>
+    </defs>
+    <g id="personas" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-27">
+            <g id="Group-22-Copy">
+                <g id="Group-19-Copy">
+                    <text id="9%" font-family="Roboto-Light, Roboto" font-size="16" font-weight="300" letter-spacing="0.0799999908" fill="#FFFFFF">
+                        <tspan x="138.57625" y="75">9%</tspan>
+                    </text>
+                    <text id="10.4%" font-family="Roboto-Light, Roboto" font-size="16" font-weight="300" letter-spacing="0.0799999908" fill="#FFFFFF">
+                        <tspan x="66.6789063" y="122">10.4%</tspan>
+                    </text>
+                    <text id="12.4%" font-family="Roboto-Light, Roboto" font-size="16" font-weight="300" letter-spacing="0.0799999908" fill="#FFFFFF">
+                        <tspan x="48.6789063" y="197">12.4%</tspan>
+                    </text>
+                    <text id="44.8%" font-family="Roboto-Light, Roboto" font-size="16" font-weight="300" letter-spacing="0.0799999908" fill="#FFFFFF">
+                        <tspan x="228.678906" y="197">44.8%</tspan>
+                    </text>
+                    <g id="Page-1">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <use id="Mask" fill="#D8D8D8" opacity="0.265041978" xlink:href="#path-1"></use>
+                        <g mask="url(#mask-2)">
+                            <g transform="translate(-40.354438, -21.812131)">
+                                <polygon id="Fill-1" stroke="none" fill="#5CC1B5" points="192.187001 17.0960843 192.187001 173.393866 241.116757 317.610539 341.775858 317.610539 341.775858 17.0960843"></polygon>
+                                <path d="M191.555959,16.4650418 L191.555959,173.393362 L240.663527,318.241834 L342.405892,318.241834 L342.405892,16.4650418 L191.555959,16.4650418 Z M192.817035,173.289954 L192.817035,17.7273791 L341.144816,17.7273791 L341.144816,316.979496 L241.568979,316.979496 L192.817035,173.289954 Z" id="Fill-2" stroke="#FFFFFF" stroke-width="1" fill="#FFFFFF"></path>
+                                <g id="Group-24" stroke="none" stroke-width="1" fill="none" transform="translate(0.000000, 0.320871)">
+                                    <path d="M256.835721,40.896078 L193.447699,173.07287 L192.55167,171.683972 L192.026852,170.86769 L191.578837,170.173241 L191.05402,169.344775 L190.081187,167.834044 L188.711542,165.701964 C184.487401,159.14734 176.499935,146.756908 161.421034,123.328392 C149.094224,104.17622 132.005655,77.6531414 108.337668,40.896078 L108.337668,22.0728114 C158.506281,22.1546483 193.032767,23.3924325 211.917124,25.7861639 C230.801481,28.1798954 245.774347,33.2165334 256.835721,40.896078 Z" id="Fill-3" fill="#2E464F"></path>
+                                    <polyline id="Fill-7" fill="#BEE6E1" points="87.5425215 0.683503291 94.0622853 11.4152616 108.337668 34.9469432 160.911934 121.582877 187.520641 165.443107 188.869993 167.64999 189.828411 169.214985 190.345452 170.071256 190.786829 170.791331 191.30387 171.636252 192.174012 173.060007 51.3244135 122.087307 50.4542709 121.582877 35.8131764 113.045391 28.5241561 108.795564 28.5241561 36.0945225 57.970285 11.4152616 70.782819 0.683503291"></polyline>
+                                    <polyline id="Fill-9" fill-opacity="0.663185009" fill="#9DDAD3" points="87.8972622 0.0529651997 108.876526 34.6203245 193.64985 174.265596 51.1104088 122.680013 50.1381191 122.128923 27.8939963 109.157493 27.8939963 35.8006918 70.5536814 0.0529651997"></polyline>
+                                    <polyline id="Fill-11" fill="#F7F7F7" points="71.0118304 1.31404138 29.1554508 36.3883533 29.1554508 108.433636 48.4379531 123.18319 193.795359 174.112918 87.1876546 1.31404138"></polyline>
+                                    <polygon id="Fill-13" stroke="#979797" fill="#35C1E6" opacity="0.610000014" points="192.174391 173.060511 51.3247918 250.213152 17.1117949 173.060511 51.3247918 122.087812"></polygon>
+                                    <g id="Group-17" transform="translate(0.000000, 100.886095)">
+                                        <mask id="mask-4" fill="white">
+                                            <use xlink:href="#path-3"></use>
+                                        </mask>
+                                        <use id="Clip-16" fill="#E29F4C" xlink:href="#path-3"></use>
+                                        <path d="M17.8287168,72.2372181 L51.6230363,148.444052 L190.647858,72.2927055 L51.5725933,21.9618939 L17.8287168,72.2372181 Z M51.0252862,150.209559 L16.3936121,72.1111105 L16.5878178,71.8235852 L51.0757293,20.4410361 L193.700923,72.0556232 L192.47768,72.7277768 L51.0252862,150.209559 Z" id="Fill-15" fill="#FFFFFF" mask="url(#mask-4)"></path>
+                                    </g>
+                                    <polyline id="Fill-18" fill="#7DCDC4" points="146.371599 335.398218 28.52403 260.94428 51.3242874 250.212522 192.173886 173.061142 192.186497 173.061142 192.186497 173.072491 241.116253 317.290425 184.78398 335.398218"></polyline>
+                                    <polygon id="Fill-20" fill="#FFFFFF" points="159.235459 344.273798 27.2159156 260.862436 51.0552998 249.642641 192.013351 172.429469 192.805307 172.429469 192.814135 172.962904 241.91918 317.694095"></polygon>
+                                    <polygon id="Fill-22" fill-opacity="0.949388587" fill="#C1C1C1" points="159.41037 342.892037 240.313452 316.886124 191.826334 173.970882 51.6274501 250.765377 29.8335315 261.025493"></polygon>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                    <path d="M152,152 L10,99" id="Path-2" stroke="#FFFFFF" stroke-width="3"></path>
+                    <path d="M152.5,150.5 L217.5,17.5" id="Path-4" stroke="#FFFFFF" stroke-width="3"></path>
+                    <path d="M151.925727,151.186149 L20.2725921,223.555367" id="Path-6" stroke="#FFFFFF" stroke-width="3"></path>
+                    <path d="M152.323899,151.376975 L74.427234,22.6329236" id="Path-3" stroke="#FFFFFF" stroke-width="3"></path>
+                    <path d="M152,151 L198.293144,291.691168" id="Path-5" stroke="#FFFFFF" stroke-width="3"></path>
+                    <circle id="Oval-2" stroke="#FFFFFF" stroke-width="3" cx="150" cy="150" r="148.5"></circle>
+                    <text id="10%" font-family="Roboto-Light, Roboto" font-size="16" font-weight="300" letter-spacing="0.1" fill="#4A4A4A">
+                        <tspan x="55.0726562" y="88">10%</tspan>
+                    </text>
+                    <text id="30%" font-family="Roboto-Light, Roboto" font-size="16" font-weight="300" letter-spacing="0.1" fill="#FFFFFF">
+                        <tspan x="214.072656" y="162">30%</tspan>
+                    </text>
+                    <text id="20%" font-family="Roboto-Light, Roboto" font-size="16" font-weight="300" letter-spacing="0.1" fill="#4A4A4A">
+                        <tspan x="110.072656" y="244">20%</tspan>
+                    </text>
+                    <text id="15%" font-family="Roboto-Light, Roboto" font-size="16" font-weight="300" letter-spacing="0.1" fill="#FFFFFF">
+                        <tspan x="46.0726562" y="162">15%</tspan>
+                    </text>
+                    <text id="25%" font-family="Roboto-Light, Roboto" font-size="16" font-weight="300" letter-spacing="0.1" fill="#FFFFFF">
+                        <tspan x="137.572656" y="56">25%</tspan>
+                    </text>
+                </g>
+                <g id="Group-21" transform="translate(341.000000, 84.000000)">
+                    <g id="Oval">
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-5"></use>
+                        <circle stroke="#979797" stroke-width="1" cx="9" cy="10.5" r="8.5"></circle>
+                    </g>
+                    <circle id="Oval-Copy" fill="#2E464F" cx="9" cy="37.5" r="9"></circle>
+                    <circle id="Oval-Copy-2" fill="#5CC1B5" cx="9" cy="65" r="9"></circle>
+                    <circle id="Oval-Copy-3" fill="#C4C4C4" cx="9" cy="93" r="9"></circle>
+                    <circle id="Oval-Copy-4" fill="#E29F4C" cx="9" cy="121" r="9"></circle>
+                    <text id="1---2-weeks" font-family="Roboto-Light, Roboto" font-size="18" font-weight="300" letter-spacing="0.112500004" fill="#4A4A4A">
+                        <tspan x="27" y="17">1 - 2 weeks</tspan>
+                    </text>
+                    <text id="3---4-weeks" font-family="Roboto-Light, Roboto" font-size="18" font-weight="300" letter-spacing="0.112500004" fill="#4A4A4A">
+                        <tspan x="27" y="44">3 - 4 weeks</tspan>
+                    </text>
+                    <text id="1---2-months" font-family="Roboto-Light, Roboto" font-size="18" font-weight="300" letter-spacing="0.112500004" fill="#4A4A4A">
+                        <tspan x="27" y="71.5">1 - 2 months</tspan>
+                    </text>
+                    <text id="2---4-months" font-family="Roboto-Light, Roboto" font-size="18" font-weight="300" letter-spacing="0.112500004" fill="#4A4A4A">
+                        <tspan x="27" y="99.5">2 - 4 months</tspan>
+                    </text>
+                    <text id="5+-months" font-family="Roboto-Light, Roboto" font-size="18" font-weight="300" letter-spacing="0.112500004" fill="#4A4A4A">
+                        <tspan x="27" y="127.5">5+ months</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
