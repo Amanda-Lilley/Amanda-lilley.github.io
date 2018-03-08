@@ -788,7 +788,7 @@ margin-top: 50%;
   .logo__grid {
     margin: 8rem 0 8rem 0;
     display: grid;
-    grid-template-columns: 1fr 8fr 1fr; }
+    grid-template-columns: 1fr 6fr 1fr; }
     .logo__grid-1 {
       display: grid;
       grid-column: 2 / 3;
@@ -798,6 +798,31 @@ margin-top: 50%;
       grid-column: 2 / 3;
       grid-row: 1 / 2;
       justify-self: end; }
+
+.typography {
+  grid-column: 1 / -1; }
+  .typography__wrapper {
+    margin: 4rem 0 4rem 0;
+    display: grid;
+    grid-template-columns: .5fr 3fr 3fr .5fr; }
+    .typography__wrapper-cormorant {
+      grid-column: 2 / 3;
+      text-align: center;
+      padding: 2rem;
+      font-family: "Cormorant Upright";
+      font-weight: 100;
+      font-size: 2.4rem; }
+      .typography__wrapper-cormorant > h3 {
+        font-weight: 100; }
+    .typography__wrapper-raleway {
+      grid-column: 3 / 4;
+      text-align: center;
+      padding: 2rem;
+      font-family: "Raleway";
+      font-weight: 100;
+      font-size: 2.4rem; }
+      .typography__wrapper-raleway > h3 {
+        font-weight: 100; }
 
 .sources {
   grid-column: 1 / -1;
