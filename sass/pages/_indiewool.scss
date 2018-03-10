@@ -457,20 +457,20 @@
 
 //SOURCES SECTION========================
 .ia {
+  
   margin-top: 8rem;
   margin-bottom: 8rem;
   display: grid;
   grid-column: 1 / -1;
 
 
-  &__p {
-    display: grid;
+  &__wrapper {
     padding-top: 4rem;
     grid-template-columns: 1fr 4fr 1fr;
     margin-bottom: 4rem;
 
     >p {
-      display: grid;
+
       grid-column: 2 / 3;
 
       >a {
@@ -479,8 +479,15 @@
       }
     }
 
-    
+  }
 
+  &__img {
+    display: grid;
+    grid-column: 1 / -1;
+    
+    >img {
+      width: 100%;
+    }
   }
 }
 //BRANDING SECTION========================

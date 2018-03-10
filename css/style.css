@@ -653,16 +653,19 @@ margin-top: 50%;
   margin-bottom: 8rem;
   display: grid;
   grid-column: 1 / -1; }
-  .ia__p {
-    display: grid;
+  .ia__wrapper {
     padding-top: 4rem;
     grid-template-columns: 1fr 4fr 1fr;
     margin-bottom: 4rem; }
-    .ia__p > p {
-      display: grid;
+    .ia__wrapper > p {
       grid-column: 2 / 3; }
-      .ia__p > p > a {
+      .ia__wrapper > p > a {
         color: #ff2956; }
+  .ia__img {
+    display: grid;
+    grid-column: 1 / -1; }
+    .ia__img > img {
+      width: 100%; }
 
 .branding {
   margin-top: 8rem;
