@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="700px" height="204px" viewBox="0 0 700 204" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 16</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="checkout-flow" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-40.000000, -128.000000)">
+        <g id="Group-16" transform="translate(38.000000, 127.774286)">
+            <text id="Extra-costs-too-high" font-family="Raleway-Light, Raleway" font-size="16" font-weight="300" letter-spacing="0.1" fill="#4A4A4A">
+                <tspan x="0.736" y="19.6219">Extra costs too high (shipping, tax, fees)</tspan>
+                <tspan x="291" y="38.6219"></tspan>
+                <tspan x="20.524" y="57.6219">Site wanted me to create an account</tspan>
+                <tspan x="291" y="76.6219"></tspan>
+                <tspan x="21.044" y="95.6219">Long complicated checkout process</tspan>
+                <tspan x="291" y="114.6219"></tspan>
+                <tspan x="62.376" y="133.6219">couldn’t calculate cost up front</tspan>
+                <tspan x="291" y="152.6219"></tspan>
+                <tspan x="73.904" y="171.6219">Not enough payment options </tspan>
+                <tspan x="291" y="190.6219"></tspan>
+            </text>
+            <path d="M299.251624,1.12189997 L299.251624,203" id="Line-6" stroke="#4A4A4A" stroke-linecap="square"></path>
+            <rect id="Rectangle" fill="#B6965D" x="299.751624" y="5.62189997" width="39" height="20"></rect>
+            <rect id="Rectangle-Copy" fill="#B6965D" x="299.751624" y="41.6219" width="73.151054" height="20"></rect>
+            <rect id="Rectangle-Copy-2" fill="#B6965D" x="299.751624" y="80.1219" width="146.651054" height="20"></rect>
+            <rect id="Rectangle-Copy-3" fill="#B6965D" x="299.751624" y="118.6219" width="161.143807" height="20"></rect>
+            <rect id="Rectangle-Copy-4" fill="#B6965D" x="299.751624" y="157.6219" width="39" height="20"></rect>
+            <text id="61%" font-family="Roboto-Light, Roboto" font-size="16" font-weight="300" letter-spacing="0.100000001" fill="#4A4A4A">
+                <tspan x="672.645312" y="21.6219">61%</tspan>
+            </text>
+            <text id="35%" font-family="Roboto-Light, Roboto" font-size="16" font-weight="300" letter-spacing="0.100000001" fill="#4A4A4A">
+                <tspan x="505.645312" y="56.6219">35%</tspan>
+            </text>
+            <text id="27%" font-family="Roboto-Light, Roboto" font-size="16" font-weight="300" letter-spacing="0.100000001" fill="#4A4A4A">
+                <tspan x="481.145312" y="96.1219">27%</tspan>
+            </text>
+            <path d="M299.251624,1.12189997 L299.251624,197" id="Line-6" stroke="#4A4A4A" stroke-linecap="square"></path>
+            <rect id="Rectangle" fill="#E29F4C" x="299.751624" y="5.62189997" width="368" height="20"></rect>
+            <rect id="Rectangle-Copy" fill="#E29F4C" x="299.751624" y="41.6219" width="201.090826" height="20"></rect>
+            <rect id="Rectangle-Copy-2" fill="#E29F4C" x="299.751624" y="80.1219" width="176.636874" height="20"></rect>
+            <rect id="Rectangle-Copy-3" fill="#E29F4C" x="299.751624" y="118.6219" width="161.143807" height="20"></rect>
+            <rect id="Rectangle-Copy-4" fill="#E29F4C" x="299.751624" y="157.6219" width="43" height="20"></rect>
+            <text id="24%" font-family="Roboto-Light, Roboto" font-size="16" font-weight="300" letter-spacing="0.100000001" fill="#4A4A4A">
+                <tspan x="464.645312" y="134.1219">24%</tspan>
+            </text>
+            <text id="8%" font-family="Roboto-Light, Roboto" font-size="16" font-weight="300" letter-spacing="0.100000001" fill="#4A4A4A">
+                <tspan x="347.1125" y="173.6219">8%</tspan>
+            </text>
+        </g>
+    </g>
+</svg>
