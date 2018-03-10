@@ -838,6 +838,23 @@
 
   }
 
+  //RESPONSIVE DESIGN SECTION========================
+
+  .responsive {
+    grid-column: 1 / -1;
+
+    &__wrapper {
+      grid-template-columns: 1fr 4fr 1fr;
+
+      >video {
+        
+        grid-column: 2 / 3;
+        width: 20%;
+      }
+    }
+  }
+
+
 
     
 
