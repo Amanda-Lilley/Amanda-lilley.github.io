@@ -42,6 +42,12 @@ order of media queries --> base +typography, layout + grid, components
 */
 html {
   font-size: 62.5%; }
+  @media (max-width: 44em) {
+    html {
+      font-size: 55%; } }
+  @media (min-width: 75em) {
+    html {
+      font-size: 70%; } }
 
 @media only screen and (max-width: 38em) {
   .container {
@@ -490,6 +496,7 @@ margin-top: 50%;
   grid-column: 1 / -1;
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
+  grid-template-rows: 1fr;
   justify-items: center;
   align-items: center; }
   .comparison__h3 {
@@ -498,13 +505,14 @@ margin-top: 50%;
     font-family: "Open Sans", sans-serif;
     text-align: center;
     padding: 2.4rem 0 2.4rem 0; }
-  .comparison__span {
-    color: #91d3c1;
-    grid-column: 2 / 3;
-    font-size: 4rem; }
+    .comparison__h3-span {
+      color: #91d3c1;
+      grid-column: 2 / 3;
+      font-size: 4rem; }
   .comparison__ul {
     padding: 2.4rem 0 2.4rem 0;
-    list-style: none; }
+    list-style: none;
+    white-space: nowrap; }
     .comparison__ul > li {
       margin: 0 0 1.6rem 0; }
     .comparison__ul > li::before {
@@ -574,33 +582,63 @@ margin-top: 50%;
     grid-template-rows: 1fr 1fr;
     grid-gap: 6rem;
     padding: 2rem; }
+    @media only screen and (max-width: 58em) {
+      .survey__charts {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        grid-gap: 0;
+        padding: 0; } }
     .survey__charts-1 {
       display: grid;
       grid-row: 1 / 2;
       justify-items: center; }
       .survey__charts-1 > img {
         max-width: 100%; }
+        @media only screen and (max-width: 58em) {
+          .survey__charts-1 > img {
+            max-width: 70%; } }
     .survey__charts-2 {
       display: grid;
       grid-row: 1 / 2;
       width: 100%;
       justify-items: center; }
+      @media only screen and (max-width: 58em) {
+        .survey__charts-2 {
+          grid-row: 2 /3;
+          padding-top: 8rem; } }
       .survey__charts-2 > img {
         max-width: 100%; }
+        @media only screen and (max-width: 58em) {
+          .survey__charts-2 > img {
+            max-width: 70%; } }
     .survey__charts-3 {
       display: grid;
       grid-row: 2 / 3;
       justify-items: center;
       padding-top: 4rem; }
+      @media only screen and (max-width: 58em) {
+        .survey__charts-3 {
+          grid-row: 3 / 4;
+          padding-top: 8rem; } }
       .survey__charts-3 > img {
         max-width: 100%; }
+        @media only screen and (max-width: 58em) {
+          .survey__charts-3 > img {
+            max-width: 70%; } }
     .survey__charts-4 {
       display: grid;
       grid-row: 2 / 3;
       justify-items: center;
       padding-top: 4rem; }
+      @media only screen and (max-width: 58em) {
+        .survey__charts-4 {
+          grid-row: 4 / 5;
+          padding: 8rem 0 8rem; } }
       .survey__charts-4 > img {
         max-width: 100%; }
+        @media only screen and (max-width: 58em) {
+          .survey__charts-4 > img {
+            max-width: 70%; } }
 
 .stories {
   padding-top: 4rem;
@@ -841,11 +879,17 @@ margin-top: 50%;
       display: grid;
       grid-column: 2 / 3;
       grid-row: 1 / 2; }
+      @media only screen and (min-width: 75em) {
+        .logo__grid-1 {
+          width: 100%; } }
     .logo__grid-2 {
       display: grid;
       grid-column: 2 / 3;
       grid-row: 1 / 2;
       justify-self: end; }
+      @media only screen and (min-width: 75em) {
+        .logo__grid-2 {
+          width: 30%; } }
 
 .typography {
   grid-column: 1 / -1; }

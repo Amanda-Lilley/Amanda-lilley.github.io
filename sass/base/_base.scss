@@ -27,6 +27,14 @@ order of media queries --> base +typography, layout + grid, components
 
 html {
   font-size: 62.5%;
+
+  @include respond(small) {
+    font-size: 55%;
+  }
+
+  @include respond(xlrg) {
+    font-size: 70%;
+  }
 } 
 
 .container {
@@ -65,3 +73,5 @@ body {
   box-sizing: border-box;
 } */
 
+
+//

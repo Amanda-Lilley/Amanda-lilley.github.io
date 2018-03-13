@@ -44,7 +44,7 @@
     @media (max-width: 58em) { @content}; //930
   }
   @if $breakpoint == xlrg {
-    @media (max-width: 75em) { @content}; //1200
+    @media (min-width: 75em) { @content}; //1200
   }
 
 }
