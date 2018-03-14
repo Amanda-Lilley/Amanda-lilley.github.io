@@ -5,6 +5,13 @@
     align-self: center;
     border-top: 1px solid $color-gray-dark;
   }
+
+  .quote:before,
+  .quote:after {
+    content: " ";
+    align-self: center;
+    border-top: 2px solid $color-indiewool;
+  }
 }
 .indie {
   display: grid;
@@ -63,33 +70,7 @@
 //PROBLEMS SECTION========================
 .problem {
   grid-column: 1 / -1;
- 
- 
-
- &__icons {
-   margin-top: 4rem;
-   grid-column: 1 / -1;
-   display: grid;
-   grid-template-columns: auto 2fr 2fr auto;
-   grid-gap: 2.4rem;
-
-   &-1 {
-     display:grid;
-     grid-column: 2 / 3;
-     grid-template-columns: min-content 1fr;
-     grid-gap: 1.6rem;
-     
-   }
-
-   &-2 {
-    display:grid;
-    grid-column: 3 / 4;
-    grid-template-columns: min-content 1fr;
-     grid-gap: 1.6rem;
-  }
-   
- }
-
+  
  &__img {
    width: 8.8rem;
    
@@ -109,8 +90,16 @@
    font-size: 2.4rem;
    color: $color-indiewool;
    font-weight: bold;
-   border-bottom: 1px solid $color-gray-dark;
    padding: 2rem;
+ }
+
+ &__quote:after {
+   content: "";
+   display: block;
+   margin: 0 auto;
+   width: 100%;
+   border-bottom: 2px solid $color-indiewool;
+   padding-top: 2rem;
  }
 
  &__source {
@@ -121,7 +110,7 @@
  &__qmark {
   font-size: 3.2rem;
   font-family: 'Coiny', cursive;
-  color: $color-gray-dark;
+  color: $color-indiewool;
  }
 
  &__p {
@@ -188,14 +177,7 @@
     text-transform: uppercase;
     font-family: "Open Sans", sans-serif;
     text-align: center;
-    padding: 2.4rem 0 2.4rem 0;
-
-    // @media only screen and (max-width: $bp-medium) {
-    // grid-column: 1 / -1;
-    // grid-row: 2 / 3;
-    
-    // }
-   
+    padding-bottom: 2.4rem;
 
     &-span {
       color: $color-indiewool;
@@ -604,7 +586,7 @@
       
       max-width: 100%;
       margin-bottom: 4rem;
-    }
+        }
   }
 }
 //BRANDING SECTION========================

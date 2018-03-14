@@ -390,7 +390,12 @@ margin-top: 50%;
   .title:after {
     content: " ";
     align-self: center;
-    border-top: 1px solid #bac5cc; } }
+    border-top: 1px solid #bac5cc; }
+  .quote:before,
+  .quote:after {
+    content: " ";
+    align-self: center;
+    border-top: 2px solid #91d3c1; } }
 
 .indie {
   display: grid;
@@ -428,22 +433,6 @@ margin-top: 50%;
 
 .problem {
   grid-column: 1 / -1; }
-  .problem__icons {
-    margin-top: 4rem;
-    grid-column: 1 / -1;
-    display: grid;
-    grid-template-columns: auto 2fr 2fr auto;
-    grid-gap: 2.4rem; }
-    .problem__icons-1 {
-      display: grid;
-      grid-column: 2 / 3;
-      grid-template-columns: min-content 1fr;
-      grid-gap: 1.6rem; }
-    .problem__icons-2 {
-      display: grid;
-      grid-column: 3 / 4;
-      grid-template-columns: min-content 1fr;
-      grid-gap: 1.6rem; }
   .problem__img {
     width: 8.8rem; }
   .problem__wrapper {
@@ -456,15 +445,21 @@ margin-top: 50%;
     font-size: 2.4rem;
     color: #91d3c1;
     font-weight: bold;
-    border-bottom: 1px solid #bac5cc;
     padding: 2rem; }
+  .problem__quote:after {
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    border-bottom: 2px solid #91d3c1;
+    padding-top: 2rem; }
   .problem__source {
     font-size: 1.2rem;
     color: #bac5cc; }
   .problem__qmark {
     font-size: 3.2rem;
     font-family: 'Coiny', cursive;
-    color: #bac5cc; }
+    color: #91d3c1; }
   .problem__p {
     display: grid;
     grid-column: 2 / 3; }
@@ -508,7 +503,7 @@ margin-top: 50%;
     text-transform: uppercase;
     font-family: "Open Sans", sans-serif;
     text-align: center;
-    padding: 2.4rem 0 2.4rem 0; }
+    padding-bottom: 2.4rem; }
     .comparison__h3-span {
       color: #91d3c1;
       grid-column: 2 / 3;
