@@ -19,6 +19,13 @@
     -webkit-clip-path: none;
     clip-path: none;
   }
+  
+  &#case2 {
+    background: linear-gradient( to right bottom, $color-orange-light, $color-orange-dark);
+    -webkit-clip-path: none;
+    clip-path: none;
+  }
+
 
 
   &__nav {

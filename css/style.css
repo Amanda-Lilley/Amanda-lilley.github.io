@@ -301,6 +301,10 @@ margin-top: 50%;
     background: #91d3c1;
     -webkit-clip-path: none;
     clip-path: none; }
+  .header#case2 {
+    background: linear-gradient(to right bottom, #fc9d00, #f76400);
+    -webkit-clip-path: none;
+    clip-path: none; }
   .header__nav {
     display: flex;
     justify-content: flex-end;
@@ -1166,3 +1170,91 @@ margin-top: 50%;
           .container .footer__nav > li > a:active {
             transform: translateY(-0.1rem);
             text-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2); }
+
+@supports (display: grid) {
+  .quote2:before,
+  .quote2:after {
+    content: " ";
+    align-self: center;
+    border-top: 2px solid #f76400; } }
+
+.paycrave {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr auto;
+  padding: 4rem; }
+  .paycrave__img {
+    grid-row: 1 /2;
+    max-width: 80%;
+    margin: 0 auto;
+    object-fit: cover; }
+  .paycrave__content {
+    justify-self: end; }
+
+.problem2 {
+  grid-column: 1 / -1; }
+  .problem2__img {
+    width: 8.8rem; }
+  .problem2__wrapper {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: auto;
+    padding-top: 4rem; }
+  .problem2__quote {
+    grid-column: 2 / 3;
+    text-align: center;
+    font-size: 2.4rem;
+    color: #f76400;
+    font-weight: bold;
+    padding: 2rem;
+    max-width: 45rem;
+    margin: 0 auto; }
+  .problem2__quote:after {
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    border-bottom: 2px solid #f76400;
+    padding-top: 2rem; }
+  .problem2__source {
+    font-size: 1.2rem;
+    color: #bac5cc; }
+  .problem2__qmark {
+    font-size: 3.2rem;
+    font-family: 'Coiny', cursive;
+    color: #f76400; }
+  .problem2__p {
+    display: grid;
+    grid-column: 2 / 3; }
+  .problem2__ul {
+    grid-column: 2 / 3;
+    padding: 4rem 0 2.4rem 0;
+    list-style: none;
+    white-space: nowrap; }
+    .problem2__ul > li {
+      margin: 0 0 1.6rem 0; }
+    .problem2__ul > li::before {
+      content: "\2022";
+      color: #f76400;
+      display: inline-block;
+      width: 4rem;
+      text-align: center; }
+
+.pain-points {
+  margin-top: 4rem;
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template-columns: 1fr min-content 1fr;
+  grid-template-rows: 1fr;
+  justify-items: center;
+  align-items: center; }
+  @media only screen and (max-width: 58em) {
+    .pain-points {
+      grid-template-columns: 1fr;
+      grid-template-rows: auto; } }
+  .pain-points__h3 {
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+    padding-bottom: 2.4rem; }
