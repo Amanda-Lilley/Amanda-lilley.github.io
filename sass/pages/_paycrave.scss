@@ -164,22 +164,11 @@
 
       
 
-      // &-1 {
-      //   display: grid;
-      //   grid-column: 2 / 3;
-      //   grid-row: 1 / 2;
-      //   justify-items: center;
-
-        
-        
-      // }
-
-     
-
         }
 
 //STORIES SECTION========================
 .stories2 {
+  
   padding-top: 4rem;
   display: grid;
   grid-column: 1 / -1;
@@ -209,11 +198,12 @@
 
 //SOURCES SECTION========================
 .ia2 {
-  
+  background: $color-gray-light;
   margin-top: 8rem;
-  margin-bottom: 8rem;
+  
   display: grid;
   grid-column: 1 / -1;
+  padding: 8rem 0 8rem 0;
 
 
   &__wrapper {
@@ -338,21 +328,21 @@
   margin: 4rem 0 8rem 0;
   grid-row: 7 / 8;
   grid-column: 2 / 3;
-  width: 80%;
+  width: 100%;
 }
 
 &-6 {
   margin: 4rem 0 8rem 0;
   grid-row: 9 / 10;
   grid-column: 2 / 3;
-  width: 80%;
+  width: 100%;
 }
 
 &-7 {
   margin: 4rem 0 8rem 0;
   grid-row: 11 / 12;
   grid-column: 2 / 3;
-  width: 80%;
+  width: 100%;
 }
 }
 #paycrave-border {
