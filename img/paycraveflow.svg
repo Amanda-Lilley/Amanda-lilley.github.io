@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1144px" height="712px" viewBox="0 0 1144 712" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 3</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="51.48" y="18.48" width="94.9348095" height="94.9348095" rx="5"></rect>
+        <rect id="path-2" x="51.48" y="18.48" width="94.9348095" height="94.9348095" rx="5"></rect>
+        <rect id="path-3" x="0" y="0" width="150" height="53" rx="10"></rect>
+        <rect id="path-4" x="51.48" y="18.48" width="94.9348095" height="94.9348095" rx="5"></rect>
+        <rect id="path-5" x="0" y="0" width="150" height="53" rx="10"></rect>
+        <rect id="path-6" x="0" y="0" width="150" height="53" rx="10"></rect>
+        <rect id="path-7" x="0" y="0" width="150" height="53" rx="10"></rect>
+        <rect id="path-8" x="0" y="0" width="150" height="53" rx="10"></rect>
+        <rect id="path-9" x="0" y="0" width="150" height="53" rx="10"></rect>
+        <rect id="path-10" x="51.48" y="18.48" width="94.9348095" height="94.9348095" rx="5"></rect>
+        <rect id="path-11" x="51.48" y="18.48" width="94.9348095" height="94.9348095" rx="5"></rect>
+        <rect id="path-12" x="0" y="0" width="150" height="53" rx="10"></rect>
+        <rect id="path-13" x="0" y="0" width="150" height="53" rx="10"></rect>
+        <rect id="path-14" x="0" y="0" width="150" height="53" rx="10"></rect>
+        <rect id="path-15" x="0" y="0" width="150" height="53" rx="10"></rect>
+        <rect id="path-16" x="0" y="0" width="150" height="53" rx="10"></rect>
+        <rect id="path-17" x="0" y="0" width="150" height="53" rx="10"></rect>
+        <rect id="path-18" x="0" y="0" width="150" height="53" rx="10"></rect>
+    </defs>
+    <g id="flows" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-3" transform="translate(-24.000000, 0.000000)">
+            <g id="Group-2">
+                <g id="Path-2" transform="translate(159.000000, 271.000000)">
+                    <path d="M0,16.6826687 L49.6080135,16.6826687" stroke="#A3A3A3" stroke-width="2"></path>
+                    <polygon id="Triangle" fill="#A3A3A3" points="41.6080135 24.6826687 41.6080135 8.68266866 51.6080135 16.6826687"></polygon>
+                </g>
+                <g id="Path-2-Copy" transform="translate(275.621338, 179.486675) rotate(-90.000000) translate(-275.621338, -179.486675) translate(219.121338, 169.486675)">
+                    <path d="M0,9.68266866 L110.608013,9.68266866" id="Path-2" stroke="#A3A3A3" stroke-width="2"></path>
+                    <polygon id="Triangle" fill="#999999" points="102.608013 17.6826687 102.608013 1.68266866 112.608013 9.68266866"></polygon>
+                </g>
+                <g id="Path-2" transform="translate(99.500000, 398.500000) scale(-1, 1) rotate(90.000000) translate(-99.500000, -398.500000) translate(48.000000, 390.000000)">
+                    <path d="M0,8.12925956 L100.122502,8.12925956" stroke="#999999" stroke-width="2"></path>
+                    <polygon id="Triangle" fill="#999999" points="92.122502 16.1292596 92.122502 0.129259563 102.122502 8.12925956"></polygon>
+                </g>
+                <g id="Path-2-Copy-9" transform="translate(275.061251, 419.028750) scale(-1, 1) rotate(90.000000) translate(-275.061251, -419.028750) translate(205.100509, 403.899491)">
+                    <path d="M0,15.1292596 L137.921484,15.1292596" id="Path-2" stroke="#A3A3A3" stroke-width="2"></path>
+                    <polygon id="Triangle" fill="#A3A3A3" points="129.921484 23.1292596 129.921484 7.12925956 139.921484 15.1292596"></polygon>
+                </g>
+                <g id="BLOCK-question" transform="translate(0.000000, 222.000000)">
+                    <g id="Rectangle" transform="translate(98.947405, 65.947405) rotate(-45.000000) translate(-98.947405, -65.947405) ">
+                        <use fill="#FC9D00" fill-rule="evenodd" xlink:href="#path-1"></use>
+                        <rect stroke="#FC9D00" stroke-width="2" x="52.48" y="19.48" width="92.9348095" height="92.9348095" rx="5"></rect>
+                    </g>
+                    <text id="The-question" font-family="Raleway-SemiBold, Raleway" font-size="12" font-weight="500" line-spacing="14" fill="#FFFFFF">
+                        <tspan x="67.036" y="67.76">Logged in?</tspan>
+                    </text>
+                </g>
+                <g id="BLOCK-question" transform="translate(176.000000, 222.000000)">
+                    <g id="Rectangle" transform="translate(98.947405, 65.947405) rotate(-45.000000) translate(-98.947405, -65.947405) ">
+                        <use fill="#FC9D00" fill-rule="evenodd" xlink:href="#path-2"></use>
+                        <rect stroke="#FC9D00" stroke-width="2" x="52.48" y="19.48" width="92.9348095" height="92.9348095" rx="5"></rect>
+                    </g>
+                    <text id="The-question" font-family="Raleway-SemiBold, Raleway" font-size="12" font-weight="500" line-spacing="14" fill="#FFFFFF">
+                        <tspan x="47.878" y="67.76">Have an account?</tspan>
+                    </text>
+                </g>
+                <g id="Path-2-Copy-11" transform="translate(817.593556, 97.749870) rotate(-90.000000) translate(-817.593556, -97.749870) translate(800.093556, 89.749870)">
+                    <path d="M0,8 L33,8" id="Path-2" stroke="#999999" stroke-width="2"></path>
+                    <polygon id="Triangle" fill="#999999" points="25 16 25 0 35 8"></polygon>
+                </g>
+                <g id="Path-2-Copy-11" transform="translate(677.000000, 169.000000)">
+                    <path d="M0,8 L74,8" id="Path-2" stroke="#999999" stroke-width="2"></path>
+                    <polygon id="Triangle" fill="#999999" points="66 16 66 0 76 8"></polygon>
+                </g>
+                <g id="Path-2-Copy-8" transform="translate(866.000000, 463.000000)">
+                    <path d="M0,8 L101.329178,8" id="Path-2" stroke="#999999" stroke-width="2"></path>
+                    <polygon id="Triangle" fill="#999999" points="93.329178 16 93.329178 0 103.329178 8"></polygon>
+                </g>
+                <g id="Answer-YES" transform="translate(81.000000, 373.000000)" stroke="#7DCBB5" stroke-width="2">
+                    <circle id="Oval" fill="#FFFFFF" fill-rule="evenodd" cx="17.5" cy="17.5" r="17.5"></circle>
+                    <polyline id="Path-3" points="11.2 16.8404564 15.9968588 23.2362681 23.1290535 11.2"></polyline>
+                </g>
+                <g id="Answer-YES" transform="translate(257.000000, 162.000000)" stroke="#7DCBB5" stroke-width="2">
+                    <circle id="Oval" fill="#FFFFFF" fill-rule="evenodd" cx="17.5" cy="17.5" r="17.5"></circle>
+                    <polyline id="Path-3" points="11.2 16.8404564 15.9968588 23.2362681 23.1290535 11.2"></polyline>
+                </g>
+                <g id="Path-2-Copy-7" transform="translate(912.000000, 176.758519) scale(-1, 1) rotate(-180.000000) translate(-912.000000, -176.758519) translate(882.000000, 168.258519)">
+                    <path d="M0,8.12925956 L58,8.12925956" id="Path-2" stroke="#999999" stroke-width="2"></path>
+                    <polygon id="Triangle" fill="#999999" points="50 16.1292596 50 0.129259563 60 8.12925956"></polygon>
+                </g>
+                <g id="BLOCK-page" transform="translate(24.000000, 449.000000)">
+                    <g id="Rectangle">
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-3"></use>
+                        <rect stroke="#999999" stroke-width="2" x="1" y="1" width="148" height="51" rx="10"></rect>
+                    </g>
+                    <text id="landing-page" font-family="Raleway-SemiBold, Raleway" font-size="12" font-weight="500" line-spacing="14" fill="#000000">
+                        <tspan x="33.42" y="33.79">User logged in</tspan>
+                    </text>
+                </g>
+                <g id="BLOCK-question" transform="translate(719.000000, 111.000000)">
+                    <g id="Rectangle" transform="translate(98.947405, 65.947405) rotate(-45.000000) translate(-98.947405, -65.947405) ">
+                        <use fill="#FC9D00" fill-rule="evenodd" xlink:href="#path-4"></use>
+                        <rect stroke="#FC9D00" stroke-width="2" x="52.48" y="19.48" width="92.9348095" height="92.9348095" rx="5"></rect>
+                    </g>
+                    <text id="The-question" font-family="Raleway-SemiBold, Raleway" font-size="12" font-weight="500" line-spacing="14" fill="#FFFFFF">
+                        <tspan x="67.762" y="67.76">Password?</tspan>
+                    </text>
+                </g>
+                <g id="BLOCK-page" transform="translate(738.000000, 28.000000)">
+                    <g id="Rectangle">
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-5"></use>
+                        <rect stroke="#999999" stroke-width="2" x="1" y="1" width="148" height="51" rx="10"></rect>
+                    </g>
+                    <text id="landing-page" font-family="Raleway-SemiBold, Raleway" font-size="12" font-weight="500" line-spacing="14" fill="#000000">
+                        <tspan x="33.42" y="33.79">User logged in</tspan>
+                    </text>
+                </g>
+                <g id="BLOCK-page" transform="translate(968.000000, 441.000000)">
+                    <g id="Rectangle">
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-6"></use>
+                        <rect stroke="#999999" stroke-width="2" x="1" y="1" width="148" height="51" rx="10"></rect>
+                    </g>
+                    <text id="landing-page" font-family="Raleway-SemiBold, Raleway" font-size="12" font-weight="500" line-spacing="14" fill="#000000">
+                        <tspan x="33.42" y="33.79">User logged in</tspan>
+                    </text>
+                </g>
+                <g id="BLOCK-page" transform="translate(1018.000000, 559.000000)">
+                    <g id="Rectangle">
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-7"></use>
+                        <rect stroke="#999999" stroke-width="2" x="1" y="1" width="148" height="51" rx="10"></rect>
+                    </g>
+                    <text id="landing-page" font-family="Raleway-SemiBold, Raleway" font-size="12" font-weight="500" line-spacing="14" fill="#000000">
+                        <tspan x="33.42" y="33.79">User logged in</tspan>
+                    </text>
+                </g>
+                <g id="BLOCK-page" transform="translate(200.000000, 489.000000)">
+                    <g id="Rectangle">
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-8"></use>
+                        <rect stroke="#999999" stroke-width="2" x="1" y="1" width="148" height="51" rx="10"></rect>
+                    </g>
+                    <text id="landing-page" font-family="Raleway-SemiBold, Raleway" font-size="12" font-weight="500" line-spacing="14" fill="#000000">
+                        <tspan x="37.566" y="33.79">Register with</tspan>
+                    </text>
+                </g>
+                <g id="BLOCK-page" transform="translate(200.000000, 71.000000)">
+                    <g id="Rectangle">
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-9"></use>
+                        <rect stroke="#999999" stroke-width="2" x="1" y="1" width="148" height="51" rx="10"></rect>
+                    </g>
+                    <text id="landing-page" font-family="Raleway-SemiBold, Raleway" font-size="12" font-weight="500" line-spacing="14" fill="#000000">
+                        <tspan x="56.088" y="33.79">Sign in</tspan>
+                    </text>
+                </g>
+                <g id="Answer-YES" transform="translate(900.000000, 454.000000)" stroke="#7DCBB5" stroke-width="2">
+                    <circle id="Oval" fill="#FFFFFF" fill-rule="evenodd" cx="17.5" cy="17.5" r="17.5"></circle>
+                    <polyline id="Path-3" points="11.2 16.8404564 15.9968588 23.2362681 23.1290535 11.2"></polyline>
+                </g>
+                <g id="Path-2-Copy-8" transform="translate(915.000000, 580.000000)">
+                    <path d="M0,8 L101.329178,8" id="Path-2" stroke="#999999" stroke-width="2"></path>
+                    <polygon id="Triangle" fill="#999999" points="93.329178 16 93.329178 0 103.329178 8"></polygon>
+                </g>
+                <g id="Answer-YES" transform="translate(949.000000, 571.000000)" stroke="#7DCBB5" stroke-width="2">
+                    <circle id="Oval" fill="#FFFFFF" fill-rule="evenodd" cx="17.5" cy="17.5" r="17.5"></circle>
+                    <polyline id="Path-3" points="11.2 16.8404564 15.9968588 23.2362681 23.1290535 11.2"></polyline>
+                </g>
+                <g id="Answer-NO" transform="translate(274.500000, 398.500000) rotate(-90.000000) translate(-274.500000, -398.500000) translate(257.000000, 381.000000)" stroke="#FD475F" stroke-width="2">
+                    <circle id="Oval-Copy" fill="#FFFFFF" fill-rule="evenodd" cx="17.5" cy="17.5" r="17.5"></circle>
+                    <path d="M22.1789339,22.4108308 L12.6686812,12.6512563" id="Line" stroke-linecap="square"></path>
+                    <path d="M22.0838314,12.6916818 L12.5735787,22.4512563" id="Line-Copy" stroke-linecap="square"></path>
+                </g>
+                <g id="Answer-NO" transform="translate(889.000000, 160.000000)" stroke="#FD475F" stroke-width="2">
+                    <circle id="Oval-Copy" fill="#FFFFFF" fill-rule="evenodd" cx="17.5" cy="17.5" r="17.5"></circle>
+                    <path d="M22.1789339,22.4108308 L12.6686812,12.6512563" id="Line" stroke-linecap="square"></path>
+                    <path d="M22.0838314,12.6916818 L12.5735787,22.4512563" id="Line-Copy" stroke-linecap="square"></path>
+                </g>
+                <g id="BLOCK-question" transform="translate(763.000000, 523.000000)">
+                    <g id="Rectangle" transform="translate(98.947405, 65.947405) rotate(-45.000000) translate(-98.947405, -65.947405) ">
+                        <use fill="#FC9D00" fill-rule="evenodd" xlink:href="#path-10"></use>
+                        <rect stroke="#FC9D00" stroke-width="2" x="52.48" y="19.48" width="92.9348095" height="92.9348095" rx="5"></rect>
+                    </g>
+                    <text id="The-question" font-family="Raleway-SemiBold, Raleway" font-size="12" font-weight="500" line-spacing="14" fill="#FFFFFF">
+                        <tspan x="63.862" y="67.76">Valid email?</tspan>
+                    </text>
+                </g>
+                <g id="Path-2-Copy-10" transform="translate(548.000000, 407.000000) scale(-1, 1) translate(-548.000000, -407.000000) translate(295.000000, 399.000000)">
+                    <path d="M0,16 C0,16 0,12.4092877 0,8 L0,8 C0,3.581722 3.58795366,0 7.99905757,0 L506,0" id="Path-2" stroke="#999999" stroke-width="2"></path>
+                    <polygon id="Triangle" fill="#999999" points="498 8 498 -8 508 1.77635684e-15"></polygon>
+                </g>
+                <g id="BLOCK-question" transform="translate(704.000000, 406.000000)">
+                    <g id="Rectangle" transform="translate(98.947405, 65.947405) rotate(-45.000000) translate(-98.947405, -65.947405) ">
+                        <use fill="#FC9D00" fill-rule="evenodd" xlink:href="#path-11"></use>
+                        <rect stroke="#FC9D00" stroke-width="2" x="52.48" y="19.48" width="92.9348095" height="92.9348095" rx="5"></rect>
+                    </g>
+                    <text id="The-question" font-family="Raleway-SemiBold, Raleway" font-size="12" font-weight="500" line-spacing="14" fill="#FFFFFF">
+                        <tspan x="66.532" y="67.76">Verify info?</tspan>
+                    </text>
+                </g>
+                <g id="Path-2-Copy-10" transform="translate(565.000000, 617.500000) rotate(-90.000000) translate(-565.000000, -617.500000) translate(489.000000, 320.000000)" stroke="#A3A3A3">
+                    <path d="M0,595 C0,595 0,586.043687 0,575.006296 L0,27.9937042 C0,16.9514863 8.96176644,8 19.996374,8 L150,8" id="Path-2" stroke-width="2"></path>
+                    <polygon id="Triangle" fill="#A3A3A3" points="142 16 142 0 152 8"></polygon>
+                </g>
+                <g id="Answer-NO" transform="translate(615.500000, 693.500000) rotate(-90.000000) translate(-615.500000, -693.500000) translate(598.000000, 676.000000)" stroke="#FD475F" stroke-width="2">
+                    <circle id="Oval-Copy" fill="#FFFFFF" fill-rule="evenodd" cx="17.5" cy="17.5" r="17.5"></circle>
+                    <path d="M22.1789339,22.4108308 L12.6686812,12.6512563" id="Line" stroke-linecap="square"></path>
+                    <path d="M22.0838314,12.6916818 L12.5735787,22.4512563" id="Line-Copy" stroke-linecap="square"></path>
+                </g>
+                <g id="Answer-NO" transform="translate(725.500000, 399.500000) rotate(-90.000000) translate(-725.500000, -399.500000) translate(708.000000, 382.000000)" stroke="#FD475F" stroke-width="2">
+                    <circle id="Oval-Copy" fill="#FFFFFF" fill-rule="evenodd" cx="17.5" cy="17.5" r="17.5"></circle>
+                    <path d="M22.1789339,22.4108308 L12.6686812,12.6512563" id="Line" stroke-linecap="square"></path>
+                    <path d="M22.0838314,12.6916818 L12.5735787,22.4512563" id="Line-Copy" stroke-linecap="square"></path>
+                </g>
+                <g id="Path-2-Copy-6" transform="translate(349.129260, 89.000000)">
+                    <path d="M0,8 L176.199918,8" id="Path-2" stroke="#999999" stroke-width="2"></path>
+                    <polygon id="Triangle" fill="#999999" points="168.199918 16 168.199918 0 178.199918 8"></polygon>
+                </g>
+                <g id="BLOCK-page" transform="translate(527.000000, 71.000000)">
+                    <g id="Rectangle">
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-12"></use>
+                        <rect stroke="#999999" stroke-width="2" x="1" y="1" width="148" height="51" rx="10"></rect>
+                    </g>
+                    <text id="landing-page" font-family="Raleway-SemiBold, Raleway" font-size="12" font-weight="500" line-spacing="14" fill="#000000">
+                        <tspan x="54.672" y="33.79">Twitter</tspan>
+                    </text>
+                </g>
+                <g id="BLOCK-page" transform="translate(527.000000, 144.000000)">
+                    <g id="Rectangle">
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-13"></use>
+                        <rect stroke="#999999" stroke-width="2" x="1" y="1" width="148" height="51" rx="10"></rect>
+                    </g>
+                    <text id="landing-page" font-family="Raleway-SemiBold, Raleway" font-size="12" font-weight="500" line-spacing="14" fill="#000000">
+                        <tspan x="59.19" y="33.79">Email</tspan>
+                    </text>
+                </g>
+                <g id="BLOCK-page" transform="translate(941.000000, 144.000000)">
+                    <g id="Rectangle">
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-14"></use>
+                        <rect stroke="#999999" stroke-width="2" x="1" y="1" width="148" height="51" rx="10"></rect>
+                    </g>
+                    <text id="landing-page" font-family="Raleway-SemiBold, Raleway" font-size="12" font-weight="500" line-spacing="14" fill="#000000">
+                        <tspan x="29.868" y="33.79">Email password</tspan>
+                    </text>
+                </g>
+                <g id="BLOCK-page" transform="translate(527.000000, 0.000000)">
+                    <g id="Rectangle">
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-15"></use>
+                        <rect stroke="#999999" stroke-width="2" x="1" y="1" width="148" height="51" rx="10"></rect>
+                    </g>
+                    <text id="landing-page" font-family="Raleway-SemiBold, Raleway" font-size="12" font-weight="500" line-spacing="14" fill="#000000">
+                        <tspan x="46.968" y="33.79">Facebook</tspan>
+                    </text>
+                </g>
+                <g id="Path-2-Copy-10" transform="translate(455.000000, 111.500000) scale(-1, 1) rotate(-180.000000) translate(-455.000000, -111.500000) translate(385.000000, 51.000000)">
+                    <path d="M0,121 C0,121 0,112.053442 0,101.002351 L0,19.9976493 C0,8.95325254 8.95722533,0 20.0027826,0 L140,0" id="Path-2" stroke="#999999" stroke-width="2"></path>
+                    <polygon id="Triangle" fill="#999999" points="132 8 132 -8 142 1.77635684e-15"></polygon>
+                </g>
+                <g id="Path-2-Copy-10" transform="translate(455.000000, 87.500000) scale(-1, -1) rotate(-180.000000) translate(-455.000000, -87.500000) translate(385.000000, 25.000000)">
+                    <path d="M0,125 C0,125 0,116.047943 0,105.003236 L0,19.9967636 C0,8.952856 8.95722533,0 20.0027826,0 L140,0" id="Path-2" stroke="#999999" stroke-width="2"></path>
+                    <polygon id="Triangle" fill="#999999" points="132 8 132 -8 142 1.77635684e-15"></polygon>
+                </g>
+                <g id="Group-Copy" transform="translate(349.000000, 421.000000)">
+                    <g id="Path-2-Copy-6" transform="translate(0.129260, 89.000000)" stroke="#A3A3A3">
+                        <path d="M0,8 L176.199918,8" id="Path-2" stroke-width="2"></path>
+                        <polygon id="Triangle" fill="#A3A3A3" points="168.199918 16 168.199918 0 178.199918 8"></polygon>
+                    </g>
+                    <g id="BLOCK-page" transform="translate(178.000000, 71.000000)">
+                        <g id="Rectangle">
+                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-16"></use>
+                            <rect stroke="#999999" stroke-width="2" x="1" y="1" width="148" height="51" rx="10"></rect>
+                        </g>
+                        <text id="landing-page" font-family="Raleway-SemiBold, Raleway" font-size="12" font-weight="500" line-spacing="14" fill="#000000">
+                            <tspan x="54.672" y="33.79">Twitter</tspan>
+                        </text>
+                    </g>
+                    <g id="BLOCK-page" transform="translate(178.000000, 144.000000)">
+                        <g id="Rectangle">
+                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-17"></use>
+                            <rect stroke="#999999" stroke-width="2" x="1" y="1" width="148" height="51" rx="10"></rect>
+                        </g>
+                        <text id="landing-page" font-family="Raleway-SemiBold, Raleway" font-size="12" font-weight="500" line-spacing="14" fill="#000000">
+                            <tspan x="59.19" y="33.79">Email</tspan>
+                        </text>
+                    </g>
+                    <g id="BLOCK-page" transform="translate(178.000000, 0.000000)">
+                        <g id="Rectangle">
+                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-18"></use>
+                            <rect stroke="#999999" stroke-width="2" x="1" y="1" width="148" height="51" rx="10"></rect>
+                        </g>
+                        <text id="landing-page" font-family="Raleway-SemiBold, Raleway" font-size="12" font-weight="500" line-spacing="14" fill="#000000">
+                            <tspan x="46.968" y="33.79">Facebook</tspan>
+                        </text>
+                    </g>
+                    <g id="Path-2-Copy-10" transform="translate(107.000000, 115.500000) scale(-1, 1) rotate(-180.000000) translate(-107.000000, -115.500000) translate(36.000000, 51.000000)" stroke="#A3A3A3">
+                        <path d="M0,129 C0,129 0,120.053442 0,109.002351 L0,27.9976493 C0,16.9532525 8.95722533,8 20.0027826,8 L140,8" id="Path-2" stroke-width="2"></path>
+                        <polygon id="Triangle" fill="#A3A3A3" points="132 16 132 -2.84217094e-14 142 8"></polygon>
+                    </g>
+                    <g id="Path-2-Copy-10" transform="translate(106.000000, 87.500000) scale(-1, -1) rotate(-180.000000) translate(-106.000000, -87.500000) translate(36.000000, 25.000000)" stroke="#A3A3A3">
+                        <path d="M0,125 C0,125 0,116.047943 0,105.003236 L0,19.9967636 C0,8.952856 8.95722533,0 20.0027826,0 L140,0" id="Path-2" stroke-width="2"></path>
+                        <polygon id="Triangle" fill="#A3A3A3" points="132 8 132 -8 142 1.77635684e-15"></polygon>
+                    </g>
+                </g>
+                <g id="Group" transform="translate(676.000000, 24.000000)">
+                    <g id="Path-2-Copy-5" transform="translate(20.000000, 23.000000)">
+                        <path d="M0,8 L40.829178,8" id="Path-2" stroke="#999999" stroke-width="2"></path>
+                        <polygon id="Triangle" fill="#999999" points="32.829178 16 32.829178 0 42.829178 8"></polygon>
+                    </g>
+                    <path d="M1.5,1.5 L18.5,1.5" id="Line" stroke="#A3A3A3" stroke-width="2" stroke-linecap="square"></path>
+                    <path d="M20.5,1.5 L20.5,72.5070419" id="Line-2" stroke="#A3A3A3" stroke-width="2" stroke-linecap="square"></path>
+                    <path d="M20,73.5 L0.276251584,73.5" id="Line-3" stroke="#A3A3A3" stroke-width="2" stroke-linecap="square"></path>
+                </g>
+                <g id="Path-2-Copy-5" transform="translate(696.000000, 464.000000)">
+                    <path d="M0,8 L40.829178,8" id="Path-2" stroke="#999999" stroke-width="2"></path>
+                    <polygon id="Triangle" fill="#999999" points="32.829178 16 32.829178 0 42.829178 8"></polygon>
+                </g>
+                <g id="Path-2-Copy-12" transform="translate(677.000000, 581.000000)" stroke="#A3A3A3">
+                    <path d="M0,8 L118.829178,8" id="Path-2" stroke-width="2"></path>
+                    <polygon id="Triangle" fill="#999999" points="110.829178 16 110.829178 0 120.829178 8"></polygon>
+                </g>
+                <path d="M677.5,442.5 L694.5,442.5" id="Line" stroke="#A3A3A3" stroke-width="2" stroke-linecap="square"></path>
+                <path d="M696.5,442.5 L696.5,513.507042" id="Line-2" stroke="#A3A3A3" stroke-width="2" stroke-linecap="square"></path>
+                <path d="M696,514.5 L676.276252,514.5" id="Line-3" stroke="#A3A3A3" stroke-width="2" stroke-linecap="square"></path>
+                <path d="M861.5,693.5 L861.5,654.448752" id="Line-4" stroke="#A3A3A3" stroke-width="2" stroke-linecap="square"></path>
+            </g>
+        </g>
+    </g>
+</svg>
