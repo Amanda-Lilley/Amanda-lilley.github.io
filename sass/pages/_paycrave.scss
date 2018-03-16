@@ -24,7 +24,7 @@
   }
 
   &__content {
-justify-self: end;
+   justify-self: end;
   }
 
   
@@ -111,42 +111,55 @@ justify-self: end;
   
 }
 
-.pain-points {
+
+
+//SOLUTION SECTION========================
+.solution2 {
+  //background: $color-indiewool;
   margin-top: 4rem;
   grid-column: 1 / -1;
+
+  &__wrapper {
   display: grid;
-  grid-template-columns: 1fr min-content 1fr;
-  grid-template-rows: 1fr;
-  justify-items: center;
-  align-items: center;
-  @media only screen and (max-width: $bp-medium) {
-    grid-template-columns: 1fr;
-  grid-template-rows: auto;
+  grid-template-columns: 1fr 3fr 1fr;
+
+  >p {
+   display: grid;
+   grid-column: 2 / 3;
+   margin: 4rem 0 4rem 0;
+
   }
-
- 
-  
-
-  &__h3 {
-    font-size: 1.8rem;
-    text-transform: uppercase;
-    font-family: "Open Sans", sans-serif;
-    text-align: center;
-    padding-bottom: 2.4rem;
-
-    
 
   }
 
   
-
-  
-
-  
-
-  
-
 }
+//STORIES SECTION========================
+.stories2 {
+  padding-top: 4rem;
+  display: grid;
+  grid-column: 1 / -1;
+  padding-bottom: 8rem;
 
+  &__h4 {
+    margin-bottom: 4rem;
+  }
 
+  &__table {
+
+    border-collapse: collapse;
+    margin: 0 auto;
+   
+    >table, th, td {
+     
+      border: 1px solid $color-gray-dark;
+      padding: 1rem;
+    }
+
+    &-head {
+      background:$color-orange-dark;
+      color: $color-white;
+    }
+  }
+}
 
