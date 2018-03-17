@@ -38,25 +38,48 @@
 //ROLES SECTION========================
 .roles {
   grid-column: 1 / -1;
-  grid-row: 2 / 3;
+  
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   background: $color-gray-light;
   margin-top: 2.4rem;
   margin-bottom: 2.4rem;
   padding: 4rem;
+  justify-items: center;
   &__1 {
     grid-column: 1 / 2;
+    
+    >h4 {
+      text-align: left;
+    }
+
+    >ul {
+      text-align: left;
+    }
 
   }
 
   &__2 {
     grid-column: 2 / 3;
+    >h4 {
+      text-align: left;
+    }
+
+    >ul {
+      text-align: left;
+    }
     
   }
 
   &__3 {
     grid-column: 3 / 4;
+    >h4 {
+      text-align: left;
+    }
+
+    >ul {
+      text-align: left;
+    }
     
   }
 
@@ -692,9 +715,6 @@
           font-size: 1.6rem;
           
         }
-        
-       
-        
       }
 
       &-2 {
