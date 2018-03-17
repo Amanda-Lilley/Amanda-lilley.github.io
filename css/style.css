@@ -423,21 +423,24 @@ margin-top: 50%;
   margin-top: 2.4rem;
   margin-bottom: 2.4rem;
   padding: 4rem;
-  justify-items: center; }
+  justify-items: left; }
   .roles__1 {
-    grid-column: 1 / 2; }
+    grid-column: 1 / 2;
+    margin: 0 auto; }
     .roles__1 > h4 {
       text-align: left; }
     .roles__1 > ul {
       text-align: left; }
   .roles__2 {
-    grid-column: 2 / 3; }
+    grid-column: 2 / 3;
+    margin: 0 auto; }
     .roles__2 > h4 {
       text-align: left; }
     .roles__2 > ul {
       text-align: left; }
   .roles__3 {
-    grid-column: 3 / 4; }
+    grid-column: 3 / 4;
+    margin: 0 auto; }
     .roles__3 > h4 {
       text-align: left; }
     .roles__3 > ul {
@@ -1197,7 +1200,8 @@ margin-top: 50%;
   padding: 4rem; }
   .paycrave__img {
     grid-row: 1 /2;
-    max-width: 80%;
+    width: 70%;
+    justify-self: baseline;
     margin: 0 auto;
     object-fit: cover; }
   .paycrave__content {

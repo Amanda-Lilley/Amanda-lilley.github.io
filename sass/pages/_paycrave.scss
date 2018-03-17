@@ -18,7 +18,9 @@
 
   &__img {
     grid-row: 1 /2;
-    max-width: 80%;
+    // 
+    width: 70%;
+    justify-self: baseline;
     margin: 0 auto;
    object-fit: cover;
   }
