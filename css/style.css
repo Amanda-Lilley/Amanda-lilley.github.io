@@ -172,9 +172,11 @@ body {
   font-size: 1.6rem;
   color: #fff;
   font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  letter-spacing: 1px;
   padding: 1rem 2.5rem;
   display: inline-block;
-  border-radius: 10rem;
+  border-radius: .4rem;
   transition: all .2s; }
   @media only screen and (max-width: 54em) {
     .btn:link, .btn:visited {
@@ -196,9 +198,10 @@ body {
   font-size: 1.6rem;
   color: #fff;
   font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
   padding: 1.5rem 2.5rem;
   display: inline-block;
-  border-radius: 10rem;
+  border-radius: .4rem;
   transition: all .2s; }
   @media only screen and (max-width: 54em) {
     .btn:link, .btn:visited {
@@ -219,7 +222,9 @@ body {
   font-size: 1.8rem;
   text-transform: uppercase;
   font-family: "Open Sans", sans-serif;
-  grid-gap: 2rem; }
+  grid-gap: 2rem;
+  letter-spacing: 2px;
+  font-weight: 400; }
 
 /*.row {
   max-width: $grid-width;
@@ -273,7 +278,7 @@ body {
 }
 } */
 .header {
-  background: linear-gradient(to right bottom, #bac5cc, #eef2f3);
+  background: linear-gradient(to right bottom, #eef2f3, #bac5cc);
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 75%);
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 75%);
   grid-column: 1 / -1;
@@ -322,8 +327,10 @@ margin-top: 50%;
     .header__navigation > li {
       list-style: none;
       font-family: "Open Sans", sans-serif;
+      letter-spacing: 1px;
       text-transform: uppercase;
       font-size: 1.6rem;
+      font-weight: 400;
       text-decoration: none;
       margin-right: 2rem;
       margin-left: 2rem;
@@ -370,7 +377,7 @@ margin-top: 50%;
       .header__textbox {
         grid-column-start: 3 / span 1;
         text-align: center;
-        margin: 0 auto; } }
+        margin: 0 auto 4rem auto; } }
   .header__img {
     text-align: center; }
     @media only screen and (max-width: 58em) {
@@ -516,9 +523,6 @@ margin-top: 50%;
     grid-template-columns: 1fr 3fr 1fr;
     grid-auto-rows: repeat(2, min-content);
     margin-top: 4rem; }
-  .problem__h3 {
-    font-weight: 500;
-    text-align: center; }
   .problem__ul {
     display: grid;
     padding: 2.4rem 0 2.4rem 0;
@@ -528,10 +532,10 @@ margin-top: 50%;
     .problem__ul > li {
       margin: 0 0 1.6rem 0; }
   .problem__figures {
-    font-family: "Open Sans", sans-serif;
+    font-family: 'shrikhand', cursive;
     color: #91d3c1;
     font-weight: bold;
-    font-size: 4.8rem; }
+    font-size: 4rem; }
 
 .comparison {
   margin-top: 4rem;
@@ -550,7 +554,9 @@ margin-top: 50%;
     text-transform: uppercase;
     font-family: "Open Sans", sans-serif;
     text-align: center;
-    padding-bottom: 2.4rem; }
+    padding-bottom: 2.4rem;
+    font-weight: 600;
+    letter-spacing: 1px; }
     .comparison__h3-span {
       color: #91d3c1;
       grid-column: 2 / 3;
@@ -1112,13 +1118,13 @@ margin-top: 50%;
           margin-top: 1.6rem;
           margin-bottom: 1.6rem; } }
     .container .project1__img {
-      width: 100%; }
+      max-width: 100%; }
       @media only screen and (max-width: 75em) {
         .container .project1__img {
-          width: 90%; } }
+          max-width: 90%; } }
       @media only screen and (max-width: 54em) {
         .container .project1__img {
-          width: 100%; } }
+          max-width: 100%; } }
     .container .project1__content {
       width: 25rem; }
       @media only screen and (max-width: 75em) {
@@ -1140,6 +1146,8 @@ margin-top: 50%;
     padding: 4rem;
     max-width: 100%;
     overflow: hidden; }
+    .container .project2__img {
+      max-width: 90%; }
     @media only screen and (max-width: 54em) {
       .container .project2 {
         grid-template-columns: minmax(24rem, 1fr) 3fr;
@@ -1188,6 +1196,8 @@ margin-top: 50%;
         margin-top: 2rem;
         list-style: none;
         font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        letter-spacing: 1px;
         text-transform: uppercase;
         font-size: 1.6rem;
         text-decoration: none;

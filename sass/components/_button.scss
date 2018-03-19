@@ -8,10 +8,11 @@
   font-size: 1.6rem;
   color: $color-white;
   font-family: 'Open Sans', sans-serif;
-
+font-weight: 400;
+letter-spacing: 1px;
   padding: 1rem 2.5rem;
   display: inline-block;
-  border-radius: 10rem;
+  border-radius:.4rem;
   transition: all .2s;
 
   @media only screen and (max-width: $bp-medium2) {
@@ -39,10 +40,10 @@
   font-size: 1.6rem;
   color: $color-white;
   font-family: 'Open Sans', sans-serif;
-
+  font-weight: 400;
   padding: 1.5rem 2.5rem;
   display: inline-block;
-  border-radius: 10rem;
+  border-radius: .4rem;
   transition: all .2s;
 
   @media only screen and (max-width: $bp-medium2) {
