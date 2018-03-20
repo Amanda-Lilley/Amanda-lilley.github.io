@@ -212,4 +212,19 @@ letter-spacing: 1px;
     }
   }
 }
+.contact {
+  display: grid;
+  grid-column: 1 / -1;
+
+  &__h2 {
+   
+    margin: 8rem auto 2rem auto;
+    font-family: 'shrikhand', cursive;
+    color: $color-text-secondary;
+  }
+
+  &__btn {
+    margin: 0 auto 4rem auto;
+  }
+}
 }
