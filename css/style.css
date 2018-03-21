@@ -313,7 +313,8 @@ margin-top: 50%;
     display: flex;
     justify-content: flex-end;
     height: 80px;
-    align-items: center; }
+    align-items: center;
+    padding-bottom: 4rem; }
     @media only screen and (max-width: 54em) {
       .header__nav {
         justify-content: space-around; } }
@@ -380,12 +381,6 @@ margin-top: 50%;
         margin: 0 auto 4rem auto; } }
   .header__img {
     text-align: center; }
-    @media only screen and (max-width: 58em) {
-      .header__img {
-        max-width: 90%; } }
-    @media only screen and (max-width: 54em) {
-      .header__img {
-        max-width: 70%; } }
     @media only screen and (max-width: 38em) {
       .header__img {
         grid-row-start: 1;
@@ -394,6 +389,15 @@ margin-top: 50%;
         justify-self: center;
         padding: 0;
         margin: 0; } }
+    @media only screen and (min-width: 54em) {
+      .header__img {
+        max-width: 70%; } }
+    @media only screen and (min-width: 75em) {
+      .header__img {
+        max-width: 70%; } }
+    @media only screen and (max-width: 58em) {
+      .header__img {
+        max-width: 70%; } }
 
 @supports (display: grid) {
   .title:before,

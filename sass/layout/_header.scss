@@ -40,6 +40,7 @@
       justify-content: space-around;
       padding: 2rem;
     }
+    padding-bottom: 4rem;
   } 
   
   
@@ -122,12 +123,9 @@
   }
   &__img {
     text-align: center;
-    @media only screen and (max-width: $bp-medium) {
-      max-width: 90%;
-    }
-    @media only screen and (max-width: $bp-medium2) {
-      max-width: 70%;
-    }
+   
+    
+    
     @media only screen and (max-width: $bp-mobile) {
       grid-row-start: 1; //max-width: 50%;
       //border: 1.2rem solid #fff;
@@ -136,6 +134,16 @@
       justify-self: center;
       padding: 0;
       margin: 0;
+    }
+    
+    @media only screen and (min-width: $bp-medium2) {  //=> 860?
+      max-width: 70%;
+    }
+    @media only screen and (min-width: $bp-largest) {  //=> 1200?
+      max-width: 70%;
+    }
+    @media only screen and (max-width: $bp-medium) {  //=< 930?
+      max-width: 70%;
     }
   }
   /*&__text-box {
