@@ -26,19 +26,72 @@
       <ul class="header__navigation">
 
         <li>
-          <a href="index.html">portfolio</a>
+          <a href="index.html" class="dark">portfolio</a>
         </li>
         <li>
-          <a href="about.html" class="accent">about</a>
+          <a href="about.html" class="dark">about</a>
         </li>
         <li>
-          <a href="#">contact</a>
+          <a href="contact.html" class="accent">contact</a>
         </li>
       </ul>
     </nav>
-    <div class="header__content">
-    </div>
+    
   </header>
+<!-- Form styles https://www.sanwebe.com/2014/08/css-html-forms-designs-->
+  <section class="form">
+
+    <div class="form__wrapper">
+        <form action="action="https://formcarry.com/s/SJyiO8WcG" method="POST" accept-charset="UTF-8"">
+
+          <div class="form__section"><span class="form__span">1</span>Get in touch</div>
+    <div class="form__inner-wrap">
+        <label>Full name <input type="text" name="fullName" /></label>
+        <label>Email address <input type="email" name="email" /></label>
+        <label>Company <input type="text" name="company" /></label>
+        <label>Phone number <input type="number" name="phoneNumber" /></label>
+    </div>
+
+    <div class="form__section"><span class="form__span">2</span>What are your project needs?</div>
+    <div class="form__inner-wrap">
+       
+        <p> <input type="checkbox" name="needs">Branding</p>
+        <p> <input type="checkbox" name="needs">Content strategy</p>
+        <p> <input type="checkbox" name="needs">Responsive design</p>
+        <p> <input type="checkbox" name="needs">Not sure</p>
+    </div>
+
+    <div class="form__section"><span class="form__span">3</span>Additional Information</div>
+    <div class="form__inner-wrap">
+        <label>Deadline <input type="date" name="deadline" /></label>
+        <label>Project details <textarea name="field2"></textarea></label>
+    </div>
+
+      
+    
+         
+          
+          
+          
+          
+          
+          
+          
+        
+          <input type="hidden" name="_gotcha"><!-- use this to prevent spam -->
+    
+          <input type="range" min="500" max="12000" value="3000" class="slider" id="budget">
+          <p>Budget: $ <span id="demo"></span></p>
+          
+
+          <input type="submit" name="Sign Up" />
+    
+    
+        </form>
+
+    </div>
+    
+  </section>
 
   
     
@@ -70,7 +123,15 @@
 
 
 
-
+  <script>
+    var slider = document.getElementById("budget");
+    var output = document.getElementById("demo");
+    output.innerHTML = slider.value;
+    
+    slider.oninput = function() {
+      output.innerHTML = this.value;
+    }
+    </script>
 
 </body>
 

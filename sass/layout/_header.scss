@@ -98,6 +98,13 @@
       >a.accent {
         color: $color-accent;
       }
+
+      >a.dark {
+        color: $color-gray-dark;
+      }
+      >a.dark:hover {
+        color: $color-accent;
+      }
       
     }
   }
