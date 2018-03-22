@@ -309,6 +309,10 @@ margin-top: 50%;
     background: linear-gradient(to right bottom, #fc9d00, #f76400);
     -webkit-clip-path: none;
     clip-path: none; }
+  .header#case3 {
+    background: none;
+    -webkit-clip-path: none;
+    clip-path: none; }
   .header__nav {
     display: flex;
     justify-content: flex-end;
@@ -1265,14 +1269,14 @@ margin-top: 50%;
           .container .footer__nav > li > a:active {
             transform: translateY(-0.1rem);
             text-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2); }
-  .container .contact {
+  .container .work-together {
     display: grid;
     grid-column: 1 / -1; }
-    .container .contact__h2 {
+    .container .work-together__h2 {
       margin: 8rem auto 2rem auto;
       font-family: 'shrikhand', cursive;
       color: rgba(74, 74, 74, 0.5); }
-    .container .contact__btn {
+    .container .work-together__btn {
       margin: 0 auto 4rem auto; }
 
 @supports (display: grid) {
