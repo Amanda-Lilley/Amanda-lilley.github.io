@@ -13,6 +13,8 @@
   grid-column: 1 / -1;
   display: grid;
   grid-template-columns: 3fr minmax(30rem, 1fr);
+  @media only screen and (min-width: $bp-largest) {
+    grid-template-columns: 3fr minmax(40rem, 1fr); }
   align-items: center;
   padding: 4rem;
   max-width: 100%;
@@ -56,6 +58,8 @@
       
       
     // }
+    @media only screen and (min-width: $bp-mega) {
+      max-width: 600px; }
   
 
   }
@@ -105,9 +109,9 @@
 
     @media only screen and (min-width: $bp-largest) {
       max-width: 80%; }
-    
-  
 
+      @media only screen and (min-width: $bp-mega) {
+        max-width: 550px; }
   }
 
   @media only screen and (max-width: $bp-medium2) {

@@ -65,26 +65,16 @@
     <div class="form__inner-wrap">
         <label>Deadline <input type="date" name="deadline" /></label>
         <label>Project details <textarea name="field2"></textarea></label>
+        <input type="hidden" name="_gotcha"><!-- use this to prevent spam -->
+    
     </div>
 
-      
-    
-         
           
-          
-          
-          
-          
-          
-          
-        
-          <input type="hidden" name="_gotcha"><!-- use this to prevent spam -->
-    
-          <input type="range" min="500" max="12000" value="3000" class="slider" id="budget">
+          <input type="range" min="500" max="12000" value="3000" class="slider" id="budget" name="budget">
           <p>Budget: $ <span id="demo"></span></p>
           
 
-          <input type="submit" name="Sign Up" />
+          <input type="submit" name="submit" />
     
     
         </form>

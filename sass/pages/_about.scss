@@ -5,6 +5,7 @@
     }
   h3 {
     margin-top: 4rem;
+    margin-bottom: .2rem;
   }
  &__img {
    width: 8.8rem;
@@ -26,6 +27,10 @@
 
    .accent {
      color: $color-accent;
+   }
+
+   > p {
+     line-height: 1.5;
    }
  }
 
