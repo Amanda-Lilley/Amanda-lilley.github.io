@@ -18,19 +18,69 @@ body {
   animation-duration: 2s;
   animation-timing-function: ease-out;
 
-  &--main {
+   &--main {
     color: $color-white;
     font-family: 'shrikhand', cursive;
-//font-family: 'Abril Fatface', cursive;
-    font-size: 4.8rem;
+    font-size: 9.8rem;
     font-weight: 400;
+    // margin-left: 10rem;
+   
 
-    @media only screen and (max-width: $bp-medium2) {
-      font-size: 3.5rem;
-    }
+    // @media only screen and (max-width: $bp-medium2) {
+    //   font-size: 3.5rem;
+    // }
+
+    // @media only screen and (max-width: $bp-mobile) {
+    //   font-size: 8rem;
+    //   margin: 0 auto;
+    // }
+
+    // @media only screen and (max-width: $bp-small) {
+    //   font-size: 7rem;
+      
+    // }
+    // @media only screen and (max-width: $bp-medium2) {
+    //   font-size: 7rem;
+      
+    // }
+
+    // @media only screen and (max-width: $bp-medium) {
+    //   font-size: 7rem;
+      
+    // }
+   
+    /*backface-visibility: hidden; */
+  }
+// About header======================================//
+  &--about {
+    color: $color-white;
+  
+    font-family: 'shrikhand', cursive;
+
+    font-size: 9.8rem;
+    font-weight: 400;
+    margin-left: 10rem;
+   
+
+    
 
     @media only screen and (max-width: $bp-mobile) {
-      font-size: 3.2rem;
+      font-size: 8rem;
+      margin: 0 auto;
+    }
+
+    @media only screen and (max-width: $bp-small) {
+      font-size: 7rem;
+      
+    }
+    @media only screen and (max-width: $bp-medium2) {
+      font-size: 7rem;
+      
+    }
+
+    @media only screen and (max-width: $bp-medium) {
+      font-size: 7rem;
+      
     }
    
     /*backface-visibility: hidden; */
@@ -38,7 +88,7 @@ body {
   
   &--sub {
     font-size: 2.4rem;
-    color: $color-text;
+    color: $color-text-secondary;
     font-weight: 100;
     // line-height: 3rem;
     animation: moveInRight 2s ease-out;
