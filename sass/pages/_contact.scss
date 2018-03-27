@@ -39,7 +39,10 @@
   &__wrapper {
     display: grid;
     grid-column: 2 / 3;
-    width:450px;
+    width:45rem;
+    @media only screen and (max-width: $bp-mobile) {
+      width: 30rem;
+      }
     padding:30px;
     margin:40px auto;
     background: $color-white;

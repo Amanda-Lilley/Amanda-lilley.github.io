@@ -103,6 +103,12 @@
   max-width: 90rem;
   margin: 0 auto;
   overflow: hidden;
+  @media only screen and (max-width: $bp-mobile) {
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    padding: 4rem;
+  }
 
 
   }
