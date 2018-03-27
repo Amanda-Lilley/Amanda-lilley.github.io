@@ -596,8 +596,6 @@ margin-top: 50%;
 
 .numbers {
   font-family: "Open Sans", sans-serif; }
-  .numbers > .accent {
-    color: #ff2956; }
 
 @supports (display: grid) {
   .title:before,
