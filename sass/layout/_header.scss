@@ -44,7 +44,7 @@
 
   &__nav {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-around;
     height: 80px;
     align-items: center;
     @media only screen and (max-width: $bp-medium2) {
@@ -129,6 +129,7 @@
       display: grid;
       grid-template-columns: 1fr;
       grid-template-rows: 1fr auto;
+      
     }
 
     &#about {

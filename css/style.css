@@ -337,7 +337,7 @@ margin-top: 50%;
     width: 2.4rem; }
   .header__nav {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-around;
     height: 80px;
     align-items: center;
     padding-bottom: 4rem; }
@@ -514,7 +514,7 @@ margin-top: 50%;
   .form__inner-wrap {
     padding: 30px;
     background: #eef2f3;
-    border-radius: 6px;
+    border-radius: 10px;
     margin-bottom: 15px; }
     .form__inner-wrap p > input {
       margin-right: .5rem; }
