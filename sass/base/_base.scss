@@ -1,9 +1,8 @@
-
 //RESPONSIVE BREAKPOINTS
 $bp-mega: 78em; //1250
-$bp-largest: 75em;  //1200px (1200/16 = 75em )
+$bp-largest: 75em; //1200px (1200/16 = 75em )
 $bp-medium: 58em; //approx 930
-$bp-medium2: 54em;//make one for 860
+$bp-medium2: 54em; //make one for 860
 $bp-small: 44em; //approx 700
 $bp-mobile: 38em; // approx 600
 $bp-sm-mobile: 30em; // approx 450
@@ -24,11 +23,8 @@ order of media queries --> base +typography, layout + grid, components
 
 */
 
-
-
 html {
   font-size: 62.5%;
- 
 
   @include respond(small) {
     font-size: 55%;
@@ -37,18 +33,17 @@ html {
   @include respond(xlrg) {
     font-size: 80%;
   }
-} 
+}
 
 .container {
   @media only screen and (max-width: $bp-mobile) {
     padding: 0;
     margin-right: 0;
-    }
+  }
 }
 
 //1rem=10px  10/16=62.5
 
-  
 /*
   @include respond(xsmall) {
     font-size: 50%;
@@ -74,6 +69,5 @@ html {
 body {
   box-sizing: border-box;
 } */
-
 
 //

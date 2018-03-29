@@ -1,11 +1,3 @@
-// #contact {
-//   background: $color-white;
-//   // color: linear-gradient( to right bottom, $color-gray-light, $color-gray-dark);
-  
-// }
-
-
-
 .form {
   margin-top: -50vh;
   z-index: 999;
@@ -15,53 +7,45 @@
 
   &__section {
     margin-bottom: 1rem;
-    
   }
 
   &__span {
     background: $color-accent;
-      padding: 5px 10px 5px 10px;
-     
-      border-radius: 50%;
-      -webkit-border-radius: 50%;
-      -moz-border-radius: 50%;
-     border: 4px solid #fff; // 
-      font-size: 14px;
-      
-      color: $color-white;
-      margin-right: 5px;
-      vertical-align: middle;
-     
-      
+    padding: 5px 10px 5px 10px;
+
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border: 4px solid #fff; //
+    font-size: 14px;
+
+    color: $color-white;
+    margin-right: 5px;
+    vertical-align: middle;
   }
-  
 
   &__wrapper {
     display: grid;
     grid-column: 2 / 3;
-    max-width:45rem;
+    max-width: 45rem;
     @media only screen and (max-width: $bp-mobile) {
       min-width: 30rem;
-      }
-    padding:30px;
-    margin:40px auto;
+    }
+    padding: 30px;
+    margin: 40px auto;
     background: $color-white;
     border-radius: 10px;
-    -webkit-border-radius:10px;
+    -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.13);
     -moz-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.13);
     -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.13);
 
-    >span {
+    > span {
       display: block;
       margin-top: 2px;
       font-family: 13px Arial, Helvetica, sans-serif;
-      
-  }
-  
-
-  
+    }
   }
 
   &__inner-wrap {
@@ -71,55 +55,49 @@
     margin-bottom: 15px;
 
     p {
-      >input {
-        margin-right: .5rem;
+      > input {
+        margin-right: 0.5rem;
       }
     }
 
-    >label {
+    > label {
       display: block;
       font-family: 13px Arial, Helvetica, sans-serif;
-      
-      
+
       margin: 0 auto 1.6rem auto;
-     
+
       input[type="checkbox"] {
-        vertical-align: middle; }
-
-      >input {
-        color: $color-text-hint;
-        
+        vertical-align: middle;
       }
- 
-  
-  }
 
+      > input {
+        color: $color-text-hint;
+      }
+    }
 
-
-
- input[type="text"],
- input[type="date"],
- input[type="datetime"],
- input[type="email"],
- input[type="number"],
- input[type="search"],
- input[type="url"],
- input[type="password"],
- textarea,
- select {
-    display: block;
-    margin-top: 4px;
-    // margin: 0 auto;
-    width: 95%;
-    padding: 8px;
-    border-radius: 6px;
-    -webkit-border-radius:6px;
-    -moz-border-radius:6px;
-    border: 2px solid #fff;
-    // box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.33);
-    // -moz-box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.33);
-    // -webkit-box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.33);
-}
+    input[type="text"],
+    input[type="date"],
+    input[type="datetime"],
+    input[type="email"],
+    input[type="number"],
+    input[type="search"],
+    input[type="url"],
+    input[type="password"],
+    textarea,
+    select {
+      display: block;
+      margin-top: 4px;
+      // margin: 0 auto;
+      width: 95%;
+      padding: 8px;
+      border-radius: 6px;
+      -webkit-border-radius: 6px;
+      -moz-border-radius: 6px;
+      border: 2px solid #fff;
+      // box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.33);
+      // -moz-box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.33);
+      // -webkit-box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.33);
+    }
   }
 
   &__submit {
@@ -129,19 +107,19 @@
     background-color: $color-accent;
     font-size: 1.6rem;
     color: $color-white;
-    font-family: 'Open Sans', sans-serif;
-  font-weight: 400;
-  letter-spacing: 1px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
     padding: 1rem 2.5rem;
     display: inline-block;
-    border-radius:.4rem;
-    transition: all .2s;
-    }
+    border-radius: 0.4rem;
+    transition: all 0.2s;
+  }
 
-    &__submit:hover {
-      transform: translateY(-.3rem);
-  box-shadow: 0 1rem 2rem rgba(0, 0, 0, .2);
-    }
+  &__submit:hover {
+    transform: translateY(-0.3rem);
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+  }
 }
 // budget slider =========================//
 .slidecontainer {
@@ -156,8 +134,8 @@
   background: $color-gray-dark;
   outline: none;
   opacity: 0.7;
-  -webkit-transition: .2s;
-  transition: opacity .2s;
+  -webkit-transition: 0.2s;
+  transition: opacity 0.2s;
 }
 
 .slider:hover {
@@ -178,7 +156,7 @@
   width: 25px;
   height: 25px;
   border-radius: 50%;
-  background:$color-accent;
+  background: $color-accent;
   cursor: pointer;
 }
 
@@ -188,6 +166,4 @@
 
 .numbers {
   font-family: "Open Sans", sans-serif;
-
-  
 }

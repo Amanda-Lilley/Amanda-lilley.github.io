@@ -1,6 +1,10 @@
 .header {
   //height: 90vh;
-  background: linear-gradient( to right bottom, $color-gray-light, $color-gray-dark);
+  background: linear-gradient(
+    to right bottom,
+    $color-gray-light,
+    $color-gray-dark
+  );
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 75%);
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 75%);
   grid-column: 1 / -1;
@@ -13,34 +17,42 @@
     -webkit-clip-path: none;
     clip-path: none;
   }
-  
+
   &#case1 {
     background: $color-indiewool;
     -webkit-clip-path: none;
     clip-path: none;
   }
-  
+
   &#case2 {
-    background: linear-gradient( to right bottom, $color-orange-light, $color-orange-dark);
+    background: linear-gradient(
+      to right bottom,
+      $color-orange-light,
+      $color-orange-dark
+    );
     -webkit-clip-path: none;
     clip-path: none;
   }
   &#case3 {
     height: 70vh;
-    background: linear-gradient( to right bottom, $color-gray-light, $color-gray-dark);
-  -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 75%);
-  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 75%);
-  grid-column: 1 / -1;
-  //  background: none;
-  //   -webkit-clip-path: none;
-  //   clip-path: none;
+    background: linear-gradient(
+      to right bottom,
+      $color-gray-light,
+      $color-gray-dark
+    );
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 75%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 75%);
+    grid-column: 1 / -1;
+    //  background: none;
+    //   -webkit-clip-path: none;
+    //   clip-path: none;
   }
 
-&__heart {
-   display: inline-block;
-   vertical-align: middle;
-   width: 2.4rem;
-}
+  &__heart {
+    display: inline-block;
+    vertical-align: middle;
+    width: 2.4rem;
+  }
 
   &__nav {
     display: flex;
@@ -55,16 +67,12 @@
       padding: 2rem;
     }
     padding-bottom: 4rem;
-  } 
-  
-  
-  //padding-bottom: 10rem;
+  }
+
   &__navigation {
-    display: flex; //justify-content: flex-end;
+    display: flex;
     flex-direction: row;
-    >li {
-      //margin-right: 4rem;
-      //margin-left: 4rem;
+    > li {
       list-style: none;
       font-family: "Open Sans", sans-serif;
       letter-spacing: 1px;
@@ -77,48 +85,41 @@
       font-size: 1.4rem;
       justify-content: space-around;
       @media only screen and (max-width: $bp-mobile) {
-        //margin-right: 3rem;
-        //margin-left: 3rem;
         justify-content: space-around;
       }
       @media only screen and (max-width: $bp-sm-mobile) {
-        //margin-right: 2rem;
-        //margin-left: 2rem;
         font-size: 1.4rem;
         justify-content: space-around;
       }
-      >a {
+      > a {
         text-decoration: none;
         color: $color-white;
         display: inline-block;
         transition: all 0.2s;
       }
-      >a:hover {
+      > a:hover {
         transform: translateY(-0.3rem);
         text-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
         color: $color-accent;
       }
-      >a:active {
+      > a:active {
         transform: translateY(-0.1rem);
         text-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
         color: $color-accent;
       }
 
-      >a.accent {
+      > a.accent {
         color: $color-accent;
       }
 
-      >a.dark {
+      > a.dark {
         color: $color-gray-dark;
       }
-      >a.dark:hover {
+      > a.dark:hover {
         color: $color-accent;
       }
-      
     }
   }
-
-  
 
   &__content {
     display: flex;
@@ -129,17 +130,14 @@
       display: grid;
       grid-template-columns: 1fr;
       grid-template-rows: 1fr auto;
-      
     }
 
     &#about {
       max-width: 120rem;
       margin: 0 auto;
-      
     }
   }
   &__textbox {
-  // margin-left: 5rem;  
     @media only screen and (max-width: $bp-medium2) {
       align-self: baseline;
       margin-top: 4rem;
@@ -152,38 +150,27 @@
   }
   &__img {
     text-align: center;
-   
-    
-    
+
     @media only screen and (max-width: $bp-mobile) {
-      grid-row-start: 1; //max-width: 50%;
-      //border: 1.2rem solid #fff;
+      grid-row-start: 1;
       -webkit-clip-path: circle(50% at 50% 50%);
       clip-path: circle(50% at 50% 50%);
       justify-self: center;
       padding: 0;
       margin: 0;
     }
-    
-    @media only screen and (min-width: $bp-medium2) {  //=> 860?
-      max-width: 70%;
-    }
-    @media only screen and (min-width: $bp-largest) {  //=> 1200?
-      max-width: 70%;
-    }
-    @media only screen and (max-width: $bp-medium) {  //=< 930?
-      max-width: 70%;
-    }
-  }
-  /*&__text-box {
-    position: relative;
-margin-top: 50%;
-    left: 15%;
-  }
 
-  &__img {
-    position: relative;
-    bottom: 0;
-    right: 0;
-  } */
+    @media only screen and (min-width: $bp-medium2) {
+      //=> 860?
+      max-width: 70%;
+    }
+    @media only screen and (min-width: $bp-largest) {
+      //=> 1200?
+      max-width: 70%;
+    }
+    @media only screen and (max-width: $bp-medium) {
+      //=< 930?
+      max-width: 70%;
+    }
+  }
 }

@@ -1,65 +1,62 @@
-
 .btn {
   &:link,
-&:visited {
-  text-transform: uppercase;
-  text-decoration: none;
-  background-color: $color-accent;
-  font-size: 1.6rem;
-  color: $color-white;
-  font-family: 'Open Sans', sans-serif;
-font-weight: 400;
-letter-spacing: 1px;
-  padding: 1rem 2.5rem;
-  display: inline-block;
-  border-radius:.4rem;
-  transition: all .2s;
+  &:visited {
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: $color-accent;
+    font-size: 1.6rem;
+    color: $color-white;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    padding: 1rem 2.5rem;
+    display: inline-block;
+    border-radius: 0.4rem;
+    transition: all 0.2s;
 
-  @media only screen and (max-width: $bp-medium2) {
-    font-size: 1.2rem;
-    padding: 1.2rem 2rem;
+    @media only screen and (max-width: $bp-medium2) {
+      font-size: 1.2rem;
+      padding: 1.2rem 2rem;
+    }
   }
 
-}
-
-&:hover {
-  transform: translateY(-.3rem);
-  box-shadow: 0 1rem 2rem rgba(0, 0, 0, .2);
-}
-
-&:active {
-  transform: translateY(-.1rem);
-  box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .2);
-}
-
-&:link,
-&:visited {
-  text-transform: uppercase;
-  text-decoration: none;
-  background-color: $color-accent;
-  font-size: 1.6rem;
-  color: $color-white;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 400;
-  padding: 1.5rem 2.5rem;
-  display: inline-block;
-  border-radius: .4rem;
-  transition: all .2s;
-
-  @media only screen and (max-width: $bp-medium2) {
-    font-size: 1.2rem;
-    padding: 1.2rem 2rem;
+  &:hover {
+    transform: translateY(-0.3rem);
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
   }
-}
 
-&:hover {
-  transform: translateY(-.3rem);
-  box-shadow: 0 1rem 2rem rgba(0, 0, 0, .2);
-}
+  &:active {
+    transform: translateY(-0.1rem);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+  }
 
-&:active {
-  transform: translateY(-.1rem);
-  box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .2);
-}
+  &:link,
+  &:visited {
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: $color-accent;
+    font-size: 1.6rem;
+    color: $color-white;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    padding: 1.5rem 2.5rem;
+    display: inline-block;
+    border-radius: 0.4rem;
+    transition: all 0.2s;
 
+    @media only screen and (max-width: $bp-medium2) {
+      font-size: 1.2rem;
+      padding: 1.2rem 2rem;
+    }
+  }
+
+  &:hover {
+    transform: translateY(-0.3rem);
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+  }
+
+  &:active {
+    transform: translateY(-0.1rem);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+  }
 }

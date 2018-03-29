@@ -1,13 +1,10 @@
-
-
 body {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 100;
   font-size: 1.8rem;
   line-height: 1.2;
   color: $color-text;
   padding: 3rem;
-  
 }
 
 .spacing {
@@ -18,13 +15,12 @@ body {
   animation-duration: 2s;
   animation-timing-function: ease-out;
 
-   &--main {
+  &--main {
     color: $color-white;
-    font-family: 'shrikhand', cursive;
+    font-family: "shrikhand", cursive;
     font-size: 9.8rem;
     font-weight: 400;
     // margin-left: 10rem;
-   
 
     // @media only screen and (max-width: $bp-medium2) {
     //   font-size: 3.5rem;
@@ -37,32 +33,29 @@ body {
 
     // @media only screen and (max-width: $bp-small) {
     //   font-size: 7rem;
-      
+
     // }
     // @media only screen and (max-width: $bp-medium2) {
     //   font-size: 7rem;
-      
+
     // }
 
     // @media only screen and (max-width: $bp-medium) {
     //   font-size: 7rem;
-      
+
     // }
-   
+
     /*backface-visibility: hidden; */
   }
-// About header======================================//
+  // About header======================================//
   &--about {
     color: $color-white;
-  
-    font-family: 'shrikhand', cursive;
+
+    font-family: "shrikhand", cursive;
 
     font-size: 9.8rem;
     font-weight: 400;
     margin-left: 10rem;
-   
-
-    
 
     @media only screen and (max-width: $bp-mobile) {
       font-size: 8rem;
@@ -71,21 +64,18 @@ body {
 
     @media only screen and (max-width: $bp-small) {
       font-size: 7rem;
-      
     }
     @media only screen and (max-width: $bp-medium2) {
       font-size: 7rem;
-      
     }
 
     @media only screen and (max-width: $bp-medium) {
       font-size: 7rem;
-      
     }
-   
+
     /*backface-visibility: hidden; */
   }
-  
+
   &--sub {
     font-size: 2.4rem;
     color: $color-text;
@@ -94,25 +84,23 @@ body {
     animation: moveInRight 2s ease-out;
 
     @media only screen and (max-width: $bp-medium) {
-      
       display: block;
-     }
+    }
 
     @media only screen and (max-width: $bp-medium2) {
-     font-size: 2rem;
-     display: block;
+      font-size: 2rem;
+      display: block;
     }
 
     @media only screen and (max-width: $bp-mobile) {
       font-size: 1.8rem;
     }
   }
-  
 }
 
 .heading-secondary {
   font-size: 3.2rem;
-  font-family: 'shrikhand', cursive;
+  font-family: "shrikhand", cursive;
   //font-family: 'Abril Fatface', cursive;
   color: $color-white;
   font-weight: 400;
@@ -120,7 +108,7 @@ body {
 
 .heading-secondary-dark {
   font-size: 3.2rem;
-  font-family: 'shrikhand', cursive;
+  font-family: "shrikhand", cursive;
   //font-family: 'Abril Fatface', cursive;
   color: $color-text-secondary;
   font-weight: 400;
@@ -131,13 +119,12 @@ body {
   text-transform: uppercase;
   font-family: "Open Sans", sans-serif;
   text-align: center;
-  margin-bottom: .8rem;
-  
+  margin-bottom: 0.8rem;
 }
 
 .h5 {
   padding-bottom: 2.4rem;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 400;
   font-size: 1.8rem;
   line-height: 1.5;
@@ -148,6 +135,4 @@ body {
   font-weight: 600;
   font-size: 1.4rem;
   text-decoration: underline solid $color-indiewool;
-  
 }
-

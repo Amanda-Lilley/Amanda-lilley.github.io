@@ -3,14 +3,17 @@
 
 <head>
   <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-116560050-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-116560050-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
 
-  gtag('config', 'UA-116560050-1');
-</script>
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-116560050-1');
+  </script>
 
 
   <meta charset="UTF-8">
@@ -23,7 +26,7 @@
 
 
   <link href="https://fonts.googleapis.com/css?family=Shrikhand" rel='stylesheet'>
-  
+
 
   <link href="https://fonts.googleapis.com/css?family=Raleway:100,400,500,600" rel="stylesheet">
 
@@ -47,66 +50,88 @@
         </li>
       </ul>
     </nav>
-    
+
   </header>
-<!-- Form styles https://www.sanwebe.com/2014/08/css-html-forms-designs-->
+  <!-- Form styles https://www.sanwebe.com/2014/08/css-html-forms-designs-->
   <section class="form">
 
     <div class="form__wrapper">
-      <form action="https://formcarry.com/s/H1iDQXF9M" method="POST" accept-charset="UTF-8" >
-	
+      <form action="https://formcarry.com/s/H1iDQXF9M" method="POST" accept-charset="UTF-8">
 
-          <div class="form__section"><span class="form__span">1</span>Get in touch</div>
-    <div class="form__inner-wrap">
-        <label>Full name <input type="text" name="fullName" /></label>
-        <label>Email address <input type="email" name="email" /></label>
-        <label>Company <input type="text" name="company" /></label>
-        <label>Phone number <input type="number" name="phoneNumber" /></label>
+
+        <div class="form__section">
+          <span class="form__span">1</span>Get in touch</div>
+        <div class="form__inner-wrap">
+          <label>Full name
+            <input type="text" name="fullName" />
+          </label>
+          <label>Email address
+            <input type="email" name="email" />
+          </label>
+          <label>Company
+            <input type="text" name="company" />
+          </label>
+          <label>Phone number
+            <input type="number" name="phoneNumber" />
+          </label>
+        </div>
+
+        <div class="form__section">
+          <span class="form__span">2</span>What are your project needs?</div>
+        <div class="form__inner-wrap">
+
+
+          <p>
+            <input type="checkbox" name="needs">Branding</p>
+          <p>
+            <input type="checkbox" name="needs">Content strategy</p>
+          <p>
+            <input type="checkbox" name="needs">Responsive design</p>
+          <p>
+            <input type="checkbox" name="needs">Not sure</p>
+        </div>
+
+        <div class="form__section">
+          <span class="form__span">3</span>Additional Information</div>
+        <div class="form__inner-wrap">
+          <label>Deadline
+            <input type="date" name="deadline" />
+          </label>
+          <label>Project details
+            <textarea name="field2"></textarea>
+          </label>
+          <input type="hidden" name="_gotcha">
+          <!-- use this to prevent spam -->
+
+        </div>
+
+
+        <input type="range" min="500" max="12000" value="3000" class="slider" id="budget" name="budget">
+        <p>Budget: $
+          <span id="demo"></span>
+        </p>
+
+
+        <input type="submit" name="submit" class="form__submit" />
+
+        <p class="phone">
+          amanda@amandalilley.com
+        </p>
+
+
+      </form>
+
     </div>
 
-    <div class="form__section"><span class="form__span">2</span>What are your project needs?</div>
-    <div class="form__inner-wrap">
-       
-      
-        <p> <input type="checkbox" name="needs">Branding</p>
-        <p> <input type="checkbox" name="needs">Content strategy</p>
-        <p> <input type="checkbox" name="needs">Responsive design</p>
-        <p> <input type="checkbox" name="needs">Not sure</p>
-    </div>
-
-    <div class="form__section"><span class="form__span">3</span>Additional Information</div>
-    <div class="form__inner-wrap">
-        <label>Deadline <input type="date" name="deadline" /></label>
-        <label>Project details <textarea name="field2"></textarea></label>
-        <input type="hidden" name="_gotcha"><!-- use this to prevent spam -->
-    
-    </div>
-
-          
-          <input type="range" min="500" max="12000" value="3000" class="slider" id="budget" name="budget">
-          <p>Budget: $ <span id="demo"></span></p>
-          
-
-          <input type="submit" name="submit" class="form__submit" />
-
-          <p class="phone">
-            amanda@amandalilley.com
-            </p>
-    
-    
-        </form>
-
-    </div>
-    
   </section>
 
-  
-    
 
-    
-    <hr class="hr">
 
-  
+
+
+  <hr class="hr">
+
+
 
   <footer class="footer">
     <ul class="footer__nav">
@@ -134,11 +159,11 @@
     var slider = document.getElementById("budget");
     var output = document.getElementById("demo");
     output.innerHTML = slider.value;
-    
-    slider.oninput = function() {
+
+    slider.oninput = function () {
       output.innerHTML = this.value;
     }
-    </script>
+  </script>
 
 </body>
 
