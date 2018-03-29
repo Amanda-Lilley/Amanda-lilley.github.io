@@ -148,7 +148,10 @@ margin: 0 auto;
 
     &__data {
       line-height: 1.2;
-      min-width: 260px;
+      min-width: 150px;
+      @media only screen and (max-width: $bp-mobile) {
+        font-size: 1.4rem;
+        }
     }
   
  &__img {
@@ -159,7 +162,7 @@ margin: 0 auto;
  &__wrapper {
    display: grid;
    grid-template-columns: 1fr 3fr 1fr;
-   grid-auto-rows: min-content auto;
+   grid-rows: min-content auto;
    //text-align: center;
  }
 
@@ -198,20 +201,25 @@ margin: 0 auto;
 
  &__p {
    display: grid;
-   grid-column: 2 / 3;
+   grid-template-columns: 1fr 4fr 1fr;
+
+   &-1 {
+    line-height: 1.5;
+    grid-column: 2 / 3;
+  }
  }
 
- &__list {
-   grid-column: 1 / -1;
-   display: grid;
-   grid-template-columns: 1fr 3fr 1fr;
-   grid-auto-rows: repeat(2, min-content); 
-   margin-top: 4rem;
+ 
 
- }
-&__p-1 {
-  line-height: 1.5;
-}
+//  &__list {
+//    grid-column: 1 / -1;
+//    display: grid;
+//    grid-template-columns: 1fr 3fr 1fr;
+//    grid-auto-rows: repeat(2, min-content); 
+//    margin-top: 4rem;
+
+//  }
+
 //  &__h3 {
 //    font-weight: 400;
 //    text-align: center;
@@ -220,17 +228,27 @@ margin: 0 auto;
 //  }
 
 &__table {
- display: table-cell;
+ display: grid;
  margin-top: 4rem;
-  grid-column: 2 / 3;
-  border-spacing: 10px;
+ grid-template-columns: 1fr 6fr 1fr;
+  
 //  margin: 0 auto;
  vertical-align: middle;
+
+ &-wrapper {
+   grid-column: 2 / 3;
+   
+   >table {
+    border-spacing: 16px;
+   }
+ }
 //  
 &-right {
   text-align: right;
-  padding-right: 2px;
+  // padding-right: 2px;
 }
+
+
 
 }
 
@@ -261,10 +279,10 @@ margin: 0 auto;
     // text-align: right;
     white-space: nowrap;
     @media only screen and (max-width: $bp-medium) {
-      font-size: 3rem;
+      font-size: 2.5rem;
     }
   }
-
+  
 }
 
 //COMPARISON SECTION========================
@@ -360,12 +378,17 @@ margin: 0 auto;
 
   &__data {
     line-height: 1.2;
-    min-width: 360px;
+    min-width: 200px;
+    @media only screen and (max-width: $bp-mobile) {
+      font-size: 1.4rem;
+      }
+    // min-width: 150px;
   }
 
   &__wrapper {
   display: grid;
-  grid-template-columns: 1fr 3fr 1fr;
+  grid-template-columns: 1fr 4fr 1fr;
+  grid-template-rows: auto;
 
   >p {
    display: grid;
@@ -390,7 +413,7 @@ margin: 0 auto;
    
     &-right {
       text-align: right;
-      padding-right: 5px;
+      padding-right: 2px;
     }
    }
    

@@ -699,13 +699,16 @@ p {
       padding-top: 2rem; } }
   .problem__data {
     line-height: 1.2;
-    min-width: 260px; }
+    min-width: 150px; }
+    @media only screen and (max-width: 38em) {
+      .problem__data {
+        font-size: 1.4rem; } }
   .problem__img {
     width: 8.8rem; }
   .problem__wrapper {
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
-    grid-auto-rows: min-content auto; }
+    grid-rows: min-content auto; }
   .problem__quote {
     grid-column: 2 / 3;
     text-align: center;
@@ -729,24 +732,21 @@ p {
     color: #91d3c1; }
   .problem__p {
     display: grid;
-    grid-column: 2 / 3; }
-  .problem__list {
-    grid-column: 1 / -1;
-    display: grid;
-    grid-template-columns: 1fr 3fr 1fr;
-    grid-auto-rows: repeat(2, min-content);
-    margin-top: 4rem; }
-  .problem__p-1 {
-    line-height: 1.5; }
+    grid-template-columns: 1fr 4fr 1fr; }
+    .problem__p-1 {
+      line-height: 1.5;
+      grid-column: 2 / 3; }
   .problem__table {
-    display: table-cell;
+    display: grid;
     margin-top: 4rem;
-    grid-column: 2 / 3;
-    border-spacing: 10px;
+    grid-template-columns: 1fr 6fr 1fr;
     vertical-align: middle; }
+    .problem__table-wrapper {
+      grid-column: 2 / 3; }
+      .problem__table-wrapper > table {
+        border-spacing: 16px; }
     .problem__table-right {
-      text-align: right;
-      padding-right: 2px; }
+      text-align: right; }
   .problem__figures {
     font-family: 'shrikhand', cursive;
     color: #91d3c1;
@@ -755,7 +755,7 @@ p {
     white-space: nowrap; }
     @media only screen and (max-width: 58em) {
       .problem__figures {
-        font-size: 3rem; } }
+        font-size: 2.5rem; } }
 
 .comparison {
   margin-top: 4rem;
@@ -818,10 +818,14 @@ p {
   grid-column: 1 / -1; }
   .solution__data {
     line-height: 1.2;
-    min-width: 360px; }
+    min-width: 200px; }
+    @media only screen and (max-width: 38em) {
+      .solution__data {
+        font-size: 1.4rem; } }
   .solution__wrapper {
     display: grid;
-    grid-template-columns: 1fr 3fr 1fr; }
+    grid-template-columns: 1fr 4fr 1fr;
+    grid-template-rows: auto; }
     .solution__wrapper > p {
       display: grid;
       grid-column: 2 / 3;
@@ -834,7 +838,7 @@ p {
     vertical-align: middle; }
     .solution__table-right {
       text-align: right;
-      padding-right: 5px; }
+      padding-right: 2px; }
 
 .discovery {
   display: grid;
