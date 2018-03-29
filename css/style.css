@@ -715,7 +715,8 @@ p {
     font-size: 2.4rem;
     color: #91d3c1;
     font-weight: bold;
-    padding: 2rem; }
+    padding: 2rem;
+    min-width: 35rem; }
   .problem__quote:after {
     content: "";
     display: block;
@@ -790,6 +791,9 @@ p {
     white-space: nowrap; }
     .comparison__ul > li {
       margin: 0 0 1.6rem 0; }
+      @media only screen and (max-width: 30em) {
+        .comparison__ul > li {
+          font-size: 1.4rem; } }
     .comparison__ul > li::before {
       content: "\2022";
       color: #91d3c1;
@@ -885,7 +889,7 @@ p {
       .survey__charts {
         grid-template-columns: 1fr;
         grid-template-rows: auto;
-        grid-gap: 0;
+        grid-gap: 4rem;
         padding: 0; } }
     .survey__charts-1 {
       display: grid;
@@ -1568,9 +1572,11 @@ td {
     width: 8.8rem; }
   .problem2__wrapper {
     display: grid;
-    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-columns: 1fr 4fr 1fr;
     grid-template-rows: auto;
     padding-top: 4rem; }
+    .problem2__wrapper-p {
+      grid-column: 2 / 3; }
   .problem2__quote {
     grid-column: 2 / 3;
     text-align: center;
@@ -1578,6 +1584,7 @@ td {
     color: #f76400;
     font-weight: bold;
     padding: 2rem;
+    min-width: 35rem;
     max-width: 45rem;
     margin: 0 auto; }
   .problem2__quote:after {
@@ -1602,6 +1609,9 @@ td {
     padding: 4rem 0 2.4rem 0;
     list-style: none;
     white-space: nowrap; }
+    @media only screen and (max-width: 38em) {
+      .problem2__ul {
+        font-size: 1.2rem; } }
     .problem2__ul > li {
       margin: 0 0 1.6rem 0; }
     .problem2__ul > li::before {
@@ -1616,7 +1626,7 @@ td {
   grid-column: 1 / -1; }
   .solution2__wrapper {
     display: grid;
-    grid-template-columns: 1fr 3fr 1fr; }
+    grid-template-columns: 1fr 4fr 1fr; }
     .solution2__wrapper > p {
       display: grid;
       grid-column: 2 / 3;
