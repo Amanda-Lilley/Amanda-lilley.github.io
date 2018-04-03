@@ -44,6 +44,7 @@
 
     &__img {
       max-width: 90%;
+      margin: 0 auto;
 
       @media only screen and (min-width: $bp-medium) {
         max-width: 80%;
@@ -107,6 +108,7 @@
 
     &__img {
       max-width: 90%;
+      margin: 0 auto;
 
       @media only screen and (min-width: $bp-medium) {
         max-width: 80%;

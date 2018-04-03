@@ -1391,7 +1391,8 @@ td {
           margin-top: 1.6rem;
           margin-bottom: 1.6rem; } }
     .container .project1__img {
-      max-width: 90%; }
+      max-width: 90%;
+      margin: 0 auto; }
       @media only screen and (min-width: 58em) {
         .container .project1__img {
           max-width: 80%; } }
@@ -1431,7 +1432,8 @@ td {
           justify-content: center;
           padding: 4rem; } }
     .container .project2__img {
-      max-width: 90%; }
+      max-width: 90%;
+      margin: 0 auto; }
       @media only screen and (min-width: 58em) {
         .container .project2__img {
           max-width: 80%; } }
