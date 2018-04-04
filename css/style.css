@@ -243,6 +243,9 @@ body {
   font-weight: 400;
   margin: 0 2rem; }
 
+#quotation {
+  margin: 0; }
+
 /*.row {
   max-width: $grid-width;
   //margin: 0 auto;
@@ -612,7 +615,7 @@ body {
   .quote:after {
     content: " ";
     align-self: center;
-    border-top: 2px solid #91d3c1; } }
+    border-top: 2px solid #4a4a4a; } }
 
 p {
   line-height: 1.5; }
@@ -720,12 +723,14 @@ p {
     font-weight: bold;
     padding: 4rem;
     min-width: 35rem; }
+    .problem__quote#paycravequote {
+      color: #f76400; }
   .problem__quote:after {
     content: "";
     display: block;
     margin: 0 auto;
     width: 100%;
-    border-bottom: 2px solid #91d3c1;
+    border-bottom: 2px solid #4a4a4a;
     padding-top: 2rem; }
   .problem__source {
     font-size: 1.2rem;
@@ -734,6 +739,8 @@ p {
     font-size: 3.2rem;
     font-family: "Coiny", cursive;
     color: #91d3c1; }
+    .problem__qmark#paycraveqmark {
+      color: #f76400; }
   .problem__p {
     display: grid;
     grid-template-columns: 1fr 4fr 1fr; }

@@ -10,7 +10,7 @@
   .quote:after {
     content: " ";
     align-self: center;
-    border-top: 2px solid $color-indiewool;
+    border-top: 2px solid $color-text;
   }
 }
 
@@ -158,6 +158,10 @@ p {
     font-weight: bold;
     padding: 4rem;
     min-width: 35rem;
+
+    &#paycravequote {
+      color: $color-orange-dark;
+    }
   }
 
   &__quote:after {
@@ -165,8 +169,10 @@ p {
     display: block;
     margin: 0 auto;
     width: 100%;
-    border-bottom: 2px solid $color-indiewool;
+    border-bottom: 2px solid $color-text;
     padding-top: 2rem;
+
+  
   }
 
   &__source {
@@ -178,6 +184,9 @@ p {
     font-size: 3.2rem;
     font-family: "Coiny", cursive;
     color: $color-indiewool;
+    &#paycraveqmark {
+      color: $color-orange-dark;
+    }
   }
 
   &__p {
