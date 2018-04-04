@@ -27,76 +27,100 @@
   }
 }
 
+// .problem2 {
+//   grid-column: 1 / -1;
+//   @media only screen and (max-width: $bp-mobile) {
+//     padding-top: 2rem;
+//   }
+ 
+//  &__wrapper {
+//   display: grid;
+//   grid-template-columns: 1fr 4fr 1fr;
+//   grid-template-rows: auto;
+//   padding-top: 4rem; //text-align: center;
+
+//   &-p {
+//     display: grid;
+//     grid-column: 2 / 3;
+//   }
+
+   
+  
+//   &-quote {
+//     grid-column: 2 / 3;
+//     text-align: center;
+//     font-size: 2.4rem;
+//     color: $color-orange-dark;
+//     font-weight: bold;
+//     padding: 2rem;
+//     min-width: 35rem;
+//     max-width: 45rem;
+//     margin: 0 auto;
+
+//     &:after {
+//       content: "";
+//       display: block;
+//       margin: 0 auto;
+//       width: 100%;
+//       border-bottom: 2px solid $color-orange-dark;
+//       padding-top: 2rem;
+//     }
+//   }
+  
+//   &-source {
+//     font-size: 1.2rem;
+//     color: $color-gray-dark;
+//   }
+//   &__qmark {
+//     font-size: 3.2rem;
+//     font-family: "Coiny", cursive;
+//     color: $color-orange-dark;
+//   }
+//   &__p {
+//     display: grid;
+//     grid-column: 2 / 3;
+//   }
+//   &-ul {
+//     grid-column: 2 / 3;
+//     padding: 4rem 0 2.4rem 0;
+//     list-style: none;
+//     white-space: nowrap;
+//     @media only screen and (max-width: $bp-mobile) {
+//       font-size: 1.2rem;
+//     }
+//     > li {
+//       margin: 0 0 1.6rem 0;
+//     }
+//     > li::before {
+//       content: "\2022";
+//       color: $color-orange-dark;
+//       display: inline-block;
+//       width: 4rem; //margin-left: -8rem;
+//       text-align: center;
+//     }
+//   }
+
+//  }
+    
+
+   
+// }
+
+//PROBLEM SECTION========================
 .problem2 {
+  //background: $color-indiewool;
+  margin-top: 4rem;
   grid-column: 1 / -1;
-  @media only screen and (max-width: $bp-mobile) {
-    padding-top: 2rem;
-  }
-  &__img {
-    width: 8.8rem;
-  }
   &__wrapper {
     display: grid;
     grid-template-columns: 1fr 4fr 1fr;
-    grid-template-rows: auto;
-    padding-top: 4rem; //text-align: center;
-    &-p {
+    > p {
+      display: grid;
       grid-column: 2 / 3;
-    }
-  }
-  &__quote {
-    grid-column: 2 / 3;
-    text-align: center;
-    font-size: 2.4rem;
-    color: $color-orange-dark;
-    font-weight: bold;
-    padding: 2rem;
-    min-width: 35rem;
-    max-width: 45rem;
-    margin: 0 auto;
-  }
-  &__quote:after {
-    content: "";
-    display: block;
-    margin: 0 auto;
-    width: 100%;
-    border-bottom: 2px solid $color-orange-dark;
-    padding-top: 2rem;
-  }
-  &__source {
-    font-size: 1.2rem;
-    color: $color-gray-dark;
-  }
-  &__qmark {
-    font-size: 3.2rem;
-    font-family: "Coiny", cursive;
-    color: $color-orange-dark;
-  }
-  &__p {
-    display: grid;
-    grid-column: 2 / 3;
-  }
-  &__ul {
-    grid-column: 2 / 3;
-    padding: 4rem 0 2.4rem 0;
-    list-style: none;
-    white-space: nowrap;
-    @media only screen and (max-width: $bp-mobile) {
-      font-size: 1.2rem;
-    }
-    > li {
-      margin: 0 0 1.6rem 0;
-    }
-    > li::before {
-      content: "\2022";
-      color: $color-orange-dark;
-      display: inline-block;
-      width: 4rem; //margin-left: -8rem;
-      text-align: center;
+      margin: 4rem 0 4rem 0;
     }
   }
 }
-
 //SOLUTION SECTION========================
 .solution2 {
   //background: $color-indiewool;
@@ -140,28 +164,40 @@
 
 //STORIES SECTION========================
 .stories2 {
-  padding-top: 4rem;
+  padding-top: 8rem;
   display: grid;
   grid-column: 1 / -1;
+  
+  
   padding-bottom: 8rem;
   &__h4 {
     margin-bottom: 4rem;
   }
-  &__table {
-    border-collapse: collapse;
-    margin: 0 auto;
-    > table,
-    th,
-    td {
-      border: 1px solid $color-gray-dark;
-      padding: 1rem;
+    &__table {
+      grid-template-columns: 1fr 4fr 1fr;
+      &-1 {
+        border-collapse: collapse;
+        grid-column: 2 / 3;
+        margin: 0 auto;
+        @media only screen and (max-width: $bp-mobile) {
+          
+          margin: 0 4rem;
+        }
+        > table,
+        th,
+        td {
+          border: 1px solid $color-gray-dark;
+          padding: 1rem;
+        }
+        &-head {
+          background: $color-orange-dark;
+          color: $color-white;
+        }
+      }
     }
-    &-head {
-      background: $color-orange-dark;
-      color: $color-white;
-    }
-  }
+  
 }
+ 
 
 //SOURCES SECTION========================
 .ia2 {

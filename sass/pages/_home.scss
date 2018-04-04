@@ -1,3 +1,23 @@
+@font-face {
+  font-family: 'butler';
+  src: url('fonts/butler_bold-webfont.woff2');
+  src: url('fonts/butler_extrabold.otf');
+  src: local('butler'),
+  url('fonts/butler_bold-webfont.woff2') format('woff2'),
+  url('fonts/butler_ExtraBold-webfont.otf') format('otf');
+  
+  
+}
+
+@font-face {
+  font-family: 'karla';
+  src: url('fonts/karla-regular.ttf');
+  src: local('karla'),
+  url('fonts/karla-regular.ttf')
+  format('ttf');
+  font-weight: regular;
+}
+
 .container {
   display: grid;
   grid-template-rows: repeat(8, min-content);
@@ -231,8 +251,9 @@
 
     &__h2 {
       margin: 8rem auto 2rem auto;
-      font-family: "shrikhand", cursive;
+      font-family: "butler", cursive;
       color: $color-text-secondary;
+      font-weight: 900;
     }
 
     &__btn {

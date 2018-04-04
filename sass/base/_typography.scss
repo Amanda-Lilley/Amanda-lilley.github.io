@@ -1,6 +1,6 @@
 body {
-  font-family: "Raleway", sans-serif;
-  font-weight: 100;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
   font-size: 1.8rem;
   line-height: 1.2;
   color: $color-text;
@@ -17,7 +17,8 @@ body {
 
   &--main {
     color: $color-white;
-    font-family: "shrikhand", cursive;
+    // font-family: "shrikhand", cursive;
+    font-family: "butler", cursive;
     font-size: 9.8rem;
     font-weight: 400;
     // margin-left: 10rem;
@@ -51,7 +52,7 @@ body {
   &--about {
     color: $color-white;
 
-    font-family: "shrikhand", cursive;
+    font-family: "butler", cursive;
 
     font-size: 9.8rem;
     font-weight: 400;
@@ -79,7 +80,7 @@ body {
   &--sub {
     font-size: 2.4rem;
     color: $color-text;
-    font-weight: 100;
+    font-weight: 300;
     // line-height: 3rem;
     animation: moveInRight 2s ease-out;
 
@@ -100,7 +101,7 @@ body {
 
 .heading-secondary {
   font-size: 3.2rem;
-  font-family: "shrikhand", cursive;
+  font-family: "butler", cursive;
   //font-family: 'Abril Fatface', cursive;
   color: $color-white;
   font-weight: 400;
@@ -108,7 +109,7 @@ body {
 
 .heading-secondary-dark {
   font-size: 3.2rem;
-  font-family: "shrikhand", cursive;
+  font-family: "butler", cursive;
   //font-family: 'Abril Fatface', cursive;
   color: $color-text-secondary;
   font-weight: 400;
@@ -117,14 +118,14 @@ body {
 .h4 {
   font-size: 1.8rem;
   text-transform: uppercase;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   text-align: center;
   margin-bottom: 0.8rem;
 }
 
 .h5 {
   padding-bottom: 2.4rem;
-  font-family: "Raleway", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   font-size: 1.8rem;
   line-height: 1.5;

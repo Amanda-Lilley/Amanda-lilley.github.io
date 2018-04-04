@@ -1007,6 +1007,10 @@ p {
       margin-top: 4rem;
       grid-column: 2 / 3;
       width: 50%;
+      @media only screen and (max-width: $bp-small) {
+        width: 100%;
+      }
+
       justify-self: center;
       border: 4px solid #2e464f;
     }

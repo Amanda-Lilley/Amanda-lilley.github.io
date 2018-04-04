@@ -80,8 +80,8 @@ body {
   box-sizing: border-box;
 } */
 body {
-  font-family: "Raleway", sans-serif;
-  font-weight: 100;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
   font-size: 1.8rem;
   line-height: 1.2;
   color: #4a4a4a;
@@ -96,13 +96,13 @@ body {
   animation-timing-function: ease-out; }
   .heading-primary--main {
     color: #fff;
-    font-family: "shrikhand", cursive;
+    font-family: "butler", cursive;
     font-size: 9.8rem;
     font-weight: 400;
     /*backface-visibility: hidden; */ }
   .heading-primary--about {
     color: #fff;
-    font-family: "shrikhand", cursive;
+    font-family: "butler", cursive;
     font-size: 9.8rem;
     font-weight: 400;
     margin-left: 10rem;
@@ -123,7 +123,7 @@ body {
   .heading-primary--sub {
     font-size: 2.4rem;
     color: #4a4a4a;
-    font-weight: 100;
+    font-weight: 300;
     animation: moveInRight 2s ease-out; }
     @media only screen and (max-width: 58em) {
       .heading-primary--sub {
@@ -138,26 +138,26 @@ body {
 
 .heading-secondary {
   font-size: 3.2rem;
-  font-family: "shrikhand", cursive;
+  font-family: "butler", cursive;
   color: #fff;
   font-weight: 400; }
 
 .heading-secondary-dark {
   font-size: 3.2rem;
-  font-family: "shrikhand", cursive;
+  font-family: "butler", cursive;
   color: rgba(74, 74, 74, 0.5);
   font-weight: 400; }
 
 .h4 {
   font-size: 1.8rem;
   text-transform: uppercase;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   text-align: center;
   margin-bottom: 0.8rem; }
 
 .h5 {
   padding-bottom: 2.4rem;
-  font-family: "Raleway", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   font-size: 1.8rem;
   line-height: 1.5;
@@ -213,8 +213,8 @@ body {
   background-color: #ff2956;
   font-size: 1.6rem;
   color: #fff;
-  font-family: "Open Sans", sans-serif;
-  font-weight: 400;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
   padding: 1.5rem 2.5rem;
   display: inline-block;
   border-radius: 0.4rem;
@@ -237,7 +237,7 @@ body {
   grid-template-columns: 1fr auto 1fr;
   font-size: 1.8rem;
   text-transform: uppercase;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   grid-gap: 2rem;
   letter-spacing: 2px;
   font-weight: 400;
@@ -294,6 +294,12 @@ body {
   width: calc(3 * ((100% - 3 * 0rem) / 4) + (2 * 0rem));
 }
 } */
+@font-face {
+  font-family: 'karla';
+  src: url("fonts/karla-regular.ttf");
+  src: local("karla"), url("fonts/karla-regular.ttf") format("ttf");
+  font-weight: 400; }
+
 .header {
   background: linear-gradient(to right bottom, #eef2f3, #bac5cc);
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 75%);
@@ -343,11 +349,11 @@ body {
     flex-direction: row; }
     .header__navigation > li {
       list-style: none;
-      font-family: "Open Sans", sans-serif;
+      font-family: 'Montserrat', sans-serif;
       letter-spacing: 1px;
       text-transform: uppercase;
       font-size: 1.6rem;
-      font-weight: 400;
+      font-weight: 500;
       text-decoration: none;
       margin-right: 2rem;
       margin-left: 2rem;
@@ -590,6 +596,11 @@ body {
 
 .numbers {
   font-family: "Open Sans", sans-serif; }
+
+@font-face {
+  font-family: 'Butler';
+  src: url("WebFont.eot");
+  src: url("WebFont.eot?#iefix") format("embedded-opentype"), url("WebFont.woff") format("woff"), url("WebFont.ttf") format("truetype"), url("WebFont.svg#webfont") format("svg"); }
 
 @supports (display: grid) {
   .title:before,
@@ -1340,6 +1351,9 @@ p {
       width: 50%;
       justify-self: center;
       border: 4px solid #2e464f; }
+      @media only screen and (max-width: 44em) {
+        .responsive__wrapper > video {
+          width: 100%; } }
 
 sup {
   font-size: 8px; }
@@ -1356,6 +1370,18 @@ td {
     color: #bac5cc;
     list-style: none;
     margin-left: 2.4rem; }
+
+@font-face {
+  font-family: 'butler';
+  src: url("fonts/butler_bold-webfont.woff2");
+  src: url("fonts/butler_extrabold.otf");
+  src: local("butler"), url("fonts/butler_bold-webfont.woff2") format("woff2"), url("fonts/butler_ExtraBold-webfont.otf") format("otf"); }
+
+@font-face {
+  font-family: 'karla';
+  src: url("fonts/karla-regular.ttf");
+  src: local("karla"), url("fonts/karla-regular.ttf") format("ttf");
+  font-weight: regular; }
 
 .container {
   display: grid;
@@ -1525,8 +1551,9 @@ td {
     grid-column: 1 / -1; }
     .container .work-together__h2 {
       margin: 8rem auto 2rem auto;
-      font-family: "shrikhand", cursive;
-      color: rgba(74, 74, 74, 0.5); }
+      font-family: "butler", cursive;
+      color: rgba(74, 74, 74, 0.5);
+      font-weight: 900; }
     .container .work-together__btn {
       margin: 0 auto 4rem auto; }
 
@@ -1555,62 +1582,15 @@ td {
         margin-top: 4rem; } }
 
 .problem2 {
+  margin-top: 4rem;
   grid-column: 1 / -1; }
-  @media only screen and (max-width: 38em) {
-    .problem2 {
-      padding-top: 2rem; } }
-  .problem2__img {
-    width: 8.8rem; }
   .problem2__wrapper {
     display: grid;
-    grid-template-columns: 1fr 4fr 1fr;
-    grid-template-rows: auto;
-    padding-top: 4rem; }
-    .problem2__wrapper-p {
-      grid-column: 2 / 3; }
-  .problem2__quote {
-    grid-column: 2 / 3;
-    text-align: center;
-    font-size: 2.4rem;
-    color: #f76400;
-    font-weight: bold;
-    padding: 2rem;
-    min-width: 35rem;
-    max-width: 45rem;
-    margin: 0 auto; }
-  .problem2__quote:after {
-    content: "";
-    display: block;
-    margin: 0 auto;
-    width: 100%;
-    border-bottom: 2px solid #f76400;
-    padding-top: 2rem; }
-  .problem2__source {
-    font-size: 1.2rem;
-    color: #bac5cc; }
-  .problem2__qmark {
-    font-size: 3.2rem;
-    font-family: "Coiny", cursive;
-    color: #f76400; }
-  .problem2__p {
-    display: grid;
-    grid-column: 2 / 3; }
-  .problem2__ul {
-    grid-column: 2 / 3;
-    padding: 4rem 0 2.4rem 0;
-    list-style: none;
-    white-space: nowrap; }
-    @media only screen and (max-width: 38em) {
-      .problem2__ul {
-        font-size: 1.2rem; } }
-    .problem2__ul > li {
-      margin: 0 0 1.6rem 0; }
-    .problem2__ul > li::before {
-      content: "\2022";
-      color: #f76400;
-      display: inline-block;
-      width: 4rem;
-      text-align: center; }
+    grid-template-columns: 1fr 4fr 1fr; }
+    .problem2__wrapper > p {
+      display: grid;
+      grid-column: 2 / 3;
+      margin: 4rem 0 4rem 0; }
 
 .solution2 {
   margin-top: 4rem;
@@ -1646,23 +1626,29 @@ td {
       width: 100%; }
 
 .stories2 {
-  padding-top: 4rem;
+  padding-top: 8rem;
   display: grid;
   grid-column: 1 / -1;
   padding-bottom: 8rem; }
   .stories2__h4 {
     margin-bottom: 4rem; }
   .stories2__table {
-    border-collapse: collapse;
-    margin: 0 auto; }
-    .stories2__table > table,
-    .stories2__table th,
-    .stories2__table td {
-      border: 1px solid #bac5cc;
-      padding: 1rem; }
-    .stories2__table-head {
-      background: #f76400;
-      color: #fff; }
+    grid-template-columns: 1fr 4fr 1fr; }
+    .stories2__table-1 {
+      border-collapse: collapse;
+      grid-column: 2 / 3;
+      margin: 0 auto; }
+      @media only screen and (max-width: 38em) {
+        .stories2__table-1 {
+          margin: 0 4rem; } }
+      .stories2__table-1 > table,
+      .stories2__table-1 th,
+      .stories2__table-1 td {
+        border: 1px solid #bac5cc;
+        padding: 1rem; }
+      .stories2__table-1-head {
+        background: #f76400;
+        color: #fff; }
 
 .ia2 {
   background: #eef2f3;
