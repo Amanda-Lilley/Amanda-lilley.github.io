@@ -297,12 +297,6 @@ body {
   width: calc(3 * ((100% - 3 * 0rem) / 4) + (2 * 0rem));
 }
 } */
-@font-face {
-  font-family: 'karla';
-  src: url("fonts/karla-regular.ttf");
-  src: local("karla"), url("fonts/karla-regular.ttf") format("ttf");
-  font-weight: 400; }
-
 .header {
   background: linear-gradient(to right bottom, #eef2f3, #bac5cc);
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 75%);
@@ -600,11 +594,6 @@ body {
 .numbers {
   font-family: "Open Sans", sans-serif; }
 
-@font-face {
-  font-family: 'Butler';
-  src: url("WebFont.eot");
-  src: url("WebFont.eot?#iefix") format("embedded-opentype"), url("WebFont.woff") format("woff"), url("WebFont.ttf") format("truetype"), url("WebFont.svg#webfont") format("svg"); }
-
 @supports (display: grid) {
   .title:before,
   .title:after {
@@ -722,7 +711,9 @@ p {
     color: #91d3c1;
     font-weight: bold;
     padding: 4rem;
-    min-width: 35rem; }
+    min-width: 35rem;
+    max-width: 50rem;
+    margin: 0 auto; }
     .problem__quote#paycravequote {
       color: #f76400; }
   .problem__quote:after {
@@ -785,6 +776,9 @@ p {
         grid-template-rows: repeat(3, min-content); } }
     .comparison__wrapper-img {
       padding: 0 4rem; }
+      @media only screen and (max-width: 58em) {
+        .comparison__wrapper-img {
+          padding: 0; } }
     .comparison__wrapper-vs {
       grid-column: 3 / 4;
       position: absolute;
@@ -810,7 +804,11 @@ p {
             font-size: 8rem; } }
     .comparison__wrapper-ul {
       padding: 4rem 0;
-      list-style: none; }
+      list-style: none;
+      white-space: nowrap; }
+      @media only screen and (max-width: 58em) {
+        .comparison__wrapper-ul {
+          white-space: normal; } }
       .comparison__wrapper-ul > li {
         margin: 0 0 1.6rem 0; }
     .comparison__wrapper-slow {
@@ -894,67 +892,39 @@ p {
   .survey__charts {
     margin-top: 4rem;
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    grid-gap: 6rem;
-    padding: 2rem; }
-    @media only screen and (max-width: 58em) {
-      .survey__charts {
-        grid-template-columns: 1fr;
-        grid-template-rows: auto;
-        grid-gap: 4rem;
-        padding: 0; } }
+    grid-template-columns: 1fr  4fr 1fr;
+    grid-template-rows: repeat(4, 1fr); }
     .survey__charts-1 {
       display: grid;
+      grid-column: 2 / 3;
       grid-row: 1 / 2;
       justify-items: center; }
       .survey__charts-1 > img {
         max-width: 100%; }
-        @media only screen and (max-width: 58em) {
-          .survey__charts-1 > img {
-            max-width: 70%; } }
     .survey__charts-2 {
       display: grid;
-      grid-row: 1 / 2;
+      grid-column: 2 / 3;
+      grid-row: 2 / 3;
       width: 100%;
       justify-items: center; }
-      @media only screen and (max-width: 58em) {
-        .survey__charts-2 {
-          grid-row: 2 /3;
-          padding-top: 8rem; } }
       .survey__charts-2 > img {
         max-width: 100%; }
-        @media only screen and (max-width: 58em) {
-          .survey__charts-2 > img {
-            max-width: 70%; } }
     .survey__charts-3 {
       display: grid;
-      grid-row: 2 / 3;
+      grid-column: 2 / 3;
+      grid-row: 3 / 4;
       justify-items: center;
       padding-top: 4rem; }
-      @media only screen and (max-width: 58em) {
-        .survey__charts-3 {
-          grid-row: 3 / 4;
-          padding-top: 8rem; } }
       .survey__charts-3 > img {
         max-width: 100%; }
-        @media only screen and (max-width: 58em) {
-          .survey__charts-3 > img {
-            max-width: 70%; } }
     .survey__charts-4 {
       display: grid;
-      grid-row: 2 / 3;
+      grid-column: 2/ 3;
+      grid-row: 4 / 5;
       justify-items: center;
       padding-top: 4rem; }
-      @media only screen and (max-width: 58em) {
-        .survey__charts-4 {
-          grid-row: 4 / 5;
-          padding: 8rem 0 8rem; } }
       .survey__charts-4 > img {
         max-width: 100%; }
-        @media only screen and (max-width: 58em) {
-          .survey__charts-4 > img {
-            max-width: 70%; } }
 
 .stories {
   padding-top: 4rem;
@@ -963,17 +933,22 @@ p {
   padding-bottom: 8rem; }
   .stories__h4 {
     margin-bottom: 4rem; }
-  .stories__table {
-    border-collapse: collapse;
-    margin: 0 2rem; }
-    .stories__table > table,
-    .stories__table th,
-    .stories__table td {
-      border: 1px solid #bac5cc;
-      padding: 1rem; }
-    .stories__table-head {
-      background: #91d3c1;
-      color: #fff; }
+  .stories__wrapper {
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr; }
+    .stories__wrapper-table {
+      border-collapse: collapse;
+      margin: 0 2rem;
+      grid-column: 2 / 3;
+      margin: 0 auto; }
+      .stories__wrapper-table > table,
+      .stories__wrapper-table th,
+      .stories__wrapper-table td {
+        border: 1px solid #bac5cc;
+        padding: 1rem; }
+      .stories__wrapper-table-head {
+        background: #91d3c1;
+        color: #fff; }
 
 .persona {
   display: grid;

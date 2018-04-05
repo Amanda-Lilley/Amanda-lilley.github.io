@@ -158,6 +158,8 @@ p {
     font-weight: bold;
     padding: 4rem;
     min-width: 35rem;
+    max-width: 50rem;
+    margin: 0 auto;
 
     &#paycravequote {
       color: $color-orange-dark;
@@ -258,6 +260,9 @@ p {
     // }
     &-img {
       padding: 0 4rem;
+      @media only screen and (max-width: $bp-medium) {
+        padding: 0;
+      }
     }
 
     &-vs {
@@ -286,6 +291,7 @@ p {
         padding: 0 4rem;
         @media only screen and (max-width: $bp-medium) {
           font-size: 8rem;
+          
         }
        
       }
@@ -294,7 +300,10 @@ p {
     &-ul {
       padding: 4rem 0;
       list-style: none;
-      // white-space: nowrap;
+      white-space: nowrap;
+      @media only screen and (max-width: $bp-medium) {
+        white-space: normal;
+      }
   
       > li {
         margin: 0 0 1.6rem 0;
@@ -435,93 +444,101 @@ p {
   &__charts {
     margin-top: 4rem;
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    grid-gap: 6rem;
-    padding: 2rem;
+    grid-template-columns: 1fr  4fr 1fr;
+    grid-template-rows: repeat(4, 1fr);
+    
 
-    @media only screen and (max-width: $bp-medium) {
-      grid-template-columns: 1fr;
-      grid-template-rows: auto;
-      grid-gap: 4rem;
-      padding: 0;
-    }
+    // @media only screen and (max-width: $bp-medium) {
+    //   grid-template-columns: 1fr;
+    //   grid-template-rows: auto;
+    //   grid-gap: 4rem;
+    //   padding: 0;
+    // }
 
     &-1 {
       display: grid;
+      grid-column: 2 / 3;
       grid-row: 1 / 2;
       justify-items: center;
 
       > img {
         max-width: 100%;
 
-        @media only screen and (max-width: $bp-medium) {
-          max-width: 70%;
-        }
+        // @media only screen and (max-width: $bp-medium) {
+        //   max-width: 70%;
+        // }
       }
     }
 
     &-2 {
       display: grid;
-      grid-row: 1 / 2;
+      grid-column: 2 / 3;
+      grid-row: 2 / 3;
       width: 100%;
       justify-items: center;
 
-      @media only screen and (max-width: $bp-medium) {
-        grid-row: 2 /3;
-        padding-top: 8rem;
-      }
-
+      // @media only screen and (max-width: $bp-medium) {
+      //   grid-row: 2 /3;
+      //   padding-top: 8rem;
       > img {
         max-width: 100%;
 
-        @media only screen and (max-width: $bp-medium) {
-          max-width: 70%;
-        }
+        // @media only screen and (max-width: $bp-medium) {
+        //   max-width: 70%;
+        // }
       }
-    }
+      }
 
-    &-3 {
-      display: grid;
-      grid-row: 2 / 3;
-      justify-items: center;
-      padding-top: 4rem;
-
-      @media only screen and (max-width: $bp-medium) {
+      &-3 {
+        display: grid;
+        grid-column: 2 / 3;
         grid-row: 3 / 4;
-        padding-top: 8rem;
-      }
-
-      > img {
-        max-width: 100%;
-
-        @media only screen and (max-width: $bp-medium) {
-          max-width: 70%;
+        justify-items: center;
+        padding-top: 4rem;
+  
+        // @media only screen and (max-width: $bp-medium) {
+        //   grid-row: 3 / 4;
+        //   padding-top: 8rem;
+        // }
+  
+        > img {
+          max-width: 100%;
+  
+          // @media only screen and (max-width: $bp-medium) {
+          //   max-width: 70%;
+          // }
         }
       }
-    }
 
-    &-4 {
-      display: grid;
-      grid-row: 2 / 3;
-      justify-items: center;
-      padding-top: 4rem;
-
-      @media only screen and (max-width: $bp-medium) {
+      &-4 {
+        display: grid;
+        grid-column: 2/ 3;
         grid-row: 4 / 5;
-        padding: 8rem 0 8rem;
-      }
-
-      > img {
-        max-width: 100%;
-
-        @media only screen and (max-width: $bp-medium) {
-          max-width: 70%;
+        justify-items: center;
+        padding-top: 4rem;
+  
+        // @media only screen and (max-width: $bp-medium) {
+        //   grid-row: 4 / 5;
+        //   padding: 8rem 0 8rem;
+        // }
+  
+        > img {
+          max-width: 100%;
+  
+          // @media only screen and (max-width: $bp-medium) {
+          //   max-width: 70%;
+          // }
         }
       }
+
+      
     }
+
+    
+
+    
   }
-}
+
 
 //STORIES SECTION========================
 .stories {
@@ -534,23 +551,34 @@ p {
     margin-bottom: 4rem;
   }
 
-  &__table {
-    border-collapse: collapse;
-    margin: 0 2rem;
+  &__wrapper {
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
     
-
-    > table,
-    th,
-    td {
-      border: 1px solid $color-gray-dark;
-      padding: 1rem;
+  
+    &-table {
+      border-collapse: collapse;
+      margin: 0 2rem;
+      grid-column: 2 / 3;
+      margin: 0 auto;
+      
+  
+      > table,
+      th,
+      td {
+        border: 1px solid $color-gray-dark;
+        padding: 1rem;
+      }
+  
+      &-head {
+        background: $color-indiewool;
+        color: $color-white;
+      }
     }
 
-    &-head {
-      background: $color-indiewool;
-      color: $color-white;
-    }
   }
+
+  
 }
 //PERSONAS SECTION========================
 
