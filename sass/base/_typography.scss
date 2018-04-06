@@ -16,37 +16,12 @@ body {
   animation-timing-function: ease-out;
 
   &--main {
-    color: $color-white;
+    color: $color-accent;
     // font-family: "shrikhand", cursive;
     font-family: "butler", cursive;
     font-size: 9.8rem;
-    font-weight: 400;
-    // margin-left: 10rem;
-
-    // @media only screen and (max-width: $bp-medium2) {
-    //   font-size: 3.5rem;
-    // }
-
-    // @media only screen and (max-width: $bp-mobile) {
-    //   font-size: 8rem;
-    //   margin: 0 auto;
-    // }
-
-    // @media only screen and (max-width: $bp-small) {
-    //   font-size: 7rem;
-
-    // }
-    // @media only screen and (max-width: $bp-medium2) {
-    //   font-size: 7rem;
-
-    // }
-
-    // @media only screen and (max-width: $bp-medium) {
-    //   font-size: 7rem;
-
-    // }
-
-    /*backface-visibility: hidden; */
+    font-weight: 600;
+    
   }
   // About header======================================//
   &--about {
@@ -78,23 +53,47 @@ body {
   }
 
   &--sub {
-    font-size: 2.4rem;
+    font-family: 'butler';
+    font-size: 5.6rem;
     color: $color-text;
-    font-weight: 300;
-    // line-height: 3rem;
+    font-weight: 600;
+    line-height: 1;
     animation: moveInRight 2s ease-out;
 
     @media only screen and (max-width: $bp-medium) {
-      display: block;
+      
     }
 
     @media only screen and (max-width: $bp-medium2) {
-      font-size: 2rem;
-      display: block;
+     
+      
     }
 
     @media only screen and (max-width: $bp-mobile) {
-      font-size: 1.8rem;
+      font-size: 4.8rem;
+    }
+
+    @media only screen and (max-width: $bp-sm-mobile) {
+      font-size: 3.2rem;
+    }
+
+    >img {
+      width: 5.8rem;
+      @media only screen and (max-width: $bp-mobile) {
+        width: 4.8rem;
+        
+      }
+      @media only screen and (max-width: $bp-sm-mobile) {
+        width: 3.2rem;
+      }
+      vertical-align: text-bottom;
+      padding-bottom: .5rem;
+      
+    }
+    >span{
+      color: $color-accent;
+      text-decoration: underline solid $color-white;
+      
     }
   }
 }
@@ -114,7 +113,19 @@ body {
   color: $color-text-secondary;
   font-weight: 400;
 }
+#location {
+  font-family: 'butler';
+  color: $color-white;
+  font-weight: 600;
+  font-size: 3.2rem;
+  @media only screen and (max-width: $bp-mobile) {
+    font-size: 2.4rem;
+  }
 
+  @media only screen and (max-width: $bp-sm-mobile) {
+    font-size: 1.8rem;
+  }
+}
 .h4 {
   font-size: 1.8rem;
   text-transform: uppercase;
