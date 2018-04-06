@@ -500,18 +500,8 @@ body {
   grid-column: 1 / -1;
   grid-template-columns: 1fr 3fr 1fr; }
   .form__section {
-    margin-bottom: 1rem; }
-  .form__span {
-    background: #ff2956;
-    padding: 5px 10px 5px 10px;
-    border-radius: 50%;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    border: 4px solid #fff;
-    font-size: 14px;
-    color: #fff;
-    margin-right: 5px;
-    vertical-align: middle; }
+    border-top: 1px solid #ff2956;
+    padding-top: 1rem; }
   .form__wrapper {
     display: grid;
     grid-column: 2 / 3;
@@ -519,9 +509,8 @@ body {
     padding: 30px;
     margin: 40px auto;
     background: #fff;
-    border-radius: 10px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.13);
     -moz-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.13);
     -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.13); }
@@ -533,20 +522,21 @@ body {
       margin-top: 2px;
       font-family: 13px Arial, Helvetica, sans-serif; }
   .form__inner-wrap {
-    padding: 30px;
-    background: #eef2f3;
-    border-radius: 10px;
-    margin-bottom: 15px; }
+    border-radius: 4px;
+    margin: 2rem 0 4rem 0; }
     .form__inner-wrap p > input {
       margin-right: 0.5rem; }
     .form__inner-wrap > label {
       display: block;
       font-family: 13px Arial, Helvetica, sans-serif;
       margin: 0 auto 1.6rem auto; }
+      .form__inner-wrap > label > textarea {
+        background-color: #eef2f3; }
       .form__inner-wrap > label input[type="checkbox"] {
         vertical-align: middle; }
       .form__inner-wrap > label > input {
-        color: rgba(74, 74, 74, 0.25); }
+        color: rgba(74, 74, 74, 0.25);
+        background-color: #eef2f3; }
     .form__inner-wrap input[type="text"],
     .form__inner-wrap input[type="date"],
     .form__inner-wrap input[type="datetime"],
@@ -562,9 +552,9 @@ body {
       width: 95%;
       padding: 8px;
       border-radius: 6px;
-      -webkit-border-radius: 6px;
-      -moz-border-radius: 6px;
-      border: 2px solid #fff; }
+      -webkit-border-radius: 4px;
+      -moz-border-radius: 4px;
+      border: 2px solid #eef2f3; }
   .form__submit {
     margin-top: 2.4rem;
     text-transform: uppercase;
@@ -620,7 +610,7 @@ body {
   margin-top: 2.4rem; }
 
 .numbers {
-  font-family: "Open Sans", sans-serif; }
+  font-family: "montserrat", sans-serif; }
 
 @supports (display: grid) {
   .title:before,
@@ -1451,6 +1441,9 @@ sup {
 
 td {
   vertical-align: middle; }
+
+.hr {
+  margin-top: 0; }
 
 .sources {
   grid-column: 1 / -1;

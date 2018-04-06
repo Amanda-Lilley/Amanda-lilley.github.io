@@ -1203,7 +1203,9 @@ td {
   vertical-align: middle;
 }
 //SOURCES SECTION========================
-
+.hr {
+  margin-top: 0;
+}
 .sources {
   grid-column: 1 / -1;
   background: $color-gray-light;

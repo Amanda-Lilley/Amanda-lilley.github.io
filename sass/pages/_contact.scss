@@ -1,169 +1,143 @@
 .form {
-  margin-top: -50vh;
-  z-index: 999;
-  display: grid;
-  grid-column: 1 / -1;
-  grid-template-columns: 1fr 3fr 1fr;
-
-  &__section {
-    margin-bottom: 1rem;
-  }
-
-  &__span {
-    background: $color-accent;
-    padding: 5px 10px 5px 10px;
-
-    border-radius: 50%;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    border: 4px solid #fff; //
-    font-size: 14px;
-
-    color: $color-white;
-    margin-right: 5px;
-    vertical-align: middle;
-  }
-
-  &__wrapper {
+    margin-top: -50vh;
+    z-index: 999;
     display: grid;
-    grid-column: 2 / 3;
-    max-width: 45rem;
-    @media only screen and (max-width: $bp-mobile) {
-      min-width: 30rem;
+    grid-column: 1 / -1;
+    grid-template-columns: 1fr 3fr 1fr;
+    &__section {
+        
+        border-top: 1px solid $color-accent;
+        padding-top: 1rem;
     }
-    padding: 30px;
-    margin: 40px auto;
-    background: $color-white;
-    border-radius: 10px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.13);
-    -moz-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.13);
-    -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.13);
-
-    > span {
-      display: block;
-      margin-top: 2px;
-      font-family: 13px Arial, Helvetica, sans-serif;
+    &__wrapper {
+        display: grid;
+        grid-column: 2 / 3;
+        max-width: 45rem;
+        @media only screen and (max-width: $bp-mobile) {
+            min-width: 30rem;
+        }
+        padding: 30px;
+        margin: 40px auto;
+        background: $color-white;
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.13);
+        -moz-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.13);
+        -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.13);
+        >span {
+            display: block;
+            margin-top: 2px;
+            font-family: 13px Arial, Helvetica, sans-serif;
+        }
     }
-  }
-
-  &__inner-wrap {
-    padding: 30px;
-    background: $color-gray-light;
-    border-radius: 10px;
-    margin-bottom: 15px;
-
-    p {
-      > input {
-        margin-right: 0.5rem;
-      }
+    &__inner-wrap {
+       
+        border-radius: 4px; 
+        margin: 2rem 0 4rem 0;
+        p {
+            >input {
+                margin-right: 0.5rem;
+            }
+        }
+        >label {
+            display: block;
+            font-family: 13px Arial, Helvetica, sans-serif;
+            margin: 0 auto 1.6rem auto;
+            >textarea {
+                background-color: $color-gray-light;
+            }
+            input[type="checkbox"] {
+                vertical-align: middle;
+            }
+            >input {
+                color: $color-text-hint;
+                background-color: $color-gray-light;
+            }
+        }
+        input[type="text"],
+        input[type="date"],
+        input[type="datetime"],
+        input[type="email"],
+        input[type="number"],
+        input[type="search"],
+        input[type="url"],
+        input[type="password"],
+        textarea,
+        select {
+            display: block;
+            margin-top: 4px; 
+            width: 95%;
+            padding: 8px;
+            border-radius: 6px;
+            -webkit-border-radius: 4px;
+            -moz-border-radius: 4px;
+            border: 2px solid $color-gray-light; 
+        }
     }
-
-    > label {
-      display: block;
-      font-family: 13px Arial, Helvetica, sans-serif;
-
-      margin: 0 auto 1.6rem auto;
-
-      input[type="checkbox"] {
-        vertical-align: middle;
-      }
-
-      > input {
-        color: $color-text-hint;
-      }
+    &__submit {
+        margin-top: 2.4rem;
+        text-transform: uppercase;
+        text-decoration: none;
+        background-color: $color-accent;
+        font-size: 1.6rem;
+        color: $color-white;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 400;
+        letter-spacing: 1px;
+        padding: 1rem 2.5rem;
+        display: inline-block;
+        border-radius: 0.4rem;
+        transition: all 0.2s;
     }
-
-    input[type="text"],
-    input[type="date"],
-    input[type="datetime"],
-    input[type="email"],
-    input[type="number"],
-    input[type="search"],
-    input[type="url"],
-    input[type="password"],
-    textarea,
-    select {
-      display: block;
-      margin-top: 4px;
-      // margin: 0 auto;
-      width: 95%;
-      padding: 8px;
-      border-radius: 6px;
-      -webkit-border-radius: 6px;
-      -moz-border-radius: 6px;
-      border: 2px solid #fff;
-      // box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.33);
-      // -moz-box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.33);
-      // -webkit-box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.33);
+    &__submit:hover {
+        transform: translateY(-0.3rem);
+        box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
     }
-  }
-
-  &__submit {
-    margin-top: 2.4rem;
-    text-transform: uppercase;
-    text-decoration: none;
-    background-color: $color-accent;
-    font-size: 1.6rem;
-    color: $color-white;
-    font-family: "Open Sans", sans-serif;
-    font-weight: 400;
-    letter-spacing: 1px;
-    padding: 1rem 2.5rem;
-    display: inline-block;
-    border-radius: 0.4rem;
-    transition: all 0.2s;
-  }
-
-  &__submit:hover {
-    transform: translateY(-0.3rem);
-    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
-  }
 }
+
 // budget slider =========================//
 .slidecontainer {
-  width: 100%;
+    width: 100%;
 }
 
 .slider {
-  -webkit-appearance: none;
-  width: 100%;
-  height: 15px;
-  border-radius: 10px;
-  background: $color-gray-dark;
-  outline: none;
-  opacity: 0.7;
-  -webkit-transition: 0.2s;
-  transition: opacity 0.2s;
+    -webkit-appearance: none;
+    width: 100%;
+    height: 15px;
+    border-radius: 10px;
+    background: $color-gray-dark;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: 0.2s;
+    transition: opacity 0.2s;
 }
 
 .slider:hover {
-  opacity: 1;
+    opacity: 1;
 }
 
 .slider::-webkit-slider-thumb {
-  -webkit-appearance: none;
-  appearance: none;
-  width: 25px;
-  height: 25px;
-  border-radius: 50%;
-  background: $color-accent;
-  cursor: pointer;
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: $color-accent;
+    cursor: pointer;
 }
 
 .slider::-moz-range-thumb {
-  width: 25px;
-  height: 25px;
-  border-radius: 50%;
-  background: $color-accent;
-  cursor: pointer;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: $color-accent;
+    cursor: pointer;
 }
 
 .phone {
-  margin-top: 2.4rem;
+    margin-top: 2.4rem;
 }
 
 .numbers {
-  font-family: "Open Sans", sans-serif;
+    font-family: "montserrat", sans-serif;
 }
