@@ -154,6 +154,9 @@
     >h1:nth-child(4) {
       line-height: 0;
       margin-top: -.7rem;
+      @media only screen and (max-width: $bp-mobile) {
+        margin-top: -.5rem;
+      }
     }
   }
   
