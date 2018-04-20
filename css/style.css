@@ -883,33 +883,30 @@ p {
       display: grid;
       grid-column: 2 / 3;
       grid-row: 1 / 2;
-      justify-items: center; }
-      .survey__charts-1 > img {
-        max-width: 100%; }
+      justify-items: center;
+      margin-bottom: 8rem; }
     .survey__charts-2 {
       display: grid;
       grid-column: 2 / 3;
       grid-row: 2 / 3;
-      width: 100%;
+      max-width: 100%;
       justify-items: center; }
-      .survey__charts-2 > img {
-        max-width: 90%; }
     .survey__charts-3 {
       display: grid;
       grid-column: 2 / 3;
       grid-row: 3 / 4;
+      max-width: 100%;
       justify-items: center;
       padding-top: 4rem; }
-      .survey__charts-3 > img {
-        max-width: 90%; }
     .survey__charts-4 {
       display: grid;
       grid-column: 2/ 3;
       grid-row: 4 / 5;
+      max-width: 100%;
       justify-items: center;
       padding-top: 4rem; }
-      .survey__charts-4 > img {
-        max-width: 100%; }
+      .survey__charts-4 > #fiberArts4 {
+        width: 100%; }
 
 .stories {
   padding-top: 4rem;
@@ -1454,9 +1451,6 @@ td {
     color: rgba(74, 74, 74, 0.5);
     list-style: none;
     margin-left: 2.4rem; }
-
-#fiberArts {
-  width: 50%; }
 
 @font-face {
   font-family: 'butler';

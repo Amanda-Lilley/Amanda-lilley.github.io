@@ -237,25 +237,22 @@
 
     <div class="survey__charts">
       <div class="survey__charts-1">
-        <h5 class="h5">What fiber arts do you do?</h5>
         <canvas id="fiberArts"></canvas>
-
-        <!-- <img src="img/chart1.svg" alt="fiber arts chart"> -->
       </div>
 
       <div class="survey__charts-2">
-        <h5 class="h5">Where do you sell your hand-crafted yarn?</h5>
-        <img src="img/chart2.svg" alt="where do you sell hand crafts, chart">
-      </div>
+        <canvas id="chart2"></canvas>
+        </div>
+       
 
       <div class="survey__charts-3">
-        <h5 class="h5">When purchasing hand-crafted yarn, what matters most?</h5>
-        <img src="img/chart3.svg" alt="hand craft purchases, chart">
+        
+        <canvas id="chart3"></canvas>
+        
       </div>
 
       <div class="survey__charts-4">
-        <h5 class="h5">How long does it take you to knit an adult worsted weight sweater?</h5>
-        <img src="img/chart4.svg" alt="time taken to knit a sweater chart">
+        <canvas id="chart4"></canvas>
       </div>
 
 
@@ -745,38 +742,9 @@
   </footer>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.js"></script>
+  <script src="fiber-chart.js"></script>
 
-  <script>
-    var ctx = document.getElementById("fiberArts").getContext('2d');
-    var myChart = new Chart(ctx, {
-        type: 'pie',
-        data: {
-            labels: ["knit", "dye", "weave", "crochet", "spin"],
-            datasets: [{
-                label: '# of Votes',
-                data: [45, 10, 9, 22, 12],
-                backgroundColor: [
-                    'rgba(92, 193, 181)',
-                    'rgba(196, 196, 196)',
-                    'rgba(46, 70, 79)',
-                    'rgba(244, 244, 244)',
-                    'rgba(226, 159, 76)'
-                    
-                ],
-                borderColor: [
-                    'rgba(255,255, 255)',
-                    'rgba(255,255, 255)',
-                    'rgba(255,255, 255)',
-                    'rgba(255,255, 255)',
-                    'rgba(255,255, 255)'
-                    
-                ],
-                borderWidth: 2
-            }]
-        }
-        
-    });
-    </script>
+  
 </body>
 
 </html>
