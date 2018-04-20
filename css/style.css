@@ -1455,6 +1455,9 @@ td {
     list-style: none;
     margin-left: 2.4rem; }
 
+#fiberArts {
+  width: 50%; }
+
 @font-face {
   font-family: 'butler';
   src: url("fonts/butler_bold-webfont.woff2");
