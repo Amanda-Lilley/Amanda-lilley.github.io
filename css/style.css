@@ -877,36 +877,61 @@ p {
   .survey__charts {
     margin-top: 4rem;
     display: grid;
-    grid-template-columns: 1fr  4fr 1fr;
+    grid-template-columns: 1fr;
     grid-template-rows: repeat(4, 1fr); }
     .survey__charts-1 {
       display: grid;
-      grid-column: 2 / 3;
+      grid-column: 1 / 2;
       grid-row: 1 / 2;
-      justify-items: center;
-      margin-bottom: 8rem; }
+      margin: 0 auto 8rem;
+      position: relative;
+      width: 60vw; }
+      @media only screen and (max-width: 58em) {
+        .survey__charts-1 {
+          width: 80vw; } }
+      @media only screen and (max-width: 38em) {
+        .survey__charts-1 {
+          width: 90vw; } }
     .survey__charts-2 {
       display: grid;
-      grid-column: 2 / 3;
+      grid-column: 1 / 2;
       grid-row: 2 / 3;
-      max-width: 100%;
-      justify-items: center; }
+      margin: 0 auto;
+      position: relative;
+      width: 60vw; }
+      @media only screen and (max-width: 58em) {
+        .survey__charts-2 {
+          width: 80vw; } }
+      @media only screen and (max-width: 38em) {
+        .survey__charts-2 {
+          width: 90vw; } }
     .survey__charts-3 {
       display: grid;
-      grid-column: 2 / 3;
+      grid-column: 1 / 2;
       grid-row: 3 / 4;
-      max-width: 100%;
-      justify-items: center;
-      padding-top: 4rem; }
+      margin: 0 auto;
+      position: relative;
+      width: 60vw; }
+      @media only screen and (max-width: 58em) {
+        .survey__charts-3 {
+          width: 80vw; } }
+      @media only screen and (max-width: 38em) {
+        .survey__charts-3 {
+          width: 90vw; } }
     .survey__charts-4 {
       display: grid;
-      grid-column: 2/ 3;
+      grid-column: 1 / 2;
       grid-row: 4 / 5;
-      max-width: 100%;
-      justify-items: center;
+      margin: 0 auto;
+      position: relative;
+      width: 60vw;
       padding-top: 4rem; }
-      .survey__charts-4 > #fiberArts4 {
-        width: 100%; }
+      @media only screen and (max-width: 58em) {
+        .survey__charts-4 {
+          width: 80vw; } }
+      @media only screen and (max-width: 38em) {
+        .survey__charts-4 {
+          width: 90vw; } }
 
 .stories {
   padding-top: 4rem;
@@ -1073,7 +1098,7 @@ p {
 
 .ia {
   margin-top: 8rem;
-  margin-bottom: 8rem;
+  margin-bottom: 4rem;
   display: grid;
   grid-column: 1 / -1; }
   @media only screen and (max-width: 38em) {
@@ -1091,23 +1116,21 @@ p {
     .ia__wrapper > img {
       grid-column: 2 / 3;
       width: 100%;
-      margin-top: 4rem; }
-  .ia__flow {
-    display: grid;
-    grid-template-columns: 1fr 8fr 1fr;
-    grid-template-rows: auto;
-    justify-items: center; }
-    .ia__flow-1 {
-      margin-bottom: 4rem;
-      grid-column: 2 / 3;
-      width: 90%; }
-      @media only screen and (max-width: 38em) {
-        .ia__flow-1 {
-          width: 80%; } }
-    .ia__flow-3 {
-      grid-column: 2 / 3;
-      width: 90%;
+      margin-top: 4rem;
       margin-bottom: 4rem; }
+    .ia__wrapper-chart {
+      grid-column: 2 / 3;
+      margin-top: 4rem;
+      position: relative;
+      width: 60vw; }
+      @media only screen and (max-width: 58em) {
+        .ia__wrapper-chart {
+          width: 70vw; } }
+      @media only screen and (max-width: 38em) {
+        .ia__wrapper-chart {
+          width: 90vw; } }
+    .ia__wrapper-img {
+      margin-top: 8rem; }
 
 .branding {
   margin: 8rem 0 8rem 0;

@@ -1,5 +1,5 @@
 
-    var ctx = document.getElementById("fiberArts").getContext('2d');
+    var ctx = document.getElementById("chart1").getContext('2d');
     var myChart = new Chart(ctx, {
         type: 'doughnut',
         options: {
@@ -8,6 +8,10 @@
             text: 'What fiber arts do you do?',
             fontFamily: 'Montserrat'
             
+        },
+        legend: {
+            display: true,
+            position: 'right'
         }
         },
         data: {
@@ -17,21 +21,18 @@
                 data: [45, 10, 9, 22, 12],
                 
                 backgroundColor: [
-                    'rgba(92, 193, 181)',
-                    'rgba(196, 196, 196)',
-                    'rgba(46, 70, 79)',
-                    'rgba(244, 244, 244)',
-                    'rgba(226, 159, 76)'
+                    'rgba(92, 193, 181, 1)',
+                    'rgba(196, 196, 196, 1)',
+                    'rgba(46, 70, 79, 1)',
+                    'rgba(244, 244, 244, 1)',
+                    'rgba(226, 159, 76, 1)'
                     
                 ],
-                borderColor: [
-                    'rgba(255,255, 255)',
-                    'rgba(255,255, 255)',
-                    'rgba(255,255, 255)',
-                    'rgba(255,255, 255)',
-                    'rgba(255,255, 255)'
+                borderColor: 
+                    'rgba(255,255, 255, 1)'
                     
-                ],
+                    
+                ,
                 borderWidth: 2,
                 
                 
@@ -67,15 +68,12 @@
                     'rgba(92, 193, 181)'
                     
                 ],
-                borderColor: [
-                    'rgba(255,255, 255)',
-                    'rgba(255,255, 255)',
-                    'rgba(255,255, 255)',
-                    'rgba(255,255, 255)',
+                borderColor: 
                     'rgba(255,255, 255)'
                     
-                ],
-                borderWidth: 2,
+                    
+                ,
+                borderWidth: .5,
                 
                 
             }]
@@ -96,7 +94,7 @@
         }
         },
         data: {
-            labels: ["one-of-a-king", "locally sourced", "price", "color", "artist", "fiber type", "quality"],
+            labels: ["one-of-a-kind", "locally sourced", "price", "color", "artist", "fiber type", "quality"],
             datasets: [{
                 label: 'level of importance',
                 data: [18, 21, 46, 75, 21, 75, 4],
@@ -119,7 +117,7 @@
                     'rgba(255,255, 255)'
                     
                 ],
-                borderWidth: 2,
+                borderWidth: .5,
                 
                 
             }]
@@ -141,7 +139,12 @@
             text: 'How long does it take you to knit an adult worsted weight sweater?',
             fontFamily: 'Montserrat'
             
-        }
+        },
+        legend: {
+            display: true,
+            position: 'right'
+        },
+        
         },
         data: {
             labels: ["1 - 2 weeks", "3 - 4 weeks", "1 - 2 months", "2 - 4 months", "5+ months"],
@@ -172,6 +175,55 @@
         }
         
     });
+
+    var chartFive = document.getElementById("shoppingCart").getContext('2d');
+    var myChart = new Chart(chartFive, {
+        type: 'horizontalBar',
+        options: {
+        title: {
+            display: true,
+            text: 'What causes you to abandon your online shopping cart?',
+            fontFamily: 'Montserrat'
+            
+        }
+        },
+        data: {
+            labels: ["Extra costs (shipping, tax, fees)", "Forced to create account", "Complicated checkout process", "Couldn't calculate cost", "Not enough payment options"],
+            datasets: [{
+                label: 'top reasons for cart abandonment',
+                options: {
+                    barThickness: 4,
+                    maxBarThickness: 4 },
+                data: [61, 35, 27, 24, 8],
+                
+                
+                backgroundColor: [
+                    'rgba(226, 159, 76)',
+                    'rgba(226, 159, 76)',
+                    'rgba(226, 159, 76)',
+                    'rgba(226, 159, 76)',
+                    'rgba(226, 159, 76)',
+                    'rgba(226, 159, 76)',
+                    'rgba(226, 159, 76)'
+                    
+                ],
+                borderColor: [
+                    'rgba(255,255, 255)',
+                    'rgba(255,255, 255)',
+                    'rgba(255,255, 255)',
+                    'rgba(255,255, 255)',
+                    'rgba(255,255, 255)'
+                    
+                ],
+                borderWidth: 1,
+                
+                
+            }]
+        }
+        
+    });
+   
+   
 
 
    
