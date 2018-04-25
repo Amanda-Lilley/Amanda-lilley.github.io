@@ -1079,9 +1079,6 @@ p {
       background-color: #fff;
       padding-bottom: 1rem;
       width: 66rem; }
-      @media only screen and (max-width: 30em) {
-        .persona__wrapper-1 {
-          grid-column: 1 / -1; } }
       @media only screen and (max-width: 54em) {
         .persona__wrapper-1 {
           grid-template-columns: 1fr;
@@ -1094,9 +1091,6 @@ p {
       background-color: #fff;
       padding-bottom: 1rem;
       width: 66rem; }
-      @media only screen and (max-width: 30em) {
-        .persona__wrapper-2 {
-          grid-column: 1 / -1; } }
       @media only screen and (max-width: 54em) {
         .persona__wrapper-2 {
           grid-template-columns: 1fr;

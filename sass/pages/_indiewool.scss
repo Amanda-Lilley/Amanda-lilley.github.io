@@ -674,9 +674,9 @@ p {
     &-1 {
       display: grid;
       grid-column: 2 / 3;
-      @media only screen and (max-width: $bp-sm-mobile) {
-        grid-column: 1 / -1;
-      }
+      // @media only screen and (max-width: $bp-sm-mobile) {
+      //   grid-column: 1 / -1;
+      // }
       // grid-template-columns: repeat(3, 1fr);
       grid-template-columns: min-content 1fr 1fr;
       @media only screen and (max-width: $bp-medium2) {
@@ -696,9 +696,9 @@ p {
     &-2 {
       display: grid;
       grid-column: 2 / 3;
-      @media only screen and (max-width: $bp-sm-mobile) {
-        grid-column: 1 / -1;
-      }
+      // @media only screen and (max-width: $bp-sm-mobile) {
+      //   grid-column: 1 / -1;
+      // }
       grid-row: 2 / 3;
       
       grid-template-columns: min-content 1fr 1fr;
