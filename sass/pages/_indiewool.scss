@@ -640,7 +640,7 @@ p {
       grid-row: 6 / 7;
       @media only screen and (max-width: $bp-medium2) {
         
-        grid-row: 7 / 8;
+      grid-row: 7 / 8;
       }
       justify-self: start;
       margin-top: 2rem;
@@ -653,12 +653,12 @@ p {
       align-items: center;
       // justify-content: space-between;
         >img {
-          width: 50%;
-          @media only screen and (max-width: $bp-small) {
-            max-width: 40%;
+          width: 20%;
+          @media only screen and (max-width: $bp-medium2) {
+            width: 50%;
 
           }
-          @media only screen and (max-width: $bp-mobile) {
+          @media only screen and (max-width: $bp-small) {
             max-width: 20%;
 
           }
@@ -736,7 +736,7 @@ p {
   &__wrapper {
     @include grid-setting-1;
     padding-top: 4rem;
-    margin-bottom: 4rem;
+    
 
     > p {
       grid-column: 2 / 3;
@@ -1160,18 +1160,23 @@ p {
     }
 
     >ul {
-      list-style-type: none;
+      // list-style-type: none;
+      
+    list-style-type: circle;
+      
 
       >li {
-        line-height: 2rem;
+        line-height: 2.2rem;
         
       }
       
       
       >.list-heading{
         text-decoration: underline;
+        list-style-type: none;
       }
     }
+    
 
 
     
