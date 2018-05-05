@@ -977,8 +977,9 @@ p {
       .stories__wrapper-table > table,
       .stories__wrapper-table th,
       .stories__wrapper-table td {
-        border-bottom: 1px solid #bac5cc;
         padding: 1rem; }
+      .stories__wrapper-table > tbody > tr:nth-of-type(even) {
+        background: #f1f1f1; }
       .stories__wrapper-table-head {
         color: #4a4a4a;
         text-align: left; }
@@ -1079,9 +1080,10 @@ p {
           grid-row: 7 / 8; } }
       .persona__wrapper-brands > div {
         display: flex;
-        justify-content: space-between;
+        justify-content: left;
         align-items: center; }
         .persona__wrapper-brands > div > img {
+          padding-right: 2rem;
           width: 20%; }
           @media only screen and (max-width: 54em) {
             .persona__wrapper-brands > div > img {

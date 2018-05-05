@@ -500,12 +500,14 @@ p {
       > table,
       th,
       td {
-        border-bottom: 1px solid $color-gray-dark;
         padding: 1rem;
+      }
+
+      >tbody>tr:nth-of-type(even) {
+        background: #f1f1f1;
       }
   
       &-head {
-        // background: $color-gray-light;
         color: $color-text;
         text-align: left;
       }
@@ -648,27 +650,22 @@ p {
 
       >div {
        display: flex;
-       justify-content: space-between;
+       justify-content:left;
        
       align-items: center;
       // justify-content: space-between;
         >img {
+          padding-right: 2rem;
           width: 20%;
           @media only screen and (max-width: $bp-medium2) {
             width: 50%;
-
           }
           @media only screen and (max-width: $bp-small) {
             max-width: 20%;
-
           }
         }
 
       }
-      
-     
-
-      
     }
 
     &-1 {
@@ -689,16 +686,11 @@ p {
       background-color: $color-white;
       padding-bottom: 1rem;
       width: 66rem;
-      
-     
     }
 
     &-2 {
       display: grid;
       grid-column: 2 / 3;
-      // @media only screen and (max-width: $bp-sm-mobile) {
-      //   grid-column: 1 / -1;
-      // }
       grid-row: 2 / 3;
       
       grid-template-columns: min-content 1fr 1fr;
