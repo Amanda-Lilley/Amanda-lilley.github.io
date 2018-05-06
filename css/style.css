@@ -876,16 +876,30 @@ p {
       margin: 4rem 0 4rem 0; }
       .discovery__analysis > p > a {
         color: #ff2956; }
-  .discovery__img1 {
-    grid-column: 2 / 3;
-    grid-row: 2 / 3;
-    width: 100%;
-    margin: 0 auto 4rem auto; }
-  .discovery__img2 {
-    grid-column: 2 / 3;
-    grid-row: 3 / 4;
-    width: 100%;
-    margin: 0 auto 4rem auto; }
+  .discovery #comp-table {
+    background: #fff;
+    border-collapse: collapse;
+    text-align: center; }
+  .discovery .table-title {
+    text-align: left; }
+    @media only screen and (max-width: 38em) {
+      .discovery .table-title {
+        font-size: 1.4rem; } }
+    @media only screen and (max-width: 30em) {
+      .discovery .table-title {
+        font-size: 1rem; } }
+  .discovery .comp-logo {
+    width: 100%; }
+    @media only screen and (max-width: 38em) {
+      .discovery .comp-logo {
+        width: 4rem; } }
+  .discovery td > img {
+    width: 4rem; }
+    @media only screen and (max-width: 38em) {
+      .discovery td > img {
+        width: 2rem; } }
+  .discovery .bottom-border {
+    border-bottom: 1px solid #bac5cc; }
 
 .survey {
   display: grid;
@@ -978,7 +992,7 @@ p {
       .stories__wrapper-table th,
       .stories__wrapper-table td {
         padding: 1rem; }
-      .stories__wrapper-table > tbody > tr:nth-of-type(even) {
+      .stories__wrapper-table .bg-gray {
         background: #f1f1f1; }
       .stories__wrapper-table-head {
         color: #4a4a4a;

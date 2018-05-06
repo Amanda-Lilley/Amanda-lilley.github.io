@@ -265,7 +265,6 @@ p {
       >table {
         grid-column: 1 / 2;
       }
-      
 
       >img {
         margin: 0 auto 2rem auto;
@@ -360,20 +359,62 @@ p {
     }
   }
 
-  &__img1 {
-    //display: grid;
-    grid-column: 2 / 3;
-    grid-row: 2 / 3;
-    width: 100%;
-    margin: 0 auto 4rem auto;
+ #comp-table{
+    background: $color-white;
+    border-collapse: collapse;
+    text-align: center;
   }
 
-  &__img2 {
-    grid-column: 2 / 3;
-    grid-row: 3 / 4;
-    width: 100%;
-    margin: 0 auto 4rem auto;
+  .table-title {
+    text-align: left;
+    @media only screen and (max-width: $bp-mobile) {
+      font-size: 1.4rem;
+    }
+    @media only screen and (max-width: $bp-sm-mobile) {
+      font-size: 1rem;
+    }
   }
+
+  .comp-logo {
+    width: 100%;
+    @media only screen and (max-width: $bp-mobile) {
+      width: 4rem;
+    }
+  }
+
+  td>img {
+    width: 4rem;
+    @media only screen and (max-width: $bp-mobile) {
+      width: 2rem;
+    }
+    
+  }
+
+  .bottom-border {
+    border-bottom: 1px solid $color-gray-dark;
+  }
+
+  
+
+  
+
+//   #comp-table, th, td {
+//     border: 1px solid $color-gray-dark;
+// }
+  // &__img1 {
+  //   //display: grid;
+  //   grid-column: 2 / 3;
+  //   grid-row: 2 / 3;
+  //   width: 100%;
+  //   margin: 0 auto 4rem auto;
+  // }
+
+  // &__img2 {
+  //   grid-column: 2 / 3;
+  //   grid-row: 3 / 4;
+  //   width: 100%;
+  //   margin: 0 auto 4rem auto;
+  // }
 }
 
 //SURVEY SECTION========================
@@ -503,7 +544,11 @@ p {
         padding: 1rem;
       }
 
-      >tbody>tr:nth-of-type(even) {
+      // >tbody>tr:nth-of-type(even) {
+      //   background: #f1f1f1;
+      // }
+
+      .bg-gray {
         background: #f1f1f1;
       }
   
