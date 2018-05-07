@@ -904,6 +904,10 @@ p {
         width: 2rem; } }
   .discovery .bottom-border {
     border-bottom: 1px solid #bac5cc; }
+  .discovery .fa-times-circle {
+    color: #ff2956; }
+  .discovery .fa-check-circle {
+    color: #91d3c1; }
 
 .survey {
   display: grid;
