@@ -876,10 +876,14 @@ p {
       margin: 4rem 0 4rem 0; }
       .discovery__analysis > p > a {
         color: #ff2956; }
+  .discovery__comp {
+    display: grid;
+    margin: 0 auto; }
   .discovery #comp-table {
     background: #fff;
     border-collapse: collapse;
-    text-align: center; }
+    text-align: center;
+    grid-column: 2 / 3; }
   .discovery .table-title {
     text-align: left; }
     @media only screen and (max-width: 38em) {

@@ -359,10 +359,18 @@ p {
     }
   }
 
+  &__comp {
+    display: grid;
+    margin: 0 auto;
+  }
+
  #comp-table{
     background: $color-white;
     border-collapse: collapse;
     text-align: center;
+    grid-column: 2 / 3;
+    // max-width: 80vw;
+    
   }
 
   .table-title {
