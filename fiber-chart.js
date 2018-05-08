@@ -50,7 +50,8 @@
             text: 'Where do you sell your hand-crafted yarn?',
             fontFamily: 'Montserrat'
             
-        }
+        },
+        options: { "deferred": { "delay": 500 } }
         },
         data: {
             labels: ["personal website", "Etsy", "farmers market", "spinners guild", "friends", "Ebay", "vendor fairs", "other"],

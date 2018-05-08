@@ -21,6 +21,7 @@
   },
   "dependencies": {
     "aos": "^2.2.0",
-    "chart.js": "^2.7.2"
+    "chart.js": "^2.7.2",
+    "chartjs-plugin-deferred": "^1.0.1"
   }
 }
