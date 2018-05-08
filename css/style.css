@@ -1537,6 +1537,9 @@ td {
     list-style: none;
     margin-left: 2.4rem; }
 
+#conclusion {
+  padding-top: 4rem; }
+
 @font-face {
   font-family: 'butler';
   src: url("fonts/butler_bold-webfont.woff2");
