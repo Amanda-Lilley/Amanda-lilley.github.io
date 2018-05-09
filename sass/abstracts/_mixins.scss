@@ -8,7 +8,7 @@
 
 @mixin grid-setting-1 {
   display: grid;
-  grid-template-columns: 1fr 4fr 1fr;
+  grid-template-columns: 2fr 6fr 2fr;
 }
 
 @mixin center-text {
