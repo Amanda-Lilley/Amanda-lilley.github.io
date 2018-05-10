@@ -264,7 +264,9 @@ body {
   border: 1px solid rgba(74, 74, 74, 0.5);
   width: 22rem;
   text-align: center;
-  margin: 4rem auto; }
+  margin: 4rem auto;
+  display: grid;
+  grid-column: 2/ 3; }
 
 .title {
   display: grid;
@@ -938,11 +940,14 @@ p {
   .survey__charts {
     margin-top: 4rem;
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 2fr 6fr 2fr;
     grid-template-rows: repeat(4, 1fr); }
+    @media only screen and (max-width: 38em) {
+      .survey__charts {
+        grid-template-columns: 1fr 8fr 1fr; } }
     .survey__charts-1 {
       display: grid;
-      grid-column: 1 / 2;
+      grid-column: 2 /3;
       grid-row: 1 / 2;
       margin: 0 auto 8rem;
       position: relative;
@@ -955,7 +960,7 @@ p {
           width: 90vw; } }
     .survey__charts-2 {
       display: grid;
-      grid-column: 1 / 2;
+      grid-column: 2 /3;
       grid-row: 2 / 3;
       margin: 0 auto;
       position: relative;
@@ -968,7 +973,7 @@ p {
           width: 90vw; } }
     .survey__charts-3 {
       display: grid;
-      grid-column: 1 / 2;
+      grid-column: 2 /3;
       grid-row: 3 / 4;
       margin: 0 auto;
       position: relative;
@@ -981,7 +986,7 @@ p {
           width: 90vw; } }
     .survey__charts-4 {
       display: grid;
-      grid-column: 1 / 2;
+      grid-column: 2 /3;
       grid-row: 4 / 5;
       margin: 0 auto;
       position: relative;
@@ -1753,16 +1758,25 @@ td {
           .container .footer__nav > li > a:active {
             transform: translateY(-0.1rem);
             text-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2); }
-  .container .work-together {
+  .container .worktogether {
     display: grid;
     grid-column: 1 / -1; }
-    .container .work-together__h2 {
-      margin: 8rem auto 2rem auto;
-      font-family: "butler", cursive;
-      color: rgba(74, 74, 74, 0.5);
-      font-weight: 900; }
-    .container .work-together__btn {
-      margin: 0 auto 4rem auto; }
+    .container .worktogether__wrapper {
+      display: grid;
+      grid-template-columns: 2fr 6fr 2fr; }
+      @media only screen and (max-width: 38em) {
+        .container .worktogether__wrapper {
+          grid-template-columns: 1fr 8fr 1fr; } }
+      .container .worktogether__wrapper-h2 {
+        display: grid;
+        margin: 8rem auto 2rem auto;
+        font-family: "butler", cursive;
+        color: rgba(74, 74, 74, 0.5);
+        font-weight: 900;
+        grid-column: 2 / 3; }
+      .container .worktogether__wrapper-btn {
+        grid-column: 2 / 3;
+        margin: 0 auto 4rem auto; }
 
 @supports (display: grid) {
   .quote2:before,

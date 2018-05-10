@@ -249,20 +249,34 @@
       }
     }
   }
-  .work-together {
+  .worktogether {
     display: grid;
     grid-column: 1 / -1;
 
-    &__h2 {
-      margin: 8rem auto 2rem auto;
-      font-family: "butler", cursive;
-      color: $color-text-secondary;
-      font-weight: 900;
+    &__wrapper {
+      display: grid;
+      grid-template-columns: 2fr 6fr 2fr;
+      @media only screen and (max-width: $bp-mobile) {
+        grid-template-columns: 1fr 8fr 1fr;
+      }
+
+      &-h2 {
+        display: grid;
+        margin: 8rem auto 2rem auto;
+        font-family: "butler", cursive;
+        color: $color-text-secondary;
+        font-weight: 900;
+        grid-column: 2 / 3;
+      }
+  
+      &-btn {
+       grid-column: 2 / 3;
+        margin: 0 auto 4rem auto;
+        
+      }
     }
 
-    &__btn {
-      margin: 0 auto 4rem auto;
-    }
+    
   }
   padding: 0;
 }

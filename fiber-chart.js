@@ -136,7 +136,7 @@
         options: {
         title: {
             display: true,
-            text: 'How long does it take you to knit an adult worsted weight sweater?',
+            text: 'How long does it take you to knit a sweater?',
             fontFamily: 'Montserrat'
             
         },
