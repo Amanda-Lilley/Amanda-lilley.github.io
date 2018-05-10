@@ -24,6 +24,8 @@
     background: $color-indiewool;
     -webkit-clip-path: none;
     clip-path: none;
+    
+    grid-column: 1 / -1;
   }
 
   &#case2 {
@@ -66,7 +68,7 @@
     }
     @media only screen and (max-width: $bp-mobile) {
       justify-content: space-around;
-      padding: 2rem;
+      // padding: 2rem;
     }
     padding-bottom: 4rem;
   }
