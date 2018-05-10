@@ -950,54 +950,25 @@ p {
       grid-column: 2 /3;
       grid-row: 1 / 2;
       margin: 0 auto 8rem;
-      position: relative;
-      width: 60vw; }
-      @media only screen and (max-width: 58em) {
-        .survey__charts-1 {
-          width: 80vw; } }
-      @media only screen and (max-width: 38em) {
-        .survey__charts-1 {
-          width: 90vw; } }
+      position: relative; }
     .survey__charts-2 {
       display: grid;
       grid-column: 2 /3;
       grid-row: 2 / 3;
       margin: 0 auto;
-      position: relative;
-      width: 60vw; }
-      @media only screen and (max-width: 58em) {
-        .survey__charts-2 {
-          width: 80vw; } }
-      @media only screen and (max-width: 38em) {
-        .survey__charts-2 {
-          width: 90vw; } }
+      position: relative; }
     .survey__charts-3 {
       display: grid;
       grid-column: 2 /3;
       grid-row: 3 / 4;
       margin: 0 auto;
-      position: relative;
-      width: 60vw; }
-      @media only screen and (max-width: 58em) {
-        .survey__charts-3 {
-          width: 80vw; } }
-      @media only screen and (max-width: 38em) {
-        .survey__charts-3 {
-          width: 90vw; } }
+      position: relative; }
     .survey__charts-4 {
       display: grid;
       grid-column: 2 /3;
       grid-row: 4 / 5;
       margin: 0 auto;
-      position: relative;
-      width: 60vw;
-      padding-top: 4rem; }
-      @media only screen and (max-width: 58em) {
-        .survey__charts-4 {
-          width: 80vw; } }
-      @media only screen and (max-width: 38em) {
-        .survey__charts-4 {
-          width: 90vw; } }
+      position: relative; }
 
 .stories {
   padding-top: 4rem;

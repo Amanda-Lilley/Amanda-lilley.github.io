@@ -466,13 +466,13 @@ p {
       grid-row: 1 / 2;
       margin: 0 auto 8rem;
       position: relative;
-      width: 60vw;
-      @media only screen and (max-width: $bp-medium) {
-        width: 80vw;
-      }
-      @media only screen and (max-width: $bp-mobile) {
-        width: 90vw;
-      }
+      // width: 60vw;
+      // @media only screen and (max-width: $bp-medium) {
+      //   width: 80vw;
+      // }
+      // @media only screen and (max-width: $bp-mobile) {
+      //   width: 90vw;
+      // }
 
       
       }
@@ -483,14 +483,14 @@ p {
         grid-row: 2 / 3;
         margin: 0 auto;
         position: relative;
-        width: 60vw;
-        @media only screen and (max-width: $bp-medium) {
-          width: 80vw;
+        // width: 60vw;
+        // @media only screen and (max-width: $bp-medium) {
+        //   width: 80vw;
           
-        }
-        @media only screen and (max-width: $bp-mobile) {
-          width: 90vw;
-        }
+        // }
+        // @media only screen and (max-width: $bp-mobile) {
+        //   width: 90vw;
+        // }
         }
   
         &-3 {
@@ -499,14 +499,14 @@ p {
           grid-row: 3 / 4;
           margin: 0 auto;
           position: relative;
-      width: 60vw;
+      // width: 60vw;
           
-          @media only screen and (max-width: $bp-medium) {
-            width: 80vw;
-          }
-          @media only screen and (max-width: $bp-mobile) {
-            width: 90vw;
-          }
+      //     @media only screen and (max-width: $bp-medium) {
+      //       width: 80vw;
+      //     }
+      //     @media only screen and (max-width: $bp-mobile) {
+      //       width: 90vw;
+      //     }
         }
   
         &-4 {
@@ -516,14 +516,14 @@ p {
           
           margin: 0 auto;
           position: relative;
-      width: 60vw;
-          padding-top: 4rem;
-          @media only screen and (max-width: $bp-medium) {
-            width: 80vw;
-          }
-          @media only screen and (max-width: $bp-mobile) {
-            width: 90vw;
-          }
+      // width: 60vw;
+      //     padding-top: 4rem;
+      //     @media only screen and (max-width: $bp-medium) {
+      //       width: 80vw;
+      //     }
+      //     @media only screen and (max-width: $bp-mobile) {
+      //       width: 90vw;
+      //     }
           }
     
     }
