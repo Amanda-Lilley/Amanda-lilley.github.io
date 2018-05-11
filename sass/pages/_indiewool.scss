@@ -596,15 +596,15 @@ p {
 
   &__wrapper {
     display: grid;
-    grid-template-columns: 2fr 6fr 2fr;
-    @media only screen and (max-width: $bp-medium) {
+    grid-template-columns: 1fr 4fr 1fr;
+    @media only screen and (max-width: $bp-sm-mobile) {
       grid-template-columns: 1fr 8fr 1fr;
 
     }
-    // @media only screen and (max-width: $bp-medium2) {
-    //   grid-template-columns: 1fr 8 1fr;
+    @media only screen and (max-width: $bp-medium2) {
+      grid-template-columns: 1fr 8 1fr;
 
-    // }
+    }
     
     grid-template-rows: 1fr;
     grid-gap: 4rem;
