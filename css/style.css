@@ -893,7 +893,7 @@ p {
         color: #ff2956; }
   .discovery__comp {
     display: grid;
-    grid-template-columns: 1fr 8fr 1fr; }
+    grid-template-columns: 2fr 6fr 2fr; }
   .discovery #comp-table {
     background: #fff;
     border-collapse: collapse;
@@ -998,17 +998,14 @@ p {
   padding: 4rem 0 16rem 0; }
   .persona__wrapper {
     display: grid;
-    grid-template-columns: 1fr 4fr 1fr;
+    grid-template-columns: 2fr 6fr 2fr;
     grid-template-rows: 1fr;
     grid-gap: 4rem;
     padding-top: 4rem;
     justify-items: center; }
-    @media only screen and (max-width: 30em) {
+    @media only screen and (max-width: 58em) {
       .persona__wrapper {
         grid-template-columns: 1fr 8fr 1fr; } }
-    @media only screen and (max-width: 54em) {
-      .persona__wrapper {
-        grid-template-columns: 1fr 8 1fr; } }
     @media only screen and (max-width: 54em) {
       .persona__wrapper {
         grid-gap: 0; } }
