@@ -940,64 +940,28 @@ p {
   .survey__charts {
     margin-top: 4rem;
     display: grid;
-    grid-template-columns: 2fr 6fr 2fr;
-    grid-template-rows: repeat(4, 1fr); }
+    grid-template-columns: 2fr 6fr 2fr; }
     @media only screen and (max-width: 38em) {
       .survey__charts {
         grid-template-columns: 1fr 8fr 1fr; } }
     .survey__charts-1 {
-      display: grid;
       grid-column: 2 /3;
       grid-row: 1 / 2;
-      margin: 0 auto 8rem;
-      position: relative;
-      width: 60vw; }
-      @media only screen and (max-width: 58em) {
-        .survey__charts-1 {
-          width: 80vw; } }
-      @media only screen and (max-width: 38em) {
-        .survey__charts-1 {
-          width: 90vw; } }
+      margin-bottom: 8rem; }
     .survey__charts-2 {
       display: grid;
       grid-column: 2 /3;
       grid-row: 2 / 3;
-      margin: 0 auto;
-      position: relative;
-      width: 60vw; }
-      @media only screen and (max-width: 58em) {
-        .survey__charts-2 {
-          width: 80vw; } }
-      @media only screen and (max-width: 38em) {
-        .survey__charts-2 {
-          width: 90vw; } }
+      margin-bottom: 8rem; }
     .survey__charts-3 {
       display: grid;
       grid-column: 2 /3;
       grid-row: 3 / 4;
-      margin: 0 auto;
-      position: relative;
-      width: 60vw; }
-      @media only screen and (max-width: 58em) {
-        .survey__charts-3 {
-          width: 80vw; } }
-      @media only screen and (max-width: 38em) {
-        .survey__charts-3 {
-          width: 90vw; } }
+      margin-bottom: 8rem; }
     .survey__charts-4 {
       display: grid;
       grid-column: 2 /3;
-      grid-row: 4 / 5;
-      margin: 0 auto;
-      position: relative;
-      width: 60vw;
-      padding-top: 4rem; }
-      @media only screen and (max-width: 58em) {
-        .survey__charts-4 {
-          width: 80vw; } }
-      @media only screen and (max-width: 38em) {
-        .survey__charts-4 {
-          width: 90vw; } }
+      grid-row: 4 / 5; }
 
 .stories {
   padding-top: 4rem;
