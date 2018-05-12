@@ -150,7 +150,9 @@
     @media only screen and (max-width: $bp-mobile) {
       grid-column-start: 3 / span 1;
       text-align: left;
-      margin: 0 auto 4rem auto;
+      // margin: 0 auto 4rem auto;
+      margin-bottom:4rem;
+      padding-left: 10vw;
     } //min-width: 35rem;
 
     >h1:nth-child(4) {
