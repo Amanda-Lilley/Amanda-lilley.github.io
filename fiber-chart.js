@@ -6,7 +6,9 @@
         title: {
             display: true,
             text: 'What fiber arts do you do?',
-            fontFamily: 'Montserrat'
+            fontFamily: 'Montserrat',
+            fontSize: 12
+            
             
         },
         legend: {
@@ -44,11 +46,13 @@
     var sellHandcrafted = document.getElementById("chart2").getContext('2d');
     var myChart = new Chart(sellHandcrafted, {
         type: 'horizontalBar',
+        responsive: true,
         options: {
         title: {
             display: true,
             text: 'Where do you sell your hand-crafted yarn?',
-            fontFamily: 'Montserrat'
+            fontFamily: 'Montserrat',
+            fontSize: 12
             
         }
         },
@@ -56,6 +60,7 @@
             labels: ["personal website", "Etsy", "farmers market", "spinners guild", "friends", "Ebay", "vendor fairs", "other"],
             datasets: [{
                 label: 'percentage of sales',
+                
                 data: [40, 60, 40, 20, 20, 20, 20, 0],
                 
                 backgroundColor: [
@@ -89,7 +94,8 @@
         title: {
             display: true,
             text: 'When purchasing hand-crafted yarn, what matters most?',
-            fontFamily: 'Montserrat'
+            fontFamily: 'Montserrat',
+            fontSize: 12
             
         }
         },
@@ -137,7 +143,9 @@
         title: {
             display: true,
             text: 'How long does it take you to knit a sweater?',
-            fontFamily: 'Montserrat'
+            fontFamily: 'Montserrat',
+            fontSize: 12
+            
             
         },
         legend: {
@@ -175,6 +183,7 @@
         }
         
     });
+    
 
     var chartFive = document.getElementById("shoppingCart").getContext('2d');
     var myChart = new Chart(chartFive, {
@@ -183,7 +192,8 @@
         title: {
             display: true,
             text: 'What causes you to abandon your online shopping cart?',
-            fontFamily: 'Montserrat'
+            fontFamily: 'Montserrat',
+            fontSize: 10
             
         }
         },
