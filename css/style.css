@@ -1590,6 +1590,9 @@ td {
     .container .project1__img {
       max-width: 90%;
       margin: 0 auto; }
+      @media only screen and (min-width: 38em) {
+        .container .project1__img {
+          max-width: 100%; } }
       @media only screen and (min-width: 58em) {
         .container .project1__img {
           max-width: 80%; } }
@@ -1630,7 +1633,9 @@ td {
           grid-template-rows: 1fr 1fr;
           grid-template-columns: 1fr;
           justify-content: center;
-          width: 100%; } }
+          padding: 0;
+          width: 100%;
+          margin: 4rem 0; } }
     .container .project2__img {
       max-width: 90%;
       margin: 0 auto; }
