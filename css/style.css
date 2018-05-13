@@ -507,6 +507,12 @@ body {
   grid-column: 1 / -1;
   margin-top: 4rem; }
 
+@media only screen and (max-width: 38em) {
+  #welcome {
+    text-align: center;
+    padding: 0;
+    margin: 0 auto 4rem; } }
+
 .form {
   margin-top: -50vh;
   z-index: 999;
