@@ -1,47 +1,52 @@
-
-    var ctx = document.getElementById("chart1").getContext('2d');
-    var myChart = new Chart(ctx, {
-        type: 'doughnut',
-        options: {
+var ctx = document.getElementById("chart1").getContext('2d');
+var myChart = new Chart(ctx, {
+    type: 'doughnut',
+    options: {
         title: {
             display: true,
             text: 'What fiber arts do you do?',
             fontFamily: 'Montserrat',
             fontSize: 12
-            
-            
+
+
         },
         legend: {
             display: true,
             position: 'right'
-        }
         },
-        data: {
-            labels: ["knit", "dye", "weave", "crochet", "spin"],
-            datasets: [{
-                label: 'What fiber arts do you do?',
-                data: [45, 10, 9, 22, 12],
-                
-                backgroundColor: [
-                    'rgba(92, 193, 181, 1)',
-                    'rgba(196, 196, 196, 1)',
-                    'rgba(46, 70, 79, 1)',
-                    'rgba(244, 244, 244, 1)',
-                    'rgba(226, 159, 76, 1)'
-                    
-                ],
-                borderColor: 
-                    'rgba(255,255, 255, 1)'
-                    
-                    
-                ,
-                borderWidth: 2,
-                
-                
-            }]
+        plugins: {
+            deferred: {
+            xOffset: 150,   // defer until 150px of the canvas width are inside the viewport
+            yOffset: '50%', // defer until 50% of the canvas height are inside the viewport
+            delay: 500      // delay of 500 ms after the canvas is considered inside the viewport
         }
-        
-    });
+    }
+    },
+    data: {
+        labels: ["knit", "dye", "weave", "crochet", "spin"],
+        datasets: [{
+            label: 'What fiber arts do you do?',
+            data: [45, 10, 9, 22, 12],
+
+            backgroundColor: [
+                'rgba(92, 193, 181, 1)',
+                'rgba(196, 196, 196, 1)',
+                'rgba(46, 70, 79, 1)',
+                'rgba(244, 244, 244, 1)',
+                'rgba(226, 159, 76, 1)'
+
+            ],
+            borderColor: [
+                'rgba(255,255, 255, 1)',
+            ],
+
+            borderWidth: 2,
+
+
+        }]
+    }
+
+});
 
     var sellHandcrafted = document.getElementById("chart2").getContext('2d');
     var myChart = new Chart(sellHandcrafted, {
