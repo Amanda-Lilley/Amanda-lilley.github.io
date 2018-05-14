@@ -751,6 +751,9 @@ p {
     display: grid;
     grid-template-columns: 2fr 6fr 2fr;
     grid-rows: min-content auto; }
+    .problem__wrapper > img {
+      width: 100%;
+      grid-column: 2 /3; }
   .problem__quote {
     grid-column: 2 / 3;
     text-align: center;

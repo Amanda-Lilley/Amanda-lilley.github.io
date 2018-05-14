@@ -153,6 +153,11 @@ p {
     
     grid-rows: min-content auto;
     //text-align: center;
+
+    >img {
+      width:100%;
+      grid-column: 2 /3;
+    }
   }
 
   &__quote {
