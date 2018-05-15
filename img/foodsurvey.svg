@@ -1,58 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="820px" height="380px" viewBox="0 0 820 380" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="806px" height="380px" viewBox="0 0 806 380" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
-    <title>chart</title>
+    <title>chart copy</title>
     <desc>Created with Sketch.</desc>
     <defs>
-        <rect id="path-1" x="0" y="0" width="52.0142849" height="46.6923889" rx="2"></rect>
-        <rect id="path-3" x="0" y="0.505513964" width="52.0142849" height="93.6852196" rx="2"></rect>
-        <rect id="path-5" x="0" y="0" width="52.0142849" height="144.828192" rx="2"></rect>
-        <rect id="path-7" x="0" y="0" width="52.0142849" height="193.1251" rx="2"></rect>
-        <rect id="path-9" x="0" y="0" width="52.0142849" height="239.714025" rx="2"></rect>
-        <rect id="path-11" x="0" y="0" width="52.0142849" height="290.250287" rx="2"></rect>
-        <rect id="path-13" x="0" y="0" width="52.0142849" height="339.152674" rx="2"></rect>
+        <rect id="path-1" x="0" y="0" width="52.0142849" height="7.94764067" rx="2"></rect>
+        <rect id="path-3" x="0" y="0.0585331959" width="52.0142849" height="10.8477623" rx="2"></rect>
+        <rect id="path-5" x="0" y="0" width="52.0142849" height="21.9739326" rx="2"></rect>
+        <rect id="path-7" x="0" y="0" width="52.0142849" height="48.6523853" rx="2"></rect>
+        <rect id="path-9" x="0" y="0" width="52.0142849" height="119.857012" rx="2"></rect>
+        <rect id="path-11" x="0" y="0" width="52.0142849" height="127.441928" rx="2"></rect>
+        <rect id="path-13" x="0" y="0" width="52.0142849" height="290.274789" rx="2"></rect>
     </defs>
-    <g id="Paycrave_case_study" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-116.000000, -2064.000000)">
-        <g id="chart" transform="translate(115.000000, 2059.000000)">
+    <g id="Paycrave_case_study" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="chart-copy" transform="translate(-15.000000, -5.000000)">
             <g id="Single-Column-Chart---On-White">
                 <g id="Numbers" transform="translate(0.000000, 0.001522)" fill="#778F9B" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" letter-spacing="0.08" line-spacing="22">
-                    <text id="42.9">
-                        <tspan x="1.5159375" y="17">42.9</tspan>
+                    <text id="50">
+                        <tspan x="14.87125" y="17">50</tspan>
                     </text>
-                    <text id="19.6">
-                        <tspan x="1.5159375" y="114.457392">19.6</tspan>
+                    <text id="40">
+                        <tspan x="14.87125" y="90.6650355">40</tspan>
                     </text>
-                    <text id="20.4">
-                        <tspan x="1.5159375" y="65.4067045">20.4</tspan>
+                    <text id="30">
+                        <tspan x="14.87125" y="164.330071">30</tspan>
                     </text>
-                    <text id="11.4">
-                        <tspan x="1.5159375" y="163.50808">11.4</tspan>
+                    <text id="20">
+                        <tspan x="14.87125" y="237.995107">20</tspan>
                     </text>
-                    <text id="2.9">
-                        <tspan x="10.5803125" y="212.558767">2.9</tspan>
-                    </text>
-                    <text id="1.3">
-                        <tspan x="10.5803125" y="262.609455">1.3</tspan>
-                    </text>
-                    <text id="1.5">
-                        <tspan x="10.5803125" y="311.660142">1.5</tspan>
+                    <text id="10">
+                        <tspan x="14.87125" y="311.660142">10</tspan>
                     </text>
                     <text id="%">
                         <tspan x="23" y="359.71083">%</tspan>
                     </text>
                 </g>
                 <g id="Gridline" transform="translate(45.000000, 9.596379)" stroke-linejoin="round">
-                    <path d="M0,98.6459308 L721.960784,98.6459308" stroke="#778F9B" stroke-dasharray="1,6"></path>
                     <path d="M0,147.588316 L721.960784,147.588316" id="Gridline-Copy-2" stroke="#778F9B" stroke-dasharray="1,6"></path>
                     <path d="M0,0.76116023 L721.960784,0.76116023" stroke="#778F9B" stroke-dasharray="1,6"></path>
-                    <path d="M0,49.7035455 L721.960784,49.7035455" id="Gridline-Copy-3" stroke="#778F9B" stroke-dasharray="1,6"></path>
-                    <path d="M0,196.530701 L721.960784,196.530701" stroke="#778F9B" stroke-dasharray="1,6"></path>
-                    <path d="M0,245.473087 L721.960784,245.473087" id="Gridline-Copy" stroke="#778F9B" stroke-dasharray="1,6"></path>
+                    <path d="M0,74.1747382 L721.960784,74.1747382" id="Gridline-Copy-3" stroke="#778F9B" stroke-dasharray="1,6"></path>
+                    <path d="M0,221.001894 L721.960784,221.001894" id="Gridline-Copy" stroke="#778F9B" stroke-dasharray="1,6"></path>
                     <path d="M0,294.415472 L721.960784,294.415472" stroke="#778F9B" stroke-dasharray="1,6"></path>
                     <path d="M0,343.356335 L721.960784,343.356335" id="Axis" stroke="#000A12" stroke-width="2" stroke-linecap="round"></path>
                 </g>
-                <g id="Bars" transform="translate(56.000000, 8.963791)">
-                    <g id="Range" transform="translate(0.888979, 356.036567)" fill="#778F9B" font-family="Lato-Regular, Lato" font-size="16" font-weight="normal" line-spacing="22">
+                <g id="Bars" transform="translate(56.000000, 57.963791)">
+                    <g id="Range" transform="translate(0.888979, 307.036567)" fill="#778F9B" font-family="Lato-Regular, Lato" font-size="16" font-weight="normal" line-spacing="22">
                         <text id="SUSTAINABILITY" letter-spacing="0.0799999908">
                             <tspan x="640.520962" y="16">SUSTAINABILITY</tspan>
                         </text>
@@ -75,57 +67,57 @@
                             <tspan x="17.8006893" y="16">COST</tspan>
                         </text>
                     </g>
-                    <g id="Bar" transform="translate(656.853941, 293.500000)">
+                    <g id="Bar" transform="translate(657.000000, 283.000000)">
                         <mask id="mask-2" fill="white">
                             <use xlink:href="#path-1"></use>
                         </mask>
                         <use id="Mask" fill="#D8D8D8" xlink:href="#path-1"></use>
-                        <rect fill="#F56400" mask="url(#mask-2)" x="0" y="0" width="52.0142849" height="46.6923889"></rect>
+                        <rect fill="#F56400" mask="url(#mask-2)" x="0" y="0" width="52.0142849" height="7.94764067"></rect>
                     </g>
-                    <g id="Bar" transform="translate(559.428670, 246.000000)">
+                    <g id="Bar" transform="translate(559.000000, 280.000000)">
                         <mask id="mask-4" fill="white">
                             <use xlink:href="#path-3"></use>
                         </mask>
                         <use id="Mask" fill="#D8D8D8" xlink:href="#path-3"></use>
-                        <rect fill="#FFBD8F" mask="url(#mask-4)" x="0" y="0.505513964" width="52.0142849" height="93.6852196"></rect>
+                        <rect fill="#FFBD8F" mask="url(#mask-4)" x="0" y="0.0585331959" width="52.0142849" height="10.8477623"></rect>
                     </g>
-                    <g id="Bar" transform="translate(449.985966, 195.440175)">
+                    <g id="Bar" transform="translate(450.000000, 269.000000)">
                         <mask id="mask-6" fill="white">
                             <use xlink:href="#path-5"></use>
                         </mask>
                         <use id="Mask" fill="#D8D8D8" xlink:href="#path-5"></use>
-                        <rect fill="#FFBD8F" mask="url(#mask-6)" x="0" y="0" width="52.0142849" height="113.760946"></rect>
-                        <rect fill="#F56400" mask="url(#mask-6)" x="0" y="8.52651283e-14" width="52.0142849" height="144.828192"></rect>
+                        <rect fill="#FFBD8F" mask="url(#mask-6)" x="0" y="0" width="52.0142849" height="17.2602815"></rect>
+                        <rect fill="#F56400" mask="url(#mask-6)" x="0" y="8.52651283e-14" width="52.0142849" height="21.9739326"></rect>
                     </g>
-                    <g id="Bar" transform="translate(338.000815, 146.998188)">
+                    <g id="Bar" transform="translate(338.000000, 242.000000)">
                         <mask id="mask-8" fill="white">
                             <use xlink:href="#path-7"></use>
                         </mask>
                         <use id="Mask" fill="#D8D8D8" xlink:href="#path-7"></use>
-                        <rect fill="#FFBD8F" mask="url(#mask-8)" x="0" y="0" width="52.0142849" height="193.1251"></rect>
+                        <rect fill="#FFBD8F" mask="url(#mask-8)" x="0" y="0" width="52.0142849" height="48.6523853"></rect>
                     </g>
-                    <g id="Bar" transform="translate(227.651093, 100.156549)">
+                    <g id="Bar" transform="translate(228.000000, 171.000000)">
                         <mask id="mask-10" fill="white">
                             <use xlink:href="#path-9"></use>
                         </mask>
                         <use id="Mask" fill="#D8D8D8" xlink:href="#path-9"></use>
-                        <rect fill="#FFBD8F" mask="url(#mask-10)" x="0" y="0" width="52.0142849" height="144.637576"></rect>
-                        <rect fill="#F56400" mask="url(#mask-10)" x="0" y="-80.9884858" width="52.0142849" height="320.70251"></rect>
+                        <rect fill="#FFBD8F" mask="url(#mask-10)" x="0" y="0" width="52.0142849" height="72.318788"></rect>
+                        <rect fill="#F56400" mask="url(#mask-10)" x="0" y="-40.4942429" width="52.0142849" height="160.351255"></rect>
                     </g>
-                    <g id="Bar" transform="translate(118.428762, 49.940175)">
+                    <g id="Bar" transform="translate(118.000000, 163.000000)">
                         <mask id="mask-12" fill="white">
                             <use xlink:href="#path-11"></use>
                         </mask>
                         <use id="Mask" fill="#D8D8D8" xlink:href="#path-11"></use>
-                        <rect fill="#FFBD8F" mask="url(#mask-12)" x="0" y="0" width="52.0142849" height="290.250287"></rect>
+                        <rect fill="#FFBD8F" mask="url(#mask-12)" x="0" y="0" width="52.0142849" height="127.441928"></rect>
                     </g>
-                    <g id="Bar" transform="translate(13.049669, 0.491362)">
+                    <g id="Bar" transform="translate(13.000000, 0.000000)">
                         <mask id="mask-14" fill="white">
                             <use xlink:href="#path-13"></use>
                         </mask>
                         <use id="Mask" fill="#D8D8D8" xlink:href="#path-13"></use>
-                        <rect fill="#FFBD8F" mask="url(#mask-14)" x="0" y="0" width="52.0142849" height="204.436978"></rect>
-                        <rect fill="#F56400" mask="url(#mask-14)" x="0" y="0" width="52.0142849" height="339.152674"></rect>
+                        <rect fill="#FFBD8F" mask="url(#mask-14)" x="0" y="0" width="52.0142849" height="174.974002"></rect>
+                        <rect fill="#F56400" mask="url(#mask-14)" x="0" y="0" width="52.0142849" height="290.274789"></rect>
                     </g>
                 </g>
             </g>

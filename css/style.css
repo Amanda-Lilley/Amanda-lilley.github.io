@@ -86,6 +86,9 @@ body {
   line-height: 1.2;
   color: #4a4a4a;
   padding: 3rem; }
+  @media only screen and (max-width: 38em) {
+    body {
+      font-size: 1.8rem; } }
 
 .spacing {
   letter-spacing: 1px; }
@@ -700,7 +703,7 @@ p {
         margin: 0; } }
   .roles__2 {
     grid-column: 2 / 3;
-    margin: auto; }
+    margin: 0 auto; }
     .roles__2 > h4 {
       text-align: left; }
     .roles__2 > ul {
