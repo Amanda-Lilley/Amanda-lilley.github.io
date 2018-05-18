@@ -1483,6 +1483,9 @@ p {
       grid-row: 4 / 5;
       grid-column: 2 / 3;
       width: 100%; }
+    .testing__p-btn {
+      grid-column: 2 / 3;
+      justify-self: start; }
     .testing__p > p {
       grid-column: 2 / 3;
       margin-bottom: 4rem; }
@@ -2120,3 +2123,10 @@ td {
 
 #paycrave-border {
   border: 4px solid #fff; }
+
+#header-paragraph {
+  color: #000000; }
+
+#paycrave-cta {
+  grid-column: 2 /3;
+  justify-self: start; }

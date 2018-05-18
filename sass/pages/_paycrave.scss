@@ -411,3 +411,10 @@
 #paycrave-border {
   border: 4px solid $color-white;
 }
+#header-paragraph {
+  color: #000000;
+}
+#paycrave-cta {
+  grid-column: 2 /3;
+  justify-self: start;
+}
