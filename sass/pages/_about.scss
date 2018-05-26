@@ -33,7 +33,8 @@
   &__list {
     grid-column: 1 / -1;
     display: grid;
-    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-columns: 2fr 6fr 2fr;
+    @media only screen and (max-width: $bp-mobile) {grid-template-columns: 1fr 8fr 1fr;}
     grid-auto-rows: repeat(2, min-content);
     margin-top: 4rem;
   }
