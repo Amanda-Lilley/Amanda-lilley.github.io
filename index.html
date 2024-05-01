@@ -1,168 +1,179 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
 <head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-116560050-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
+    <!--meta tags-->
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="description" content="portfolio template based on HTML5">
+    <meta name="keywords" content="onepage, developer, resume, cv, personal, portfolio, personal resume, clean, modern">
+    <meta name="author" content="MouriThemes"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-    gtag('js', new Date());
+    <!--template title-->
+    <title>Amanda - Personal Portfolio</title> 
 
-    gtag('config', 'UA-116560050-1');
-  </script>
+    <!--==========Favicon==========-->
 
+    <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
 
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1 shrink-to-fit=no">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <meta name="description" content="Amanda Lilley, UX designer and programmer based in New Bedford, MA."/>
-  <title>Amanda Lilley | UX Designer &amp; Frontend Developer</title>
-  <meta name="p:domain_verify" content="560d5b1a01b65fd1579ffa67d9482541"/>
+    <!--------- Theme Fonts -------->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,400i,600,700,800" rel="stylesheet">
 
+    <!-- Elegant icon font -->
+    <link rel="stylesheet" href="css/line-icons.min.css">    
+    
+    <!--Font Awesome css-->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
 
+    <!--Bootstrap css-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
 
-  <!--Fonts-->
-  <link rel="stylesheet" href="css/style.css">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600" rel="stylesheet">
+    <!--Animated headline css-->
+    <link rel="stylesheet" href="css/jquery.animatedheadline.css">
+    
+	<!--Owl carousel css-->
+	<link rel="stylesheet" href="css/owl.carousel.css">
+	<link rel="stylesheet" href="css/owl.theme.default.css">
+    
+	<!--Magnific popup css-->
+	<link rel="stylesheet" href="css/magnific-popup.css">
+    
+	<!--Normalizer css-->
+	<link rel="stylesheet" href="css/normalize.css">
 
-  <!--favicon -->
-  <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
-  <link rel="manifest" href="/site.webmanifest">
-  <link rel="mask-icon" href="img/safari-pinned-tab.svg" color="#f92e59">
-  <meta name="msapplication-TileColor" content="#ffffff">
-  <meta name="theme-color" content="#ffffff">
+    <!--Theme css-->
+    <link rel="stylesheet" href="css/style.css">
 
-  <!--animation-->
-  <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
-
+    <!--Responsive css-->
+    <link rel="stylesheet" href="css/responsive.css">
 </head>
 
-<body class="container">
-  <header class="header">
-    <nav class="header__nav">
-      <ul class="header__navigation">
+<body>
 
-        <li>
-          <a href="index.html" class="accent">portfolio</a>
-        </li>
-        <li>
-          <a href="about.html">about</a>
-        </li>
-        <li>
-          <a href="contact.html">contact</a>
-        </li>
+<!--Preloader Starts-->
 
+<div class="loader_bg"><div class="loader"></div></div>
 
-      </ul>
-    </nav>
+<!--Preloader Ends-->
 
-    <div class="header__content">
+<!--Navigation Area Starts-->
 
-      <div class="header__textbox">
-        <h1 class="heading-primary">
-          <span class="heading-primary--main">Hello.</span>
-        </h1>
-        <!-- Using separate h1 to solve line-heigt issue -->
-        <h1 class="heading-primary--sub">
-          My name is
-          <span>Amanda</span>
-        </h1>
+<header class="nav-area navbar-fixed-top">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="main-menu">
+                    <div class="navbar navbar-cus">
+                        <div class="navbar-header">
+                            <a href="index.html" class="navbar-brand"><span class="logo"></span></a>
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                                <span class="sr-only">Toggle navigation</span> 
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                        </div>
 
-        <h1 class="heading-primary--sub">
-          I'm a UX designer
-        </h1>
-
-        <h1 class="heading-primary--sub">
-          and I<img src="img/heart.svg" alt="heart" class="header__heart">to code.
-        </h1>
-        <h2 id="location">
-
-          Based in New Bedford, MA
-        </h2>
-      </div>
+                       
+                    </div>
+                </div>
+            </div>            
+        </div>
     </div>
+</header>
 
-  </header>
+<!--Navigation Area Ends-->
 
-<!--INDIE WOOL-->
-  <section class="project1">
+<!--Banner Area Starts-->
 
-    <img src="img/iwoolgif2.gif" alt="macbook mockup" class="img project1__img">
+<div class="banner-area" id="home">
+    <div class="banner-table">
+        <div class="banner-table-cell">
+            <div class="welcome-text">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <section class="intro animate-scale">
 
+                                <h1>AMANDA LILLEY</h1>
 
-    <div class="project1__content ">
+                                <h3 class="ah-headline">
 
-      <h2 class="heading-secondary-dark">
-        Indie Wool
-      </h2>
-      <p class="paragraph">
-        A slow fashion marketplace for fiber &amp; fashion enthusiasts.
-      </p>
+                                   
+                                       Fashion & Technical Designer
+                                   
+                                </h3>
+<p>Are you a budding fashion entrepreneur looking to turn your vision into reality? Look no further! I specialize in crafting cutting-edge tech packs tailored to your unique designs, ensuring seamless production from concept to creation.
+    Currently, I'm in the process of updating my portfolio to showcase the latest projects and collaborations. But don't let that stop you! </p> <p>If you're ready to embark on a journey of creativity and craftsmanship, I'm here to help.
+        Let's transform your fashion dreams into reality! Reach out today to discuss how we can work together to bring your vision to life. Contact me now to schedule a consultation and take the first step towards fashion success!</p>
+                                <a href="https://www.upwork.com/freelancers/~01ca112947dcce32e0?mp_source=share" class="banner-btn">GET IN TOUCH</a>
 
-      <a href="indiewool.html" class="project1__btn btn btn--cta">view case study</a>
+                            </section> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-  </section>
+</div>
 
-  <!--PAYCRAVE-->
-  <section class="project2">
-    <div class="project2__wrapper">
-      <div class="project2__content ">
+<!--Banner Area Ends-->
 
-        <h2 class="heading-secondary spacing">
-          Paycrave
-        </h2>
-        <p class="paragraph">
-          An ios mobile app design. Search for local food trucks & discover new menus.
-        </p>
+<!--About Area Starts-->
 
-        <a href="paycrave.html" class="project2__btn btn btn--cta">view case study</a>
 
-      </div>
-      <img src="img/paycrave.png" alt="phone mockup" class="img project2__img">
+<!--Footer Area Ends-->
 
-    </div>
 
-  </section>
-  <section class="worktogether">
-    <div class="worktogether__wrapper">
-        <h2 class="worktogether__wrapper-h2">Let's work together!</h2>
-        <a href="contact.html" class="worktogether__wrapper-btn btn btn--cta">Get in touch</a>
 
-    </div>
 
+
+
+<!--Latest version JQuery-->
+    <script src="js/jquery-3.2.1.min.js"></script>
+
+    <!--Bootstrap js-->
+    <script src="js/bootstrap.min.js"></script>
+
+	<!--Magnific popup js-->
+	<script src="js/jquery.magnific-popup.js"></script>
+
+	<!--Owl Carousel js-->
+	<script src="js/owl.carousel.js"></script>
+
+    <!--Animated headline js-->
+    <script src="js/jquery.animatedheadline.js"></script>
     
-
-
-
+    <!--Validator js-->
+    <script src="js/jquery.waypoints.js"></script>
     
-  </section>
+	<!--isotope up js-->
+	<script src="js/isotope.pkgd.min.js"></script> 
 
-  <footer class="footer">
-    <ul class="footer__nav">
-      <li>
-        <a href="mailto:amanda@amandalilley.com">email</a>
-      </li>
-      <li>
-        <a href="https://github.com/Amanda-Lilley">github</a>
-      </li>
-      <li>
-        <a href="https://twitter.com/amanda_lilley00">twitter</a>
-      </li>
-      <li>
-        <a href="https://www.linkedin.com/in/amanda-lilley-2458a8107/">linkedin</a>
-      </li>
-    </ul>
-  </footer>
+    <!--Validator js-->
+    <script src="js/validator.js"></script>
 
+    <!--Contact js-->
+    <script src="js/contact.js"></script>
 
-  <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
-  
+    <!--Main js-->
+    <script src="js/main.js"></script>    
+    
 </body>
-
 </html>
